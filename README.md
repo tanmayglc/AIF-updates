@@ -205,6 +205,17 @@ If every source fails, the scraper exits non-zero and the workflow fails rather
 than publishing an empty file. A partial failure is recorded in
 `sources.failed` and shown in the site footer.
 
+Two guards keep a quiet tracker from becoming a dead one:
+
+- **Keepalive.** GitHub disables cron workflows after 60 days without repository
+  activity. Since a quiet run deliberately commits nothing, the scrape job makes
+  an empty commit if the last commit is 45+ days old.
+- **Health check.** A scraper that has silently stopped finding anything looks
+  exactly like a quiet week. The workflow annotates the run with a warning when
+  any source failed, or when the newest tracked item is more than 60 days old —
+  which usually means a regulator restructured its site and the selectors or
+  endpoints in `config.py` need re-checking.
+
 One-time repository setup:
 
 1. **Settings → Pages → Source: GitHub Actions.**

@@ -56,6 +56,18 @@ jobs:
           if [ "${{ steps.scrape.outputs.changed }}" != "true" ]; then
             echo "No new regulatory updates - nothing to commit."
             git checkout -- data/news.json
+            # GitHub disables cron workflows after 60 days without repository
+            # activity. Because this workflow deliberately commits nothing on a
+            # quiet run, a long regulatory lull - or a silently broken scraper -
+            # would let the schedule expire. Nudge the clock well before then.
+            AGE=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+            echo "Days since last commit: ${AGE}"
+            if [ "${AGE}" -ge 45 ]; then
+              git commit --allow-empty \
+                -m "chore: keep scheduled workflow alive (${AGE} days without changes)"
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+              git push origin "HEAD:${GITHUB_REF_NAME}"
+            fi
           else
             git add data/news.json
             git commit -m "data: ${{ steps.scrape.outputs.added }} new, ${{ steps.scrape.outputs.total }} tracked ($(date -u +'%Y-%m-%d %H:%M UTC'))"
@@ -64,6 +76,31 @@ jobs:
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # A scraper that quietly stops finding anything looks identical to a
+      # quiet week. These annotations make the difference visible on the run.
+      - name: Health check
+        run: |
+          python - <<'PY'
+          import datetime
+          import json
+
+          with open("data/news.json", encoding="utf-8") as fh:
+              d = json.load(fh)
+
+          failed = d["sources"]["failed"]
+          if failed:
+              print("::warning::Sources unavailable this run: " + ", ".join(failed))
+
+          latest = d["date_range"]["latest"]
+          if latest:
+              age = (datetime.date.today() - datetime.date.fromisoformat(latest)).days
+              print(f"Newest tracked item is {age} days old ({latest}).")
+              if age > 60:
+                  print(f"::warning::No new regulatory item in {age} days - "
+                        "the scrapers may have broken. Check the source endpoints "
+                        "documented in README.md.")
+          PY
 
       - name: Summary
         run: |
