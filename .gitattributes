@@ -1,0 +1,6 @@
+# Normalise line endings to LF everywhere. The GitHub Actions workflow embeds
+# a shell heredoc whose terminator must sit alone on its own line - a CRLF
+# sneaking into the repo from a Windows clone would break it on the runner.
+* text=auto eol=lf
+
+data/news.json linguist-generated=true

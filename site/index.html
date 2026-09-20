@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEBI AIF &amp; IFSCA Fund Management Tracker</title>
+<meta name="description" content="A tracker for SEBI Alternative Investment Fund and IFSCA fund management regulatory updates. Links to the regulators' own documents.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>&#128220;</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#results">Skip to results</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <h1>SEBI AIF &amp; IFSCA Fund Management Tracker</h1>
+    <p class="tagline">
+      Circulars, consultation papers, notifications and press releases,
+      collected every six hours. Every entry links to the regulator&rsquo;s own document.
+    </p>
+    <p class="meta" id="meta" aria-live="polite">Loading&hellip;</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="controls" aria-label="Filters">
+    <div class="search-row">
+      <label class="visually-hidden" for="q">Search titles</label>
+      <input type="search" id="q" placeholder="Search titles, e.g. angel fund, accredited investor&hellip;"
+             autocomplete="off" spellcheck="false">
+      <button type="button" id="reset" class="btn-reset" hidden>Clear filters</button>
+    </div>
+
+    <div class="filter-grid">
+      <fieldset class="filter">
+        <legend>Regulator</legend>
+        <div class="chips" id="f-regulator" role="group"></div>
+      </fieldset>
+
+      <fieldset class="filter">
+        <legend>Document type</legend>
+        <div class="chips" id="f-type" role="group"></div>
+      </fieldset>
+
+      <fieldset class="filter">
+        <legend>Period</legend>
+        <div class="chips" id="f-period" role="group"></div>
+      </fieldset>
+
+      <fieldset class="filter filter--sort">
+        <legend><label for="sort">Sort</label></legend>
+        <select id="sort">
+          <option value="date-desc">Newest first</option>
+          <option value="date-asc">Oldest first</option>
+          <option value="title-asc">Title A&ndash;Z</option>
+          <option value="added-desc">Recently added</option>
+        </select>
+      </fieldset>
+    </div>
+  </section>
+
+  <p class="result-count" id="count" role="status"></p>
+
+  <section id="results" tabindex="-1">
+    <ol class="items" id="items"></ol>
+    <p class="empty" id="empty" hidden>
+      Nothing matches those filters. Try clearing the search box or widening the period.
+    </p>
+    <p class="error" id="error" hidden></p>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <p>
+    An unofficial tracker. It stores only titles, dates and links &mdash; no document text.
+    Always read the original on
+    <a href="https://www.sebi.gov.in/" rel="noopener">sebi.gov.in</a> or
+    <a href="https://ifsca.gov.in/" rel="noopener">ifsca.gov.in</a>,
+    which remain the authoritative sources.
+  </p>
+  <p id="sources" class="sources"></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

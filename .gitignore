@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local preview copy of the data file. The canonical copy is data/news.json;
+# the deploy workflow stages it into site/data/ at publish time.
+site/data/
+
+data/news.json.tmp
+.DS_Store
+
+# Claude Code transient state (launch.json is kept - it drives the local preview)
+.claude/scheduled_tasks.lock
+.claude/settings.local.json

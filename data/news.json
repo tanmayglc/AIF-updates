@@ -1,0 +1,2892 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-20T11:25:34+00:00",
+  "counts": {
+    "total": 168,
+    "by_regulator": {
+      "IFSCA": 64,
+      "SEBI": 104
+    },
+    "by_doc_type": {
+      "Circular": 78,
+      "Order": 1,
+      "Press Release": 33,
+      "Consultation Paper": 44,
+      "Master Circular": 1,
+      "Report": 1,
+      "Informal Guidance": 1,
+      "Other": 2,
+      "Notification": 7
+    }
+  },
+  "date_range": {
+    "earliest": "1996-02-13",
+    "latest": "2026-09-18"
+  },
+  "sources": {
+    "ok": [
+      "SEBI RSS feed",
+      "SEBI AIF category listing",
+      "SEBI Circulars",
+      "SEBI Consultation Papers",
+      "SEBI Press Releases",
+      "IFSCA Circulars",
+      "IFSCA Notifications",
+      "IFSCA Consultation Papers",
+      "IFSCA Press Releases"
+    ],
+    "failed": []
+  },
+  "items": [
+    {
+      "id": "c6a91a44458eacd8",
+      "title": "Amendment to the Circular titled \"Master Circular for Distributors in the IFSC\"",
+      "date": "2026-09-18",
+      "date_display": "18 Sep 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999b73cbe&fileName=Amendment_to_the_Circular_titled_Master_Circular_for_Distributors_in_the_IFSC_20260918_0438.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "distributor"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999b73cbe&fileName=Amendment_to_the_Circular_titled_Master_Circular_for_Distributors_in_the_IFSC_20260918_0438.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "297a79b118fd24de",
+      "title": "Summary Settlement Order in the matter of Mirae Asset Venture Opportunity Trust AIF",
+      "date": "2026-09-16",
+      "date_display": "16 Sep 2026",
+      "regulator": "SEBI",
+      "doc_type": "Order",
+      "url": "https://www.sebi.gov.in/enforcement/orders/sep-2026/summary-settlement-order-in-the-matter-of-mirae-asset-venture-opportunity-trust-aif_104510.html",
+      "source_page": "https://www.sebi.gov.in/sebirss.xml",
+      "source_name": "SEBI RSS feed",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "205bf7e809723f2c",
+      "title": "Amendments to the International Financial Services Centres Authority (Fund Management) Regulations, 2025",
+      "date": "2026-09-16",
+      "date_display": "16 Sep 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999a68ce4&fileName=Amendments_to_the_International_Financial_Services_Centres_Authority__Fund_Management__Regulations__2025_20260916_0409.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999a68ce4&fileName=Amendments_to_the_International_Financial_Services_Centres_Authority__Fund_Management__Regulations__2025_20260916_0409.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0aeb695a1da8b980",
+      "title": "Extension of validity of expired placement memorandum – reg",
+      "date": "2026-09-11",
+      "date_display": "11 Sep 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459999d2857&fileName=Circular_on_Extension_of_validity_of_expired_PPMs_20260911_0710.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "placement memorandum"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459999d2857&fileName=Circular_on_Extension_of_validity_of_expired_PPMs_20260911_0710.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "64f32807dbce6064",
+      "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
+      "date": "2026-09-07",
+      "date_display": "07 Sep 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/relaxation-in-timeline-with-respect-to-accredited-investor-mandate-for-angel-funds_104323.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "accredited investor",
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ab13eafb1ee5603f",
+      "title": "Consultation Paper on Secondary Listing of Exchange Traded Funds in IFSC",
+      "date": "2026-08-27",
+      "date_display": "27 Aug 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459995479f1&fileName=Consultation_Paper_on_Secondary_Listing_of_Exchange_Traded_Funds_in_IFSC_20260827_0708.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "ETF",
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459995479f1&fileName=Consultation_Paper_on_Secondary_Listing_of_Exchange_Traded_Funds_in_IFSC_20260827_0708.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "54815b7e997d14e8",
+      "title": "Requirement for Fund Management Entities (FMEs) to maintain a website or webpage",
+      "date": "2026-08-26",
+      "date_display": "26 Aug 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "FME",
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "28c41ccafe8572c1",
+      "title": "SEBI seeks public comments on the Consultation Paper on Review of the Accredited Investor Framework",
+      "date": "2026-08-13",
+      "date_display": "13 Aug 2026",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/aug-2026/sebi-seeks-public-comments-on-the-consultation-paper-on-review-of-the-accredited-investor-framework_103611.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "accredited investor"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "360a7bbf85e8bd2b",
+      "title": "Consultation Paper on review of Accredited Investor framework",
+      "date": "2026-08-13",
+      "date_display": "13 Aug 2026",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2026/consultation-paper-on-review-of-accredited-investor-framework_103550.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "accredited investor"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d11177238b5357a6",
+      "title": "Specification of Certification Course for the employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025",
+      "date": "2026-08-10",
+      "date_display": "10 Aug 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "87790d426cc7ca92",
+      "title": "Clarification regarding the Circular dated May 12, 2026, titled “Implementation Services by Investment Advisers in the IFSC”",
+      "date": "2026-08-10",
+      "date_display": "10 Aug 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "investment adviser"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "5c2073e9c20e50ec",
+      "title": "‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
+      "date": "2026-07-30",
+      "date_display": "30 Jul 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi_103241.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "5a9cde3efe3175f3",
+      "title": "Consultation Paper on the Draft ‘IFSC Depositor Education and Awareness Fund (IDEA Fund) Scheme, 2026",
+      "date": "2026-07-23",
+      "date_display": "23 Jul 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7d84ce5e&fileName=Draft_IDEA_Fund_Scheme_20260723_0250.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d84ce5e&fileName=Draft_IDEA_Fund_Scheme_20260723_0250.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0af090ee38284728",
+      "title": "Consultation paper on rationalizing the requirement of obtaining investor consent and ambit of conflicted transactions requiring investor consent under SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2026-06-30",
+      "date_display": "30 Jun 2026",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2026/consultation-paper-on-rationalizing-the-requirement-of-obtaining-investor-consent-and-ambit-of-conflicted-transactions-requiring-investor-consent-under-sebi-alternative-investment-funds-regulations-_102464.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "11c2e5b0e3cfca36",
+      "title": "Guidelines for winding up of AIFs with respect to retention of proceeds and ‘Inoperative Fund’ status",
+      "date": "2026-06-16",
+      "date_display": "16 Jun 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/guidelines-for-winding-up-of-aifs-with-respect-to-retention-of-proceeds-and-inoperative-fund-status_102171.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3a84f7789c77014e",
+      "title": "Master Circular for Alternative Investment Funds (AIFs)",
+      "date": "2026-06-03",
+      "date_display": "03 Jun 2026",
+      "regulator": "SEBI",
+      "doc_type": "Master Circular",
+      "url": "https://www.sebi.gov.in/legal/master-circulars/jun-2026/master-circular-for-alternative-investment-funds-aifs-_101817.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25",
+      "source_name": "SEBI AIF category listing",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "be8497f11e13a4cc",
+      "title": "Implementation services by Investment Advisers in the IFSC",
+      "date": "2026-05-12",
+      "date_display": "12 May 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=91427247c5628a865846d173bc3223be&fileName=Circular_on__implementation_services_by_Investment_Adviser_20260512_0723.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "investment adviser"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bc3223be&fileName=Circular_on__implementation_services_by_Investment_Adviser_20260512_0723.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "a34b72497f733f73",
+      "title": "Consultation on ‘Green-Channel: AIF Rollout Upon Document Acknowledgement’ (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs)filed with SEBI. Click here to see rationale for rejection of comments",
+      "date": "2026-05-11",
+      "date_display": "11 May 2026",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2026/consultation-on-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi-_101340.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1269b71ce55e97b2",
+      "title": "SEBI operationalises Fast-Track Mechanism for Processing of Placement Memorandum of AIFs filed with SEBI",
+      "date": "2026-04-30",
+      "date_display": "30 Apr 2026",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/apr-2026/sebi-operationalises-fast-track-mechanism-for-processing-of-placement-memorandum-of-aifs-filed-with-sebi_101217.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "AIF",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "28c1be02dc798513",
+      "title": "Fast-Track Mechanism for Processing of Placement Memorandum of AIFs filed with SEBI",
+      "date": "2026-04-30",
+      "date_display": "30 Apr 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/apr-2026/fast-track-mechanism-for-processing-of-placement-memorandum-of-aifs-filed-with-sebi_101213.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ce11b895065fabb3",
+      "title": "IFSCA Sets New Benchmark for Private Wealth with First Foreign Family Investment Fund Registration",
+      "date": "2026-04-20",
+      "date_display": "20 Apr 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d575554ec59b09e7fde503d3a8d33f60&fileName=Press_Release_FIF_1_20260420_0105.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "family investment fund",
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8d33f60&fileName=Press_Release_FIF_1_20260420_0105.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "4b388fccc640a9ff",
+      "title": "Governance and oversight of Schemes in IFSC - Segregation of the role of Fiduciaries",
+      "date": "2026-04-10",
+      "date_display": "10 Apr 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d575554ec59b09e7fde503d3a8bb71ec&fileName=Governance_and_oversight_of_Schemes_in_IFSC___Segregation_of_the_role_of_Fiduciaries__20260410_0759.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8bb71ec&fileName=Governance_and_oversight_of_Schemes_in_IFSC___Segregation_of_the_role_of_Fiduciaries__20260410_0759.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "99e225f681108fc5",
+      "title": "Circular on Specification of Certification Course for KMPs/Employees under IFSCA (Fund Management) Regulations, 2025",
+      "date": "2026-04-01",
+      "date_display": "01 Apr 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d575554ec59b09e7fde503d3a895a672&fileName=Circular_on_Specification_of_Certification_Course_for_KMPs___Employees_20260401_0543.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895a672&fileName=Circular_on_Specification_of_Certification_Course_for_KMPs___Employees_20260401_0543.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d421c393aa7161c6",
+      "title": "Amendment to Circular on Appointment and Change of KMP by an FME",
+      "date": "2026-04-01",
+      "date_display": "01 Apr 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d575554ec59b09e7fde503d3a895927a&fileName=Amendment_to_Circular_on_Appointment_and_Change_of_KMP_by_an_FME_20260401_0541.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "FME"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895927a&fileName=Amendment_to_Circular_on_Appointment_and_Change_of_KMP_by_an_FME_20260401_0541.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "bddf44ff90d7178c",
+      "title": "Regulatory Reporting by AIFs",
+      "date": "2026-03-04",
+      "date_display": "04 Mar 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/mar-2026/regulatory-reporting-by-aifs_100120.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "f94675e6b8f75b57",
+      "title": "Fee structure for the entities undertaking or intending to undertake permissible activities in IFSC or persons seeking guidance under the Informal Guidance Scheme",
+      "date": "2026-03-02",
+      "date_display": "02 Mar 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d575554ec59b09e7fde503d3a810d93a&fileName=02_03_2026_IFSCA_Fee_Circular_FY_2026_27_20260302_0641.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a810d93a&fileName=02_03_2026_IFSCA_Fee_Circular_FY_2026_27_20260302_0641.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "894370b7eb5e01f1",
+      "title": "Authority Approves Draft IFSCA (Pension Fund) Regulations, 2026",
+      "date": "2026-02-12",
+      "date_display": "12 Feb 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=36ff47aaeb9222f627d166fe86beb803&fileName=PRESS_RELEASE__IFSCA__Pension_Fund__Regulations__2026_20260212_0840.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe86beb803&fileName=PRESS_RELEASE__IFSCA__Pension_Fund__Regulations__2026_20260212_0840.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "22c9d0052e8b9b44",
+      "title": "Review of minimum value of investment by individual investors in Social Impact Fund under SEBI AIF Regulations, 2012 and review of requirements related to registration period of NPOs and minimum subscription under SEBI ICDR Regulations, 2018",
+      "date": "2026-02-09",
+      "date_display": "09 Feb 2026",
+      "regulator": "SEBI",
+      "doc_type": "Report",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/review-of-minimum-value-of-investment-by-individual-investors-in-social-impact-fund-under-sebi-aif-regulations-2012-and-review-of-requirements-related-to-registration-period-of-npos-and-minimum-subsc-_99628.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ab7d8404641aefd4",
+      "title": "Reporting of value of units of Alternative Investment Funds (AIFs) to Depositories",
+      "date": "2026-02-06",
+      "date_display": "06 Feb 2026",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/feb-2026/reporting-of-value-of-units-of-alternative-investment-funds-aifs-to-depositories_99568.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "863b274c491f74c9",
+      "title": "Consultation Paper on Flexibility to Alternative Investment Funds (AIFs) in Winding up the scheme / Surrendering the Registration. Click here to see rationale for rejection of comments",
+      "date": "2026-02-05",
+      "date_display": "05 Feb 2026",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2026/consultation-paper-on-flexibility-to-alternative-investment-funds-aifs-in-winding-up-the-scheme-surrendering-the-registration-_99541.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ef373622bffc0a9f",
+      "title": "One-time window to extend the validity of the Placement Memorandum",
+      "date": "2026-01-27",
+      "date_display": "27 Jan 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=36ff47aaeb9222f627d166fe866cdd07&fileName=Final_circular_on_Extension_of_the_PPM_27012026_20260127_0615.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "placement memorandum"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe866cdd07&fileName=Final_circular_on_Extension_of_the_PPM_27012026_20260127_0615.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0b8b0b82ae35e7b9",
+      "title": "Procedure and clarification on filing of scheme application under Third-Party Fund Management Arrangement",
+      "date": "2026-01-16",
+      "date_display": "16 Jan 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=36ff47aaeb9222f627d166fe8643b3cc&fileName=Procedure_and_clarification_on_filing_of_scheme_application_under_Third_Party_Fund_Management_Arrangement_20260116_0557.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management",
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe8643b3cc&fileName=Procedure_and_clarification_on_filing_of_scheme_application_under_Third_Party_Fund_Management_Arrangement_20260116_0557.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dfb66035a8780289",
+      "title": "Ease of Compliance Initiative- Review of Framework to address the ‘technical glitches’ in Stock Brokers’ Electronic Trading Systems’",
+      "date": "2026-01-09",
+      "date_display": "09 Jan 2026",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/jan-2026/ease-of-compliance-initiative-review-of-framework-to-address-the-technical-glitches-in-stock-brokers-electronic-trading-systems-_99003.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25",
+      "source_name": "SEBI AIF category listing",
+      "matched_keywords": [],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1ff938212e4927b1",
+      "title": "Certification requirement for Compliance Officers of Managers of AIFs",
+      "date": "2025-12-30",
+      "date_display": "30 Dec 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2025/certification-requirement-for-compliance-officers-of-managers-of-aifs_98744.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "e353aedc806336bf",
+      "title": "Modalities for migration to AI only schemes and relaxations to Large Value Funds for Accredited Investors under SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2025-12-08",
+      "date_display": "08 Dec 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2025/modalities-for-migration-to-ai-only-schemes-and-relaxations-to-large-value-funds-for-accredited-investors-under-sebi-alternative-investment-funds-regulations-2012_98244.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "accredited investor",
+        "alternative investment fund",
+        "large value fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "074edca14b0cf218",
+      "title": "Consultation Paper on Regulatory Framework for Implementation Services by Investment Advisers in IFSC",
+      "date": "2025-11-13",
+      "date_display": "13 Nov 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a91612909&fileName=Consultation_Paper_on_Implementation_Services_by_Investment_Advisers_in_IFSC_13112025_20251113_0549.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "investment adviser"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a91612909&fileName=Consultation_Paper_on_Implementation_Services_by_Investment_Advisers_in_IFSC_13112025_20251113_0549.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "90112ad10e1244cb",
+      "title": "Consultation on draft circular - Clarifications and specific modalities with respect to maintaining pro-rata rights of investors of AIFs",
+      "date": "2025-11-07",
+      "date_display": "07 Nov 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2025/consultation-on-draft-circular-clarifications-and-specific-modalities-with-respect-to-maintaining-pro-rata-rights-of-investors-of-aifs_97671.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "45de1c299a8e33c0",
+      "title": "Press Release- Consultation Paper on the proposed IFSCA (Pension Fund) Regulations, 2025",
+      "date": "2025-11-04",
+      "date_display": "04 Nov 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a9142085a&fileName=PRESS_RELEASE__Consultation_Paper_on_the_proposed_IFSCA__Pension_Fund__Regulations__2025_20251104_0346.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9142085a&fileName=PRESS_RELEASE__Consultation_Paper_on_the_proposed_IFSCA__Pension_Fund__Regulations__2025_20251104_0346.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c94646db83d08bde",
+      "title": "Consultation Paper On The Proposed IFSCA (Pension Fund) Regulations, 2025",
+      "date": "2025-11-04",
+      "date_display": "04 Nov 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a914203d5&fileName=CONSULTATION_PAPER_ON_THE_PROPOSED_IFSCA__PENSION_FUND__REGULATIONS__2025_20251104_0342.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a914203d5&fileName=CONSULTATION_PAPER_ON_THE_PROPOSED_IFSCA__PENSION_FUND__REGULATIONS__2025_20251104_0342.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "9d3f6e7d2a7c98a1",
+      "title": "Press Release: Consultation paper on \"Regulatory Framework for differential distribution in Restricted Schemes and Venture Capital Schemes to facilitate blended finance and other fund structures\"",
+      "date": "2025-10-23",
+      "date_display": "23 Oct 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a911dd81a&fileName=Press_Release_on_BF_Consultation_Paper_23102025_1__20251024_1133.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "scheme",
+        "venture capital"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911dd81a&fileName=Press_Release_on_BF_Consultation_Paper_23102025_1__20251024_1133.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0607acbf715a4e85",
+      "title": "Consultation paper on Regulatory Framework for differential distribution in Restricted Schemes and Venture Capital Schemes to facilitate blended finance and other fund structures",
+      "date": "2025-10-22",
+      "date_display": "22 Oct 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a911a428e&fileName=Final_Consultation_Paper_on_Differential_Distribution_under_FM_Regulation_22102025_Final_20251022_0121.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "scheme",
+        "venture capital"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911a428e&fileName=Final_Consultation_Paper_on_Differential_Distribution_under_FM_Regulation_22102025_Final_20251022_0121.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3907f80d58865172",
+      "title": "Consultation Paper on Amendments to IFSCA (Fund Management) Regulations, 2025",
+      "date": "2025-10-17",
+      "date_display": "17 Oct 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=47a297ad49aaae8fa365313a9112b05b&fileName=Consultation_Paper_on_Amendments_to_IFSCA__Fund_Management__Regulations__2025_20251017_1119.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9112b05b&fileName=Consultation_Paper_on_Amendments_to_IFSCA__Fund_Management__Regulations__2025_20251017_1119.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "71242bc11a537b9d",
+      "title": "Relaxation in timeline for disclosure of allocation methodology by Angel Funds",
+      "date": "2025-10-15",
+      "date_display": "15 Oct 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2025/relaxation-in-timeline-for-disclosure-of-allocation-methodology-by-angel-funds_97339.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "736ad6d67185d25c",
+      "title": "Consultation on draft circular - Guidelines with respect to reporting of value of units of Alternative Investment Funds (AIFs) to Depositories",
+      "date": "2025-09-19",
+      "date_display": "19 Sep 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/sep-2025/consultation-on-draft-circular-guidelines-with-respect-to-reporting-of-value-of-units-of-alternative-investment-funds-aifs-to-depositories_96706.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0cae09429e18ceea",
+      "title": "Revised regulatory framework for Angel Funds under AIF Regulations",
+      "date": "2025-09-10",
+      "date_display": "10 Sep 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2025/revised-regulatory-framework-for-angel-funds-under-aif-regulations_96553.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "73f303027ab41f19",
+      "title": "Framework for AIFs to make co-investment within the AIF structure under SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2025-09-09",
+      "date_display": "09 Sep 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2025/framework-for-aifs-to-make-co-investment-within-the-aif-structure-under-sebi-alternative-investment-funds-regulations-2012_96506.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund",
+        "co-investment"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "03642b3c9ea8963d",
+      "title": "Fee structure applicable for Third-Party Fund Management Services",
+      "date": "2025-09-08",
+      "date_display": "08 Sep 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=21626bde60601ef44a0ed02201bc1138&fileName=Fee_structure_applicable_for_Third_Party_Fund_Management_Services_20250908_0630.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201bc1138&fileName=Fee_structure_applicable_for_Third_Party_Fund_Management_Services_20250908_0630.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "48a101be12f8558b",
+      "title": "Consultation paper on providing flexibilities to Large Value Funds for Accredited Investors (“LVFs”) under SEBI (AIF) Regulations [Click here to see rationale for rejection of comments]",
+      "date": "2025-08-08",
+      "date_display": "08 Aug 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-providing-flexibilities-to-large-value-funds-for-accredited-investors-lvfs-under-sebi-aif-regulations_95957.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "LVF",
+        "accredited investor",
+        "large value fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1671e0cfa594ecfc",
+      "title": "Consultation Paper on introduction of separate type of AIF scheme for only Accredited Investors [Click here to see rationale for rejection of comments]",
+      "date": "2025-08-08",
+      "date_display": "08 Aug 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/aug-2025/consultation-paper-on-introduction-of-separate-type-of-aif-scheme-for-only-accredited-investors_95951.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "accredited investor"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "35907eb48e0cc2f9",
+      "title": "Fund Management ecosystem at GIFT-IFSC records robust growth amid IFSCA’s progressive regulatory reforms",
+      "date": "2025-08-07",
+      "date_display": "07 Aug 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=21626bde60601ef44a0ed022016f9fa2&fileName=Fund_Management_ecosystem_at_GIFT_IFSC_records_robust_growth_amid_IFSCA%E2%80%99s_progressive_regulatory_reforms_20250807_0623.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed022016f9fa2&fileName=Fund_Management_ecosystem_at_GIFT_IFSC_records_robust_growth_amid_IFSCA%E2%80%99s_progressive_regulatory_reforms_20250807_0623.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "fb4726335a7e1888",
+      "title": "Master Circular for Investment Advisers in the IFSC",
+      "date": "2025-08-05",
+      "date_display": "05 Aug 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=21626bde60601ef44a0ed02201682306&fileName=Master_Circular_for_Investment_Advisers_in_the_IFSC_20250805_0226.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "investment adviser"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201682306&fileName=Master_Circular_for_Investment_Advisers_in_the_IFSC_20250805_0226.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "e58eb6d9ee2567a8",
+      "title": "Master Circular for Distributors in the IFSC",
+      "date": "2025-08-05",
+      "date_display": "05 Aug 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=21626bde60601ef44a0ed02201680805&fileName=Master_Circular_for_Distributors_in_the_IFSC_20250805_0224.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "distributor"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201680805&fileName=Master_Circular_for_Distributors_in_the_IFSC_20250805_0224.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "64520970242c43ea",
+      "title": "Regulatory action(s) against certain Fund Management Entities for noncompliance with IFSCA (Fund Management) Regulations, 2025",
+      "date": "2025-07-18",
+      "date_display": "18 Jul 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=21626bde60601ef44a0ed0220138e431&fileName=Regulatory_action_s__against_certain_Fund_Management_Entities_for_non_compliance_with_IFSCA__Fund_Management__Regulations__2025_20250718_0112.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed0220138e431&fileName=Regulatory_action_s__against_certain_Fund_Management_Entities_for_non_compliance_with_IFSCA__Fund_Management__Regulations__2025_20250718_0112.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3babc6ebeb355244",
+      "title": "Amendment to the Directions to IBUs for operations of the Foreign Currency Accounts (FCA) of Indian resident individuals opened under the Liberalised Remittance Scheme (LRS)",
+      "date": "2025-06-23",
+      "date_display": "23 Jun 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=f4ac1b5b4a9f69ca6f378d84bb48d371&fileName=Amendatory_Circular_Operations_of_the_FCA_of_RIs_opened_under_LRS_20250623_0457.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb48d371&fileName=Amendatory_Circular_Operations_of_the_FCA_of_RIs_opened_under_LRS_20250623_0457.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "00289ed75c75384a",
+      "title": "Extension of timeline of additional liquidation period for VCFs migrating to SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2025-06-06",
+      "date_display": "06 Jun 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2025/extension-of-timeline-of-additional-liquidation-period-for-vcfs-migrating-to-sebi-alternative-investment-funds-regulations-2012_94433.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "VCF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dfca57cf7bf7f638",
+      "title": "Extension of timeline for appointment of Custodian under Regulation 132 of the IFSCA (Fund Management) Regulations, 2025",
+      "date": "2025-05-24",
+      "date_display": "24 May 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=f4ac1b5b4a9f69ca6f378d84bb20c802&fileName=extension_of_timeline_for_appointment_of_custodian_under_regulation_132_of_the_ifsca_fund_management_regulations_202525052025100420_20250610_1210.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "custodian",
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20c802&fileName=extension_of_timeline_for_appointment_of_custodian_under_regulation_132_of_the_ifsca_fund_management_regulations_202525052025100420_20250610_1210.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "621ecefa88e529aa",
+      "title": "Framework to facilitate Co-investment by Venture Capital Scheme and Restricted Scheme",
+      "date": "2025-05-21",
+      "date_display": "21 May 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=f4ac1b5b4a9f69ca6f378d84bb20ae89&fileName=framework_to_facilitate_co_investment_by_venture_capital_scheme_and_restricted_scheme_circular21052025101801_20250610_1200.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme",
+        "venture capital"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20ae89&fileName=framework_to_facilitate_co_investment_by_venture_capital_scheme_and_restricted_scheme_circular21052025101801_20250610_1200.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6a8283fb62ee4b5d",
+      "title": "Framework to facilitate Co-investment by Existing Schemes at GIFT IFSC",
+      "date": "2025-05-21",
+      "date_display": "21 May 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=f4ac1b5b4a9f69ca6f378d84bb20b6e4&fileName=framework_to_facilitate_co_investment_by_existing_schemes_at_gift_ifsc_press_release21052025104356_20250610_1202.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20b6e4&fileName=framework_to_facilitate_co_investment_by_existing_schemes_at_gift_ifsc_press_release21052025104356_20250610_1202.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c350019d429cdfe2",
+      "title": "Extension of timeline for complying with the certification requirement for the key investment team of the Manager of AIF",
+      "date": "2025-05-13",
+      "date_display": "13 May 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/may-2025/extension-of-timeline-for-complying-with-the-certification-requirement-for-the-key-investment-team-of-the-manager-of-aif_93904.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "74e2e84180cfe74c",
+      "title": "Consultation Paper on providing flexibility to AIFs to offer Co-Investment opportunities to investors within the AIF structure under AIF Regulations Click here to see rationale for rejection of comments",
+      "date": "2025-05-09",
+      "date_display": "09 May 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2025/consultation-paper-on-providing-flexibility-to-aifs-to-offer-co-investment-opportunities-to-investors-within-the-aif-structure-under-aif-regulations_93883.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "co-investment"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "815c865800e6ff9a",
+      "title": "Clarifications on the Fee structure for the entities undertaking or intending to undertake permissible activities in IFSC or seeking guidance under the Informal Guidance Scheme",
+      "date": "2025-04-23",
+      "date_display": "23 Apr 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3191bae&fileName=clarification-on-the-fee-circular_23apr2025-1-23042025053448.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3191bae&fileName=clarification-on-the-fee-circular_23apr2025-1-23042025053448.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "11c795ad10cb4d0e",
+      "title": "Transition to IFSCA (Fund Management) Regulations, 2025",
+      "date": "2025-04-08",
+      "date_display": "08 Apr 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f318ca97&fileName=transition-to-ifsca-fund-management-regulations-202508042025093121.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318ca97&fileName=transition-to-ifsca-fund-management-regulations-202508042025093121.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "efc910194c416eb7",
+      "title": "Fee structure for the entities undertaking or intending to undertake permissible activities in IFSC or seeking guidance under the Informal Guidance Scheme",
+      "date": "2025-04-08",
+      "date_display": "08 Apr 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f318bf64&fileName=ifsca-fee-circular-08apr202508042025073502.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318bf64&fileName=ifsca-fee-circular-08apr202508042025073502.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "18c41e067d0303d6",
+      "title": "Revision in reporting formats for Fund Management Entities in IFSC",
+      "date": "2025-04-03",
+      "date_display": "03 Apr 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f31894a7&fileName=revision-in-reporting-formats-for-fund-management-entities-in-ifsc03042025071927.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31894a7&fileName=revision-in-reporting-formats-for-fund-management-entities-in-ifsc03042025071927.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c3c029f51a45d3d9",
+      "title": "Informal Guidance request received from FirstPort Capital Angel Fund in relation to provisions for Angel Funds under the Securities and Exchange Board of India (Alternative Investment Funds) Regulations, 2012",
+      "date": "2025-03-13",
+      "date_display": "13 Mar 2025",
+      "regulator": "SEBI",
+      "doc_type": "Informal Guidance",
+      "url": "https://www.sebi.gov.in/enforcement/informal-guidance/mar-2025/informal-guidance-request-received-from-firstport-capital-angel-fund-in-relation-to-provisions-for-angel-funds-under-the-securities-and-exchange-board-of-india-alternative-investment-funds-regulatio-_92657.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25",
+      "source_name": "SEBI AIF category listing",
+      "matched_keywords": [
+        "alternative investment fund",
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "463c5868a9769312",
+      "title": "Contribution to Settlement Guarantee Fund (SGF)",
+      "date": "2025-03-07",
+      "date_display": "07 Mar 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3184592&fileName=contribution-to-settlement-guarantee-fund-sgf-07032025074301.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3184592&fileName=contribution-to-settlement-guarantee-fund-sgf-07032025074301.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "253b152e93542cef",
+      "title": "Relaxation in timeline for reporting of differential rights issued by AIFs",
+      "date": "2025-03-03",
+      "date_display": "03 Mar 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/mar-2025/relaxation-in-timeline-for-reporting-of-differential-rights-issued-by-aifs_92411.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6dec1f5b87d161c0",
+      "title": "Consultation paper on expanding definition of Qualified Institutional Buyers under SEBI (ICDR) Regulations, 2018, to include Accredited Investors for the limited purpose of investments in Angel Funds Click here to see rationale for rejection of comments",
+      "date": "2025-02-21",
+      "date_display": "21 Feb 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-expanding-definition-of-qualified-institutional-buyers-under-sebi-icdr-regulations-2018-to-include-accredited-investors-for-the-limited-purpose-of-investments-in-angel-funds-_92102.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "accredited investor",
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c9864f5b0a58f8f9",
+      "title": "Appointment and Change of Key Managerial Personnel by a Fund Management Entity",
+      "date": "2025-02-20",
+      "date_display": "20 Feb 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f318179b&fileName=appointment-and-change-of-key-managerial-personnel-by-a-fund-management-entity20022025061756.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318179b&fileName=appointment-and-change-of-key-managerial-personnel-by-a-fund-management-entity20022025061756.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ab431f5740e3ece4",
+      "title": "Press Release on Notification of IFSCA (Fund Management) Regulations, 2025",
+      "date": "2025-02-19",
+      "date_display": "19 Feb 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3180cd4&fileName=press-release-notification-of-ifsca-fund-management-regulations-202519022025091920.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3180cd4&fileName=press-release-notification-of-ifsca-fund-management-regulations-202519022025091920.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ab83d2590c2cf01d",
+      "title": "Relaxation in timelines for holding AIFs’ investments in dematerialised form",
+      "date": "2025-02-14",
+      "date_display": "14 Feb 2025",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/feb-2025/relaxation-in-timelines-for-holding-aifs-investments-in-dematerialised-form_91919.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "00ecb0cd80aa8f00",
+      "title": "Consultation Paper on review of Regulation 17 (a) of SEBI (AIF) Regulations, 2012, with the objective of Ease of Doing Business",
+      "date": "2025-02-07",
+      "date_display": "07 Feb 2025",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2025/consultation-paper-on-review-of-regulation-17-a-of-sebi-aif-regulations-2012-with-the-objective-of-ease-of-doing-business_91737.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c750970608c4a4ec",
+      "title": "Liquidity Enhancement Scheme for Bullion Exchange",
+      "date": "2025-02-04",
+      "date_display": "04 Feb 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f317c9e7&fileName=circular-for-les-in-bullion-exchange04022025094237.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317c9e7&fileName=circular-for-les-in-bullion-exchange04022025094237.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c42280117c4c95a3",
+      "title": "CONSULTATION PAPER ON SPV FRAMEWORK UNDER IFSCA (FUND MANAGEMENT) REGULATIONS, 2022",
+      "date": "2025-01-09",
+      "date_display": "09 Jan 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5fd936&fileName=consultation-paper_spv-framework09012025022756.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5fd936&fileName=consultation-paper_spv-framework09012025022756.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "294fe3f471ed8c16",
+      "title": "IFSCA kickstarts the IFSCA (Informal Guidance) Scheme, 2024",
+      "date": "2025-01-01",
+      "date_display": "01 Jan 2025",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f317980a&fileName=press-release-ig-scheme-pdf01012025070954.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317980a&fileName=press-release-ig-scheme-pdf01012025070954.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "31b6d705166d4bbd",
+      "title": "Review of IFSCA (Fund Management) Regulations, 2022",
+      "date": "2024-12-21",
+      "date_display": "21 Dec 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3177cff&fileName=final-press-release_1-021122024061409.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177cff&fileName=final-press-release_1-021122024061409.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "df65f19a4f9f2328",
+      "title": "Chemmanur Credits and Investments Limited - Prospectus",
+      "date": "2024-12-16",
+      "date_display": "16 Dec 2024",
+      "regulator": "SEBI",
+      "doc_type": "Other",
+      "url": "https://www.sebi.gov.in/filings/debt-offer-document/dec-2024/chemmanur-credits-and-investments-limited-prospectus_90142.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25",
+      "source_name": "SEBI AIF category listing",
+      "matched_keywords": [],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "63a4f6e3374cde93",
+      "title": "Pro-rata and pari-passu rights of investors of AIFs",
+      "date": "2024-12-13",
+      "date_display": "13 Dec 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2024/pro-rata-and-pari-passu-rights-of-investors-of-aifs_89945.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1f1190edea638684",
+      "title": "Directions to IBUs for operations of the Foreign Currency Accounts (FCA) of Indian resident individuals opened under the Liberalised Remittance Scheme (LRS)",
+      "date": "2024-12-13",
+      "date_display": "13 Dec 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3177260&fileName=revised-circular-lrs_pdf13122024033414.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177260&fileName=revised-circular-lrs_pdf13122024033414.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "cff0fa2a5a962245",
+      "title": "Classification of Corporate Debt Market Development Fund (CDMDF) as Category I Alternative Investment Fund",
+      "date": "2024-12-13",
+      "date_display": "13 Dec 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2024/classification-of-corporate-debt-market-development-fund-cdmdf-as-category-i-alternative-investment-fund_89928.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "CDMDF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "106366a0d4849b11",
+      "title": "Press Release on International Financial Services Centre Authority (Informal Guidance) Scheme, 2024",
+      "date": "2024-12-02",
+      "date_display": "02 Dec 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3175a49&fileName=press-release-ig-scheme02122024063819.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175a49&fileName=press-release-ig-scheme02122024063819.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "61e8fc21802d76a7",
+      "title": "International Financial Services Centres Authority (Informal Guidance) Scheme, 2024",
+      "date": "2024-12-02",
+      "date_display": "02 Dec 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3175338&fileName=ifsca-informal-guidance-scheme-202405122024123631.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175338&fileName=ifsca-informal-guidance-scheme-202405122024123631.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "5c2097db51157450",
+      "title": "Consultation paper on review of regulatory framework for Angel Funds in AIF Regulations Click here to see rationale for rejection of comments",
+      "date": "2024-11-13",
+      "date_display": "13 Nov 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2024/consultation-paper-on-review-of-regulatory-framework-for-angel-funds-in-aif-regulations_88449.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "db711fd2faf75eda",
+      "title": "Clarifications in relation to Investment Restrictions on Retail Schemes set up in IFSCs",
+      "date": "2024-10-29",
+      "date_display": "29 Oct 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Circular",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f316ba91&fileName=clarifications-in-relation-to-investment-restrictions-on-retail-schemes-set-up-in-ifscs29102024040618.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/wF6kttc1JR8=",
+      "source_name": "IFSCA Circulars",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f316ba91&fileName=clarifications-in-relation-to-investment-restrictions-on-retail-schemes-set-up-in-ifscs29102024040618.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "9d0e3ba1df10b1cb",
+      "title": "Specific due diligence of investors and investments of AIFs",
+      "date": "2024-10-08",
+      "date_display": "08 Oct 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2024/specific-due-diligence-of-investors-and-investments-of-aifs_87434.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "32a5219f71f5db04",
+      "title": "Incentive provided by IFSCA for filing of ESG Funds by Registered FMEs at GIFT IFSC",
+      "date": "2024-09-27",
+      "date_display": "27 Sep 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3164a5f&fileName=press-release_final27092024022301.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "FME",
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3164a5f&fileName=press-release_final27092024022301.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "252512237c664186",
+      "title": "Modification in framework for valuation of investment portfolio of AIFs",
+      "date": "2024-09-19",
+      "date_display": "19 Sep 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2024/modification-in-framework-for-valuation-of-investment-portfolio-of-aifs_86803.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "709eed44b571d41d",
+      "title": "Consultation paper on the proposed International Financial Services Centres Authority (Informal Guidance) Scheme, 2024",
+      "date": "2024-08-20",
+      "date_display": "20 Aug 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5f4e1c&fileName=consultation-paper-on-the-ifsca-informal-guidance-scheme-202420082024050955.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f4e1c&fileName=consultation-paper-on-the-ifsca-informal-guidance-scheme-202420082024050955.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c5789a3c5c165a64",
+      "title": "Modalities for migration of Venture Capital Funds registered under erstwhile SEBI (Venture Capital Funds) Regulations, 1996 to SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2024-08-19",
+      "date_display": "19 Aug 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2024/modalities-for-migration-of-venture-capital-funds-registered-under-erstwhile-sebi-venture-capital-funds-regulations-1996-to-sebi-alternative-investment-funds-regulations-2012_85914.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "4600dfd32b79b93a",
+      "title": "Guidelines for borrowing by Category I and Category II AIFs and maximum permissible limit for extension of tenure by LVFs",
+      "date": "2024-08-19",
+      "date_display": "19 Aug 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2024/guidelines-for-borrowing-by-category-i-and-category-ii-aifs-and-maximum-permissible-limit-for-extension-of-tenure-by-lvfs_85909.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "LVF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "2051141994a34918",
+      "title": "Addendum to the Consultation Paper on Review of IFSCA (Fund Management) Regulations, 2022.",
+      "date": "2024-08-17",
+      "date_display": "17 Aug 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5f41d7&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-2022_publish17082024112122.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f41d7&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-2022_publish17082024112122.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "144ac224d5a65368",
+      "title": "Consultation Paper on Review of IFSCA (Fund Management) Regulations, 2022",
+      "date": "2024-08-05",
+      "date_display": "05 Aug 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5f3689&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-202205082024011219.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f3689&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-202205082024011219.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6be1f32b002ef7e6",
+      "title": "Prohibitory Order No. 1012/2024 dated July 16, 2024 issued against Mr.Arvind Babulal Goyal (PAN: ACIPG0193J) under recovery certificate No. 6612 & 7023 of 2023",
+      "date": "2024-07-16",
+      "date_display": "16 Jul 2024",
+      "regulator": "SEBI",
+      "doc_type": "Other",
+      "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/jul-2024/prohibitory-order-no-1012-2024-dated-july-16-2024-issued-against-mr-arvind-babulal-goyal-pan-acipg0193j-under-recovery-certificate-no-6612-and-7023-of-2023_84808.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListingAll=yes&cid=25",
+      "source_name": "SEBI AIF category listing",
+      "matched_keywords": [],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "7bec0d996f258591",
+      "title": "Information to be filed by schemes of AIFs availing dissolution period/additional liquidation period and conditions for in-specie distribution of assets of AIFs",
+      "date": "2024-07-09",
+      "date_display": "09 Jul 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2024/information-to-be-filed-by-schemes-of-aifs-availing-dissolution-period-additional-liquidation-period-and-conditions-for-in-specie-distribution-of-assets-of-aifs_84676.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "53cb8bc2a98d29d5",
+      "title": "Call for Proposals - 2024 under Framework for Grants of Funds for Research Studies",
+      "date": "2024-05-28",
+      "date_display": "28 May 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f31468ff&fileName=press-release-on-call-for-proposal-202429052024110015.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31468ff&fileName=press-release-on-call-for-proposal-202429052024110015.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "14e5a3f3f88f91d6",
+      "title": "Consultation Paper on review of certain aspects of the framework for valuation of investment portfolio of AIFs",
+      "date": "2024-05-23",
+      "date_display": "23 May 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2024/consultation-paper-on-review-of-certain-aspects-of-the-framework-for-valuation-of-investment-portfolio-of-aifs_83552.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6877b98ba988983f",
+      "title": "Certification requirement for key investment team of manager of AIF",
+      "date": "2024-05-13",
+      "date_display": "13 May 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/may-2024/certification-requirement-for-key-investment-team-of-manager-of-aif_83328.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1d47ac39d92922ea",
+      "title": "Relaxation in requirement of intimation of changes in the terms of Private Placement Memorandum of Alternative Investment Funds through Merchant Banker",
+      "date": "2024-04-29",
+      "date_display": "29 Apr 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/apr-2024/relaxation-in-requirement-of-intimation-of-changes-in-the-terms-of-private-placement-memorandum-of-alternative-investment-funds-through-merchant-banker_83091.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "17dbe99cdd38a8ef",
+      "title": "Framework for Category I and II Alternative Investment Funds (AIFs) to create encumbrance on their holding of equity of investee companies",
+      "date": "2024-04-26",
+      "date_display": "26 Apr 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/apr-2024/framework-for-category-i-and-ii-alternative-investment-funds-aifs-to-create-encumbrance-on-their-holding-of-equity-of-investee-companies_83067.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ef975071ca6f4eff",
+      "title": "Flexibility to Alternative Investment Funds (AIFs) and their investors to deal with unliquidated investments of their schemes",
+      "date": "2024-04-26",
+      "date_display": "26 Apr 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/apr-2024/flexibility-to-alternative-investment-funds-aifs-and-their-investors-to-deal-with-unliquidated-investments-of-their-schemes_83065.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "a24a44b500dbe093",
+      "title": "Consultation on Draft Circular - Relaxation in requirement of intimation of changes in the terms of Private Placement Memorandum of Alternative Investment Funds through Merchant Banker",
+      "date": "2024-04-05",
+      "date_display": "05 Apr 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/apr-2024/consultation-on-draft-circular-relaxation-in-requirement-of-intimation-of-changes-in-the-terms-of-private-placement-memorandum-of-alternative-investment-funds-through-merchant-banker_82788.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "39d961de4f33f7f7",
+      "title": "Consultation paper on flexibility to Category I and II AIFs to create encumbrance on their holding of equity in infrastructure sector investee companies to facilitate raising of debt by such investee companies",
+      "date": "2024-02-02",
+      "date_display": "02 Feb 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2024/consultation-paper-on-flexibility-to-category-i-and-ii-aifs-to-create-encumbrance-on-their-holding-of-equity-in-infrastructure-sector-investee-companies-to-facilitate-raising-of-debt-by-such-investee-_81047.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "f36c29b26a77b6b5",
+      "title": "Direct Listing of Equity Shares of Companies Incorporated in India on International Exchanges Scheme - Foreign Exchange Management (Non-debt Instruments) Amendment Rules, 2024",
+      "date": "2024-01-24",
+      "date_display": "24 Jan 2024",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f312a343&fileName=foreign-exchange-management-nondebt-instruments-amendment-rules-2024-24012024061058.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f312a343&fileName=foreign-exchange-management-nondebt-instruments-amendment-rules-2024-24012024061058.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "cf5f6e82afbe69ee",
+      "title": "Consultation paper on proposal to enhance trust in the Alternative Investment Funds (‘AIF’) ecosystem to facilitate Ease of Doing Business measures",
+      "date": "2024-01-19",
+      "date_display": "19 Jan 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/jan-2024/consultation-paper-on-proposal-to-enhance-trust-in-the-alternative-investment-funds-aif-ecosystem-to-facilitate-ease-of-doing-business-measures_80799.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "85f313f06a054124",
+      "title": "Guidelines for AIFs with respect to holding their investments in dematerialised form and appointment of custodian",
+      "date": "2024-01-12",
+      "date_display": "12 Jan 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jan-2024/guidelines-for-aifs-with-respect-to-holding-their-investments-in-dematerialised-form-and-appointment-of-custodian_80614.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3c78084a63fd0fdd",
+      "title": "Consultation Paper on providing flexibility to Alternative Investment Funds (AIFs), Venture Capital Funds (VCFs) and their investors to deal with unliquidated investments of their schemes beyond expiry of tenure",
+      "date": "2024-01-12",
+      "date_display": "12 Jan 2024",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/jan-2024/consultation-paper-on-providing-flexibility-to-alternative-investment-funds-aifs-venture-capital-funds-vcfs-and-their-investors-to-deal-with-unliquidated-investments-of-their-schemes-beyond-expir-_80612.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "VCF",
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "215a4e9f6195ba83",
+      "title": "Foreign investment in Alternative Investment Funds (AIFs)",
+      "date": "2024-01-11",
+      "date_display": "11 Jan 2024",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jan-2024/foreign-investment-in-alternative-investment-funds-aifs-_80593.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "8a9ecefba90a4267",
+      "title": "Credit of units of AIFs in dematerialised form",
+      "date": "2023-12-11",
+      "date_display": "11 Dec 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2023/credit-of-units-of-aifs-in-dematerialised-form_79774.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d78d9ab3dbfe56ba",
+      "title": "Consultation Paper on changes in the regulatory framework for Special Situation Funds, a sub-category of Category I Alternative Investment Funds, necessary to facilitate Special Situation Funds to acquire stressed loans in terms of Reserve Bank of India (Transfer of Loan Exposures) Directions, 2021",
+      "date": "2023-11-28",
+      "date_display": "28 Nov 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/nov-2023/consultation-paper-on-changes-in-the-regulatory-framework-for-special-situation-funds-a-sub-category-of-category-i-alternative-investment-funds-necessary-to-facilitate-special-situation-funds-to-acq-_79425.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund",
+        "special situation fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "2a792d8ae51eb399",
+      "title": "Consultation Paper on Regulatory Framework for Accredited Investors in IFSC",
+      "date": "2023-11-23",
+      "date_display": "23 Nov 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5e499c&fileName=consultation-paper-on-regulatory-framework-for-accredited-investors-in-ifsc23112023073837.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "accredited investor"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5e499c&fileName=consultation-paper-on-regulatory-framework-for-accredited-investors-in-ifsc23112023073837.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3f4106dba249ee21",
+      "title": "Seeking suggestions towards review of IFSCA (Fund Management) Regulations, 2022",
+      "date": "2023-10-10",
+      "date_display": "10 Oct 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3117836&fileName=seeking-suggestions-towards-review-of-ifsca-fund-management-regulations-202210102023075943.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3117836&fileName=seeking-suggestions-towards-review-of-ifsca-fund-management-regulations-202210102023075943.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "f5a0232e5c13f287",
+      "title": "IFSCA constitutes Fund Management Advisory Committee (FMAC)",
+      "date": "2023-09-27",
+      "date_display": "27 Sep 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f311684e&fileName=press-release-ifsca-constitutes-fund-management-advisory-committee-fmac-27092023084630.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f311684e&fileName=press-release-ifsca-constitutes-fund-management-advisory-committee-fmac-27092023084630.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "69b7d2f15235d590",
+      "title": "Regulatory Reporting by AIFs",
+      "date": "2023-09-14",
+      "date_display": "14 Sep 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2023/regulatory-reporting-by-aifs_76908.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "e730aca79a549244",
+      "title": "Notification of investment trust, scheme and ETF under section 47(viiab) of Income Tax Act, 1961",
+      "date": "2023-09-12",
+      "date_display": "12 Sep 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3152e89&fileName=12-not-71-2023_list-of-securities-under-47-viiab-13062024083354.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "ETF",
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152e89&fileName=12-not-71-2023_list-of-securities-under-47-viiab-13062024083354.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3e386473a18940ee",
+      "title": "Validity period of approval granted by SEBI to Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) for overseas investment",
+      "date": "2023-08-04",
+      "date_display": "04 Aug 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2023/validity-period-of-approval-granted-by-sebi-to-alternative-investment-funds-aifs-and-venture-capital-funds-vcfs-for-overseas-investment_74979.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "VCF",
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "13c1206a954ea89c",
+      "title": "Amendment to CBDT notification 55/2019 to include funds regulated by IFSCA",
+      "date": "2023-07-14",
+      "date_display": "14 Jul 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3152238&fileName=11-not-49-2023_exemption-from-furnishing-return-roi13062024083213.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152238&fileName=11-not-49-2023_exemption-from-furnishing-return-roi13062024083213.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "21e0d6a43f911b12",
+      "title": "Clarification regarding taxability of income earned by a non-resident investor from off-shore investments routed through Category I or II AIF",
+      "date": "2023-07-12",
+      "date_display": "12 Jul 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f315206b&fileName=10-ci-12_2023-taxability-of-income-earned-by-a-nr-investor13062024083103.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f315206b&fileName=10-ci-12_2023-taxability-of-income-earned-by-a-nr-investor13062024083103.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3ccd6f660074d77f",
+      "title": "Standardised approach to valuation of investment portfolio of Alternative Investment Funds (AIFs)",
+      "date": "2023-06-21",
+      "date_display": "21 Jun 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2023/standardised-approach-to-valuation-of-investment-portfolio-of-alternative-investment-funds-aifs-_72924.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "088a25fdbfb97e40",
+      "title": "Modalities for launching Liquidation Scheme and for distributing the investments of Alternative Investment Funds (AIFs) in-specie",
+      "date": "2023-06-21",
+      "date_display": "21 Jun 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2023/modalities-for-launching-liquidation-scheme-and-for-distributing-the-investments-of-alternative-investment-funds-aifs-in-specie_72922.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3d261fda5a32b253",
+      "title": "Consultation paper on proposal with respect to pro-rata and pari-passu rights of investors of Alternative Investment Funds (AIFs)",
+      "date": "2023-05-23",
+      "date_display": "23 May 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2023/consultation-paper-on-proposal-with-respect-to-pro-rata-and-pari-passu-rights-of-investors-of-alternative-investment-funds-aifs-_71540.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "92fc42f12f02650e",
+      "title": "Consultation Paper on the proposal to review Qualified Institutional Buyer status of Alternative Investment Funds, Venture Capital Funds and Foreign Venture Capital Investors",
+      "date": "2023-05-19",
+      "date_display": "19 May 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2023/consultation-paper-on-the-proposal-to-review-qualified-institutional-buyer-status-of-alternative-investment-funds-venture-capital-funds-and-foreign-venture-capital-investors_71435.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "789afe490c882fcd",
+      "title": "Consultation paper on proposed amendment to SEBI (Alternative Investment Funds) Regulations, 2012 to strengthen governance mechanisms of Alternative Investment Funds (AIFs)",
+      "date": "2023-05-18",
+      "date_display": "18 May 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/may-2023/consultation-paper-on-proposed-amendment-to-sebi-alternative-investment-funds-regulations-2012-to-strengthen-governance-mechanisms-of-alternative-investment-funds-aifs-_71387.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dcb839769b19fecb",
+      "title": "Direct plan for schemes of Alternative Investment Funds (AIFs) and trail model for distribution commission in AIFs",
+      "date": "2023-04-10",
+      "date_display": "10 Apr 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/apr-2023/direct-plan-for-schemes-of-alternative-investment-funds-aifs-and-trail-model-for-distribution-commission-in-aifs_69996.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6f134ccca9c8087c",
+      "title": "Consultation Paper on Handling of Client Funds for Portfolio Management Services in IFSC",
+      "date": "2023-02-15",
+      "date_display": "15 Feb 2023",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5d4b3b&fileName=consultation-paper-on-handling-of-client-funds-for-portfolio-management-services-in-ifsc15022023061012.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "portfolio management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5d4b3b&fileName=consultation-paper-on-handling-of-client-funds-for-portfolio-management-services-in-ifsc15022023061012.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "b27ea85d6ebf0828",
+      "title": "Consultation paper on review of eligibility criteria for the key investment team and prescribing qualification for compliance officer of Manager of an Alternative Investment Fund",
+      "date": "2023-02-03",
+      "date_display": "03 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-review-of-eligibility-criteria-for-the-key-investment-team-and-prescribing-qualification-for-compliance-officer-of-manager-of-an-alternative-investment-fund_67824.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "45f89042f410f43b",
+      "title": "Consultation paper on direct plan for schemes of Alternative Investment Funds (AIFs) and trail model for distribution commission in AIFs",
+      "date": "2023-02-03",
+      "date_display": "03 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-direct-plan-for-schemes-of-alternative-investment-funds-aifs-and-trail-model-for-distribution-commission-in-aifs_67820.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "4993ac18899e5af0",
+      "title": "Consultation paper on dematerialisation of units of AIFs",
+      "date": "2023-02-03",
+      "date_display": "03 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-dematerialisation-of-units-of-aifs_67823.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1e3730c40e007498",
+      "title": "Consultation paper on Investor consent for buying/selling investments from/to associates of AIFs",
+      "date": "2023-02-03",
+      "date_display": "03 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-investor-consent-for-buying-selling-investments-from-to-associates-of-aifs_67826.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "47ce2808db640509",
+      "title": "Consultation Paper on providing option to Alternative Investment Funds and their investors to carry forward unliquidated investments of a scheme upon completion of its tenure",
+      "date": "2023-02-03",
+      "date_display": "03 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/feb-2023/consultation-paper-on-providing-option-to-alternative-investment-funds-and-their-investors-to-carry-forward-unliquidated-investments-of-a-scheme-upon-completion-of-its-tenure_67800.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dbf1a5d6ce9db361",
+      "title": "Transaction in Corporate Bonds through Request for Quote (RFQ) platform by Alternative Investment Funds (AIFs)",
+      "date": "2023-02-01",
+      "date_display": "01 Feb 2023",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/feb-2023/transaction-in-corporate-bonds-through-request-for-quote-rfq-platform-by-alternative-investment-funds-aifs-_67744.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "7386e198c49fcfac",
+      "title": "Consultation Paper on standardised approach to valuation of investment portfolio of Alternative Investment Funds",
+      "date": "2023-01-06",
+      "date_display": "06 Jan 2023",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/jan-2023/consultation-paper-on-standardised-approach-to-valuation-of-investment-portfolio-of-alternative-investment-funds_67075.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "e1152bd71e9acf03",
+      "title": "Foreign investment in Alternative Investment Funds (AIFs)",
+      "date": "2022-12-09",
+      "date_display": "09 Dec 2022",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/dec-2022/foreign-investment-in-alternative-investment-funds-aifs-_66045.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "7d444f3364e083ed",
+      "title": "IFSCA (FinTech Incentive) Scheme 2022_Gazette Notification",
+      "date": "2022-09-12",
+      "date_display": "12 Sep 2022",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f30e15f4&fileName=ifsca-fintech-incentive-scheme-2022_gazette-notification12092022060505.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "scheme"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30e15f4&fileName=ifsca-fintech-incentive-scheme-2022_gazette-notification12092022060505.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "a905b0f9392ff5e5",
+      "title": "Guidelines for overseas investment by Alternative Investment Funds (AIFs) / Venture Capital Funds (VCFs)",
+      "date": "2022-08-17",
+      "date_display": "17 Aug 2022",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2022/guidelines-for-overseas-investment-by-alternative-investment-funds-aifs-venture-capital-funds-vcfs-_62020.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "VCF",
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "b964d6dc41569f1b",
+      "title": "Guidelines for Large Value Fund for Accredited Investors under SEBI (Alternative Investment Funds) Regulations, 2012 and Requirement of Compliance Officer for Managers of all AIFs",
+      "date": "2022-06-24",
+      "date_display": "24 Jun 2022",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2022/guidelines-for-large-value-fund-for-accredited-investors-under-sebi-alternative-investment-funds-regulations-2012-and-requirement-of-compliance-officer-for-managers-of-all-aifs_60104.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "accredited investor",
+        "alternative investment fund",
+        "large value fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "f94d0e2f4cd3fed0",
+      "title": "Change in control of Sponsor and/or Manager of Alternative Investment Fund involving scheme of arrangement under Companies Act, 2013",
+      "date": "2022-03-23",
+      "date_display": "23 Mar 2022",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/mar-2022/change-in-control-of-sponsor-and-or-manager-of-alternative-investment-fund-involving-scheme-of-arrangement-under-companies-act-2013_57064.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "6df7d24cd9dfeee5",
+      "title": "Consultation Paper on Proposed IFSCA (Fund Management) Regulations, 2022",
+      "date": "2022-02-07",
+      "date_display": "07 Feb 2022",
+      "regulator": "IFSCA",
+      "doc_type": "Consultation Paper",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=6b779629d8b45e05fb13e830ae5c6f3d&fileName=consultation-paper_07-02-202207022022063508.pdf&TitleName=Report+and+Publication",
+      "source_page": "https://ifsca.gov.in/ReportPublication/index/sKCVtbX6J9o=",
+      "source_name": "IFSCA Consultation Papers",
+      "matched_keywords": [
+        "fund",
+        "fund management"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5c6f3d&fileName=consultation-paper_07-02-202207022022063508.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "12e12bfbadb9a87b",
+      "title": "Clarifications regarding amendment to SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2021-11-22",
+      "date_display": "22 Nov 2021",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2021/clarifications-regarding-amendment-to-sebi-alternative-investment-funds-regulations-2012_54112.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "ae8a621ac23140d8",
+      "title": "Modalities for filing of placement memorandum through a Merchant Banker under SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2021-10-21",
+      "date_display": "21 Oct 2021",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2021/modalities-for-filing-of-placement-memorandum-through-a-merchant-banker-under-sebi-alternative-investment-funds-regulations-2012_53379.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "faac12cc41a50c61",
+      "title": "Circular on Amendment to SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2021-06-25",
+      "date_display": "25 Jun 2021",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2021/circular-on-amendment-to-sebi-alternative-investment-funds-regulations-2012_50694.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dc6b4ad0e1c190c9",
+      "title": "Enhancement of overall limit for overseas investment by Alternative Investment Funds (AIFs)/Venture Capital Funds (VCFs)",
+      "date": "2021-05-21",
+      "date_display": "21 May 2021",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/may-2021/enhancement-of-overall-limit-for-overseas-investment-by-alternative-investment-funds-aifs-venture-capital-funds-vcfs-_50219.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "VCF",
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "3112fdb11f86e52d",
+      "title": "Clarifications with respect to Circular dated February 05, 2020 on ‘Disclosure Standards for Alternative Investment Funds (AIFs)",
+      "date": "2020-06-12",
+      "date_display": "12 Jun 2020",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2020/clarifications-with-respect-to-circular-dated-february-05-2020-on-disclosure-standards-for-alternative-investment-funds-aifs-_46847.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "33f7b3e5db6a5e95",
+      "title": "Special Economic Zone(4th Amendment) Rules, 2019 - Exemption to Alternate Invesment Fund & Mutual Funds",
+      "date": "2019-12-31",
+      "date_display": "31 Dec 2019",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f3049e90&fileName=44-aif_nfe-notification_moci10092020105421.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "fund"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3049e90&fileName=44-aif_nfe-notification_moci10092020105421.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "4537d530798e6217",
+      "title": "Consultation Paper on Introduction of Performance Benchmarking and Standardization of Private Placement Memorandum for Alternative Investment Funds",
+      "date": "2019-12-04",
+      "date_display": "04 Dec 2019",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports-and-statistics/reports/dec-2019/consultation-paper-on-introduction-of-performance-benchmarking-and-standardization-of-private-placement-memorandum-for-alternative-investment-funds_45215.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund",
+        "placement memorandum"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c3de9af9c85ba283",
+      "title": "Exemption from filing return of income for investors of Category I and II AIF in IFSC",
+      "date": "2019-07-26",
+      "date_display": "26 Jul 2019",
+      "regulator": "IFSCA",
+      "doc_type": "Notification",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=d09c93fc98191af1801a5914f314c55a&fileName=2-not-55_2019-exemption_roi-for-investors-of-category-i-and-ii-aif-in-ifsc13062024082115.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/Legal/Index/zcGvy-Iqfcg=",
+      "source_name": "IFSCA Notifications",
+      "matched_keywords": [
+        "AIF"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f314c55a&fileName=2-not-55_2019-exemption_roi-for-investors-of-category-i-and-ii-aif-in-ifsc13062024082115.pdf",
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "c9e6aa3205d04528",
+      "title": "Overseas Investment by Alternative Investment Funds (AIFs) / Venture Capital Funds (VCFs)",
+      "date": "2018-07-03",
+      "date_display": "03 Jul 2018",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2018/overseas-investment-by-alternative-investment-funds-aifs-venture-capital-funds-vcfs-_39424.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "AIF",
+        "VCF",
+        "alternative investment fund",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "83560edda5d6e887",
+      "title": "Filing of Term Sheet by Angel Funds",
+      "date": "2018-06-29",
+      "date_display": "29 Jun 2018",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jun-2018/filing-of-term-sheet-by-angel-funds_39395.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "angel fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "11871759656b304b",
+      "title": "SEBI introduces Online System for Portfolio Managers and Venture Capital Funds",
+      "date": "2017-05-30",
+      "date_display": "30 May 2017",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/may-2017/sebi-introduces-online-system-for-portfolio-managers-and-venture-capital-funds_34985.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "68c9c8cc19146d27",
+      "title": "Consultation Paper on permitting Category III Alternative Investment Funds (AIFs) in the commodity derivatives market",
+      "date": "2017-04-28",
+      "date_display": "28 Apr 2017",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports/reports/apr-2017/consultation-paper-on-permitting-category-iii-alternative-investment-funds-aifs-in-the-commodity-derivatives-market_34782.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "59998fb3b548a502",
+      "title": "Frequently Asked Questions (FAQs) on SEBI (Alternative Investment Funds) Regulations, 2012.",
+      "date": "2016-08-18",
+      "date_display": "18 Aug 2016",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/aug-2016/frequently-asked-questions-faqs-on-sebi-alternative-investment-funds-regulations-2012-_33005.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "236977649aa72e3c",
+      "title": "Consultative Paper On Guidelines On Overseas Investments And Other Issues/Clarifications For AIFs/VCFs",
+      "date": "2015-04-24",
+      "date_display": "24 Apr 2015",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports/reports/apr-2015/consultative-paper-on-guidelines-on-overseas-investments-and-other-issues-clarifications-for-aifs-vcfs_29662.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "AIF",
+        "VCF"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "0545876faa3eb46d",
+      "title": "Amendments to SEBI (Alternative Investment Funds) Regulations, 2012",
+      "date": "2013-09-16",
+      "date_display": "16 Sep 2013",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/sep-2013/amendments-to-sebi-alternative-investment-funds-regulations-2012_25383.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d16133710adad6cd",
+      "title": "Circular for Operational, Prudential and Reporting Norms for Alternative Investment Funds (AIFs)",
+      "date": "2013-07-29",
+      "date_display": "29 Jul 2013",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/jul-2013/circular-for-operational-prudential-and-reporting-norms-for-alternative-investment-funds-aifs-_25109.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "AIF",
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "979cddfdb538c89d",
+      "title": "A consent order in respect of M/s ' Small is beautiful' Fund  a Venture Capital Fund (VCF)",
+      "date": "2012-11-07",
+      "date_display": "07 Nov 2012",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/nov-2012/a-consent-order-in-respect-of-m-s-small-is-beautiful-fund-a-venture-capital-fund-vcf-_23736.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "VCF",
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "22c92be423aea3a9",
+      "title": "SEBI notifies SEBI (Alternative Investment Funds) Regulations 2012",
+      "date": "2012-05-21",
+      "date_display": "21 May 2012",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/may-2012/sebi-notifies-sebi-alternative-investment-funds-regulations-2012_22799.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "a7df6e88536b38ee",
+      "title": "Concept Paper on proposed Alternative Investment Funds Regulation for Public Comments",
+      "date": "2011-08-01",
+      "date_display": "01 Aug 2011",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/aug-2011/concept-paper-on-proposed-alternative-investment-funds-regulation-for-public-comments_20349.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d324f3ea4a9ba6f7",
+      "title": "Concept Paper On Proposed Alternative Investment Funds Regulation",
+      "date": "2011-08-01",
+      "date_display": "01 Aug 2011",
+      "regulator": "SEBI",
+      "doc_type": "Consultation Paper",
+      "url": "https://www.sebi.gov.in/reports/reports/aug-2011/concept-paper-on-proposed-alternative-investment-funds-regulation_20484.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=4&ssid=38&smid=35",
+      "source_name": "SEBI Consultation Papers",
+      "matched_keywords": [
+        "alternative investment fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "dd83811f099ec9d9",
+      "title": "Revised quarterly reporting format for Venture Capital Funds",
+      "date": "2010-01-11",
+      "date_display": "11 Jan 2010",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/jan-2010/revised-quarterly-reporting-format-for-venture-capital-funds_2645.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "60a4a29f5e8f299b",
+      "title": "Guidelines for Overseas Investments by Venture Capital Funds",
+      "date": "2007-08-09",
+      "date_display": "09 Aug 2007",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2007/guidelines-for-overseas-investments-by-venture-capital-funds_8308.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "974d61179cb22661",
+      "title": "Common Key Personnel between Mutual Funds and Venture Capital Funds",
+      "date": "2006-10-18",
+      "date_display": "18 Oct 2006",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2006/common-key-personnel-between-mutual-funds-and-venture-capital-funds_14652.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "d5565a99407f2957",
+      "title": "SEBI amends DIP Guidelines to restrict the benefit of no lock-in for Venture Capital Funds or Foreign Venture Capital Investors",
+      "date": "2006-10-14",
+      "date_display": "14 Oct 2006",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/oct-2006/sebi-amends-dip-guidelines-to-restrict-the-benefit-of-no-lock-in-for-venture-capital-funds-or-foreign-venture-capital-investors_10364.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "b507c0489f40e1d8",
+      "title": "SEBI Board approves (1) guidelines for Real Estate Mutual Funds and (2)Changes in Venture Capital Fund lock- in period for IPOs",
+      "date": "2006-06-26",
+      "date_display": "26 Jun 2006",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/jun-2006/sebi-board-approves-1-guidelines-for-real-estate-mutual-funds-and-2-changes-in-venture-capital-fund-lock-in-period-for-ipos_9970.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1fed7e9c3788f0d5",
+      "title": "Registration of Indus Venture Capital Fund -1Orissa Venture Capital Fund and TVS Venture Fund Trust cancelled",
+      "date": "2004-09-10",
+      "date_display": "10 Sep 2004",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/sep-2004/registration-of-indus-venture-capital-fund-1orissa-venture-capital-fund-and-tvs-venture-fund-trust-cancelled_15908.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "7b59315ac63213de",
+      "title": "cancellation of registration of Uttar Pradesh Venture Capital Fund and Investor Venture Capital fund Trust.",
+      "date": "2001-11-29",
+      "date_display": "29 Nov 2001",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/nov-2001/cancellation-of-registration-of-uttar-pradesh-venture-capital-fund-and-investor-venture-capital-fund-trust-_16768.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "77fd28a1af907406",
+      "title": "Gazette Notification dated 23/7/2001, Investments by MFs in Venture Capital Funds and Payment of Volatility Margins by MFs",
+      "date": "2001-08-14",
+      "date_display": "14 Aug 2001",
+      "regulator": "SEBI",
+      "doc_type": "Circular",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2001/gazette-notification-dated-23-7-2001-investments-by-mfs-in-venture-capital-funds-and-payment-of-volatility-margins-by-mfs_17966.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=1&ssid=7&smid=0",
+      "source_name": "SEBI Circulars",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "85e073c15c3867d2",
+      "title": "Amendment to SEBI (Venture Capital Funds) Regulations, 1996",
+      "date": "1999-11-19",
+      "date_display": "19 Nov 1999",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/nov-1999/amendment-to-sebi-venture-capital-funds-regulations-1996_18124.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "1b8c12977e1dee9b",
+      "title": "Venture Capital Fund",
+      "date": "1999-08-05",
+      "date_display": "05 Aug 1999",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/aug-1999/venture-capital-fund_18258.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    },
+    {
+      "id": "e80495fd753ab00a",
+      "title": "Consultative Paper No. XI Draft Regulations for Venture Capital Funds",
+      "date": "1996-02-13",
+      "date_display": "13 Feb 1996",
+      "regulator": "SEBI",
+      "doc_type": "Press Release",
+      "url": "https://www.sebi.gov.in/media/press-releases/feb-1996/consultative-paper-no-xi-draft-regulations-for-venture-capital-funds_21467.html",
+      "source_page": "https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=6&ssid=23&smid=0",
+      "source_name": "SEBI Press Releases",
+      "matched_keywords": [
+        "venture capital fund"
+      ],
+      "first_seen": "2026-09-20T11:22:33+00:00",
+      "last_seen": "2026-09-20T11:25:34+00:00"
+    }
+  ]
+}

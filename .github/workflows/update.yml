@@ -1,0 +1,112 @@
+name: Update tracker and deploy
+
+on:
+  schedule:
+    # Every six hours. Offset off the hour because GitHub queues scheduled
+    # runs heavily at :00 and they can be delayed by 10+ minutes.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    # Site/scraper changes redeploy; a data commit must not retrigger this.
+    paths-ignore:
+      - "data/**"
+      - "README.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    name: Scrape regulators
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # A scheduled run should not silently publish an empty file, so the
+      # scraper exits non-zero when every source fails. It also reports
+      # `changed` so a run that finds nothing new produces no commit -
+      # data/news.json is rewritten every run because each item's `last_seen`
+      # moves, and committing that alone would be four empty commits a day.
+      - name: Scrape
+        id: scrape
+        run: python -m scraper.run --no-site-copy
+
+      - name: Commit data changes
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.scrape.outputs.changed }}" != "true" ]; then
+            echo "No new regulatory updates - nothing to commit."
+            git checkout -- data/news.json
+          else
+            git add data/news.json
+            git commit -m "data: ${{ steps.scrape.outputs.added }} new, ${{ steps.scrape.outputs.total }} tracked ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            # Another run may have pushed while this one was scraping.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          with open("data/news.json", encoding="utf-8") as fh:
+              d = json.load(fh)
+          c = d["counts"]
+          print(f"### {c['total']} updates tracked\n")
+          print(f"Generated at `{d['generated_at']}`\n")
+          for k, v in sorted(c["by_regulator"].items()):
+              print(f"- **{k}**: {v}")
+          if d["sources"]["failed"]:
+              print("\n> Sources unavailable: " + ", ".join(d["sources"]["failed"]))
+          PY
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: scrape
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.scrape.outputs.sha }}
+
+      # The frontend fetches ./data/news.json relative to itself, so the
+      # canonical data file is copied into the published directory.
+      - name: Stage site
+        run: |
+          mkdir -p site/data
+          cp data/news.json site/data/news.json
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
