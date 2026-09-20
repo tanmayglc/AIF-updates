@@ -8,13 +8,13 @@
   'use strict';
 
   var DATA_URL = 'data/news.json';
-  var NEW_WINDOW_DAYS = 7;   // "new" flag on recently added items
+  var NEW_WINDOW_DAYS = 7;   // "new" marker on recently added items
   var PERIODS = [
-    { id: 'all', label: 'All time', days: null },
-    { id: '30', label: '30 days', days: 30 },
-    { id: '90', label: '90 days', days: 90 },
-    { id: '365', label: '1 year', days: 365 },
-    { id: '1095', label: '3 years', days: 1095 }
+    { id: 'all', label: 'All time' },
+    { id: '30', label: 'Last 30 days' },
+    { id: '90', label: 'Last 90 days' },
+    { id: '365', label: 'Last year' },
+    { id: '1095', label: 'Last 3 years' }
   ];
 
   var el = {
@@ -66,11 +66,16 @@
   }
 
   function plural(n, one, many) {
-    return n + ' ' + (n === 1 ? one : many);
+    return n.toLocaleString() + ' ' + (n === 1 ? one : many);
   }
 
   function terms(query) {
     return query.toLowerCase().split(/\s+/).filter(Boolean);
+  }
+
+  function isNew(item) {
+    return !!(item.first_seen &&
+              item.first_seen.slice(0, 10) >= daysAgo(NEW_WINDOW_DAYS));
   }
 
   /* Highlight every search term inside a title. Matching happens on the raw
@@ -152,12 +157,12 @@
     return sorted;
   }
 
-  // --- rendering ----------------------------------------------------------
+  // --- filter controls ----------------------------------------------------
 
   /* Counts for one filter's options, computed with that filter itself ignored
      so the numbers answer "how many would I get if I picked this?". Every
-     value the dataset knows about is seeded at 0, so an option only drops out
-     when it is genuinely empty under the other filters. */
+     value the dataset knows about is seeded at 0, so an option keeps its place
+     in the list even when nothing currently matches it. */
   function countsFor(field, ignoreKey) {
     var opts = {};
     opts[ignoreKey] = true;
@@ -173,103 +178,114 @@
     return counts;
   }
 
-  function renderChips(container, values, activeValue, counts, onPick) {
-    container.innerHTML = '';
-    values.forEach(function (v) {
+  function renderSegmented(counts) {
+    var values = Object.keys(counts)
+      .filter(function (k) { return k !== 'all' && (counts[k] > 0 || k === state.regulator); })
+      .sort();
+    var options = [{ id: 'all', label: 'All' }].concat(values.map(function (v) {
+      return { id: v, label: v };
+    }));
+
+    el.regulator.innerHTML = '';
+    options.forEach(function (o) {
       var btn = document.createElement('button');
       btn.type = 'button';
-      btn.className = 'chip';
-      btn.setAttribute('aria-pressed', String(v.id === activeValue));
-      btn.innerHTML = esc(v.label) +
-        (counts && counts[v.id] != null ? '<span class="n">' + counts[v.id] + '</span>' : '');
-      btn.addEventListener('click', function () { onPick(v.id); });
-      container.appendChild(btn);
+      btn.className = 'seg';
+      btn.setAttribute('aria-pressed', String(o.id === state.regulator));
+      btn.innerHTML = esc(o.label) + '<span class="n">' + counts[o.id] + '</span>';
+      btn.addEventListener('click', function () {
+        state.regulator = o.id;
+        render();
+      });
+      el.regulator.appendChild(btn);
     });
   }
 
-  /* Drop options nothing would match, but never drop the active one -
-     an invisible selection is worse than a zero. */
-  function usableOptions(counts, active, compare) {
-    return Object.keys(counts)
-      .filter(function (k) { return k !== 'all' && (counts[k] > 0 || k === active); })
-      .sort(compare);
+  function renderSelect(node, options, active) {
+    node.innerHTML = '';
+    options.forEach(function (o) {
+      var opt = document.createElement('option');
+      opt.value = o.id;
+      opt.textContent = o.count == null ? o.label : o.label + '  (' + o.count + ')';
+      if (o.id === active) { opt.selected = true; }
+      node.appendChild(opt);
+    });
   }
 
   function renderFilters() {
-    var regCounts = countsFor('regulator', 'ignoreRegulator');
-    var regulators = usableOptions(regCounts, state.regulator, undefined);
-    renderChips(
-      el.regulator,
-      [{ id: 'all', label: 'All' }].concat(regulators.map(function (r) {
-        return { id: r, label: r };
-      })),
-      state.regulator, regCounts,
-      function (id) { state.regulator = id; render(); }
-    );
+    renderSegmented(countsFor('regulator', 'ignoreRegulator'));
 
     var typeCounts = countsFor('doc_type', 'ignoreType');
-    var types = usableOptions(typeCounts, state.type, function (a, b) {
-      return (typeCounts[b] - typeCounts[a]) || a.localeCompare(b);
-    });
-    renderChips(
-      el.type,
-      [{ id: 'all', label: 'All' }].concat(types.map(function (t) {
-        return { id: t, label: t };
-      })),
-      state.type, typeCounts,
-      function (id) { state.type = id; render(); }
-    );
+    var types = Object.keys(typeCounts)
+      .filter(function (k) { return k !== 'all'; })
+      .sort(function (a, b) {
+        return (typeCounts[b] - typeCounts[a]) || a.localeCompare(b);
+      });
+    renderSelect(el.type,
+      [{ id: 'all', label: 'All types', count: typeCounts.all }].concat(
+        types.map(function (t) {
+          return { id: t, label: t, count: typeCounts[t] };
+        })),
+      state.type);
 
-    // The period chips show how many items each window would return.
-    var periodCounts = {};
-    PERIODS.forEach(function (p) {
+    // Each period option reports what that window alone would return.
+    var periodOptions = PERIODS.map(function (p) {
       var saved = state.period;
       state.period = p.id;
-      periodCounts[p.id] = countsFor(null, 'ignoreNothing').all;
+      var n = countsFor(null, 'ignoreNothing').all;
       state.period = saved;
+      return { id: p.id, label: p.label, count: n };
     });
-    renderChips(
-      el.period,
-      PERIODS.map(function (p) { return { id: p.id, label: p.label }; }),
-      state.period, periodCounts,
-      function (id) { state.period = id; render(); }
-    );
+    renderSelect(el.period, periodOptions, state.period);
   }
+
+  // --- rendering ----------------------------------------------------------
 
   function renderItem(item) {
     var li = document.createElement('li');
     li.className = 'item';
 
-    var isNew = item.first_seen && item.first_seen.slice(0, 10) >= daysAgo(NEW_WINDOW_DAYS);
-    var keywords = (item.matched_keywords || []).slice(0, 5);
+    var flagNew = !state.suppressNew && isNew(item);
+    var keywords = (item.matched_keywords || []).slice(0, 4);
 
-    var head = '<p class="item-head">' +
-      '<span class="badge badge--' + esc(item.regulator) + '">' + esc(item.regulator) + '</span>' +
-      '<span class="doctype">' + esc(item.doc_type) + '</span>' +
-      (isNew ? '<span class="new-flag">new</span>' : '') +
-      '<span class="date">' + esc(item.date_display || 'date not published') + '</span>' +
+    var date = '<time class="item-date"' +
+      (item.date ? ' datetime="' + esc(item.date) + '"' : '') + '>' +
+      esc(item.date_display || 'Undated') + '</time>';
+
+    var kicker = '<p class="item-kicker">' +
+      '<span class="reg reg--' + esc(item.regulator) + '">' + esc(item.regulator) + '</span>' +
+      '<span class="kicker-sep" aria-hidden="true">/</span>' +
+      '<span class="kicker-type">' + esc(item.doc_type) + '</span>' +
+      (flagNew ? '<span class="flag-new">New</span>' : '') +
       '</p>';
 
     var title = '<h2 class="item-title"><a href="' + esc(item.url) + '" target="_blank" ' +
       'rel="noopener noreferrer">' + highlight(item.title, state.query) + '</a></h2>';
 
-    var foot = '';
-    if (keywords.length || item.source_name) {
-      foot = '<p class="item-foot">' +
-        keywords.map(function (k) { return '<span class="kw">' + esc(k) + '</span>'; }).join('') +
+    var tags = '';
+    if (keywords.length || item.source_page) {
+      tags = '<p class="item-tags">' +
+        keywords.map(function (k) {
+          return '<span class="kw">' + esc(k) + '</span>';
+        }).join('') +
         (item.source_page
-          ? '<a href="' + esc(item.source_page) + '" target="_blank" rel="noopener noreferrer">' +
-            esc(item.source_name || 'source listing') + '</a>'
-          : esc(item.source_name || '')) +
+          ? '<a class="src" href="' + esc(item.source_page) + '" target="_blank" ' +
+            'rel="noopener noreferrer">' + esc(item.source_name || 'Source listing') + '</a>'
+          : '') +
         '</p>';
     }
 
-    li.innerHTML = head + title + foot;
+    li.innerHTML = date + '<div class="item-body">' + kicker + title + tags + '</div>';
     return li;
   }
 
   function render() {
     renderFilters();
+
+    // On the tracker's first run everything is "new", which is noise rather
+    // than news. Only flag arrivals when they are a minority of the dataset.
+    var newCount = state.all.filter(isNew).length;
+    state.suppressNew = newCount > state.all.length * 0.3;
 
     var visible = sortItems(state.all.filter(function (i) { return matches(i); }));
 
@@ -281,22 +297,19 @@
     el.empty.hidden = visible.length > 0;
     el.count.textContent = visible.length === state.all.length
       ? plural(visible.length, 'update', 'updates')
-      : plural(visible.length, 'update', 'updates') + ' of ' + state.all.length;
+      : plural(visible.length, 'update', 'updates') + ' of ' + state.all.length.toLocaleString();
 
-    var filtered = state.regulator !== 'all' || state.type !== 'all' ||
-                   state.period !== 'all' || state.query !== '';
-    el.reset.hidden = !filtered;
+    el.reset.hidden = !(state.regulator !== 'all' || state.type !== 'all' ||
+                        state.period !== 'all' || state.query !== '');
   }
 
   function renderMeta(payload) {
-    var by = payload.counts && payload.counts.by_regulator || {};
-    var parts = Object.keys(by).sort().map(function (k) {
-      return by[k] + ' ' + k;
-    });
+    var by = (payload.counts && payload.counts.by_regulator) || {};
+    var parts = Object.keys(by).sort().map(function (k) { return by[k] + ' ' + k; });
     el.meta.innerHTML =
-      'Last updated <strong>' + esc(formatDateTime(payload.generated_at)) + '</strong>' +
-      ' &middot; <strong>' + esc(String(payload.counts.total)) + '</strong> updates tracked' +
-      (parts.length ? ' (' + esc(parts.join(', ')) + ')' : '');
+      '<strong>' + esc(String(payload.counts.total)) + '</strong> updates tracked' +
+      (parts.length ? ' &middot; ' + esc(parts.join(', ')) : '') +
+      ' &middot; last updated <strong>' + esc(formatDateTime(payload.generated_at)) + '</strong>';
 
     var failed = (payload.sources && payload.sources.failed) || [];
     var ok = (payload.sources && payload.sources.ok) || [];
@@ -319,10 +332,9 @@
     render();
   }, 140));
 
-  el.sort.addEventListener('change', function () {
-    state.sort = el.sort.value;
-    render();
-  });
+  el.type.addEventListener('change', function () { state.type = el.type.value; render(); });
+  el.period.addEventListener('change', function () { state.period = el.period.value; render(); });
+  el.sort.addEventListener('change', function () { state.sort = el.sort.value; render(); });
 
   el.reset.addEventListener('click', function () {
     state.regulator = state.type = state.period = 'all';
