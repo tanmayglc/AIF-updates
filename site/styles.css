@@ -443,3 +443,106 @@ mark {
   html { scroll-behavior: auto; }
   * { transition-duration: .01ms !important; }
 }
+
+/* --- Summary button and dialog ------------------------------------------ */
+
+.summary-btn {
+  font: inherit;
+  font-size: .78125rem;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-right: .75rem;
+  cursor: pointer;
+  border-bottom: 1px solid currentColor;
+}
+
+.summary-btn:hover { color: var(--fg); }
+
+.sheet {
+  width: min(38rem, calc(100vw - 2rem));
+  padding: 2rem 2.25rem 1.75rem;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, .22);
+}
+
+.sheet::backdrop {
+  background: rgba(14, 15, 18, .48);
+  backdrop-filter: blur(2px);
+}
+
+.sheet-close-form { margin: 0; float: right; }
+
+.sheet-close {
+  font: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--fg-faint);
+  background: none;
+  border: 0;
+  padding: 0 0 0 1rem;
+  cursor: pointer;
+}
+
+.sheet-close:hover { color: var(--fg); }
+
+.sheet .item-kicker { margin-bottom: .5rem; }
+
+.sheet-title {
+  margin: 0 0 1rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -.01em;
+  text-wrap: pretty;
+}
+
+.sheet-summary {
+  margin: 0 0 1.25rem;
+  font-size: 1rem;
+  line-height: 1.62;
+}
+
+.sheet-caveat {
+  margin: 0 0 1.25rem;
+  padding-left: .875rem;
+  border-left: 2px solid var(--rule-strong);
+  font-size: .78125rem;
+  line-height: 1.5;
+  color: var(--fg-faint);
+}
+
+.sheet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem 1rem;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+}
+
+.sheet-link {
+  font-size: .875rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.sheet-model {
+  font-size: .6875rem;
+  letter-spacing: .04em;
+  color: var(--fg-faint);
+}
+
+@media (max-width: 40rem) {
+  .sheet { padding: 1.5rem 1.375rem 1.25rem; }
+  .sheet-title { font-size: 1.1875rem; }
+}

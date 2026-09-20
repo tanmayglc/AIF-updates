@@ -44,9 +44,20 @@ jobs:
       # `changed` so a run that finds nothing new produces no commit -
       # data/news.json is rewritten every run because each item's `last_seen`
       # moves, and committing that alone would be four empty commits a day.
+      # Summaries are generated once per document and then kept, so the
+      # initial backfill spreads across several scheduled runs rather than
+      # fetching every document at once. With no key configured the scraper
+      # simply runs without them.
       - name: Scrape
         id: scrape
-        run: python -m scraper.run --no-site-copy
+        env:
+          SUMMARY_PROVIDER: ${{ vars.SUMMARY_PROVIDER || 'gemini' }}
+          SUMMARY_MODEL: ${{ vars.SUMMARY_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+        run: python -m scraper.run --no-site-copy --summarise --summary-limit 40
 
       - name: Commit data changes
         id: commit
@@ -70,7 +81,7 @@ jobs:
             fi
           else
             git add data/news.json
-            git commit -m "data: ${{ steps.scrape.outputs.added }} new, ${{ steps.scrape.outputs.total }} tracked ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git commit -m "data: ${{ steps.scrape.outputs.added }} new, ${{ steps.scrape.outputs.summarised }} summarised, ${{ steps.scrape.outputs.total }} tracked ($(date -u +'%Y-%m-%d %H:%M UTC'))"
             # Another run may have pushed while this one was scraping.
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
@@ -91,6 +102,14 @@ jobs:
           failed = d["sources"]["failed"]
           if failed:
               print("::warning::Sources unavailable this run: " + ", ".join(failed))
+
+          items = d["items"]
+          without = [i for i in items if not i.get("summary")]
+          print(f"Summaries: {len(items) - len(without)}/{len(items)} "
+                f"({len(without)} still pending).")
+          if len(without) == len(items) and items:
+              print("::warning::No document has a summary. Set a GEMINI_API_KEY "
+                    "repository secret (or another provider's key) to enable them.")
 
           latest = d["date_range"]["latest"]
           if latest:

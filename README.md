@@ -5,8 +5,10 @@ Funds** and **IFSCA fund management**. A Python scraper collects titles, dates
 and links from both regulators every six hours; a dependency-free single-page
 frontend reads the resulting JSON.
 
-The tracker stores **only titles, dates, document types and URLs**. It never
-copies document text — every entry links back to the regulator's own page or PDF.
+The tracker stores **titles, dates, document types, URLs and a short generated
+summary**. It never copies the documents' own text — every entry links back to
+the regulator's page or PDF, and summaries are written by a language model in
+its own words rather than extracted.
 
 ```
 .
@@ -112,6 +114,55 @@ the SEBI one, because IFSCA titles are less standardised.
 > `#sample_1` is still the id of SEBI's listing table. The endpoints were
 > confirmed against the live sites in September 2026.
 
+## Summaries
+
+Each item carries a two-to-three sentence summary, shown behind a **Summary**
+button that opens a dialog. Generating one is a three-step job, all of it
+incremental:
+
+1. **Find the document.** Both regulators ultimately publish PDFs, by different
+   routes. SEBI serves an HTML shell whose body is nearly empty — the circular
+   itself sits in an `<iframe>` pointing at `/sebi_data/attachdocs/…pdf`. IFSCA
+   rows already carry a direct PDF link. Press releases and older SEBI pages do
+   have inline text, so inline is used when there's enough of it.
+2. **Extract the text** with `pypdf`, capped at 8 pages / 14,000 characters.
+3. **Summarise it**, then throw the extracted text away. Nothing but the summary
+   is stored.
+
+A summary is generated **once** and kept, so the first backfill spreads across
+several scheduled runs (40 documents per run by default) instead of hammering
+both sites at once. Re-scraping never overwrites an existing summary.
+
+### Configuring a provider
+
+Providers are pluggable, because free inference offerings move around — GitHub
+Models, for one, was retired in July 2026. Set a repository secret and you're
+done; with no key configured the tracker just runs without summaries and the
+button doesn't appear.
+
+| Variable | Purpose |
+| --- | --- |
+| `SUMMARY_PROVIDER` | `gemini` (default), `anthropic`, `openai`, or `none` |
+| `SUMMARY_MODEL` | Override the provider's default model |
+| `GEMINI_API_KEY` | Google AI Studio key — has a genuinely free tier |
+| `ANTHROPIC_API_KEY` | Claude |
+| `OPENAI_API_KEY` / `OPENAI_BASE_URL` | Anything OpenAI-compatible |
+
+Locally:
+
+```bash
+GEMINI_API_KEY=... python -m scraper.run --summarise --summary-limit 5
+```
+
+`--resummarise` regenerates summaries that already exist, e.g. after changing
+the prompt in `summarize.py`.
+
+### A caveat worth repeating
+
+These summaries are machine-written and may be wrong or incomplete. The site
+says so in the dialog and the footer. They are a triage aid for deciding what to
+open — not a substitute for reading the circular, and not advice.
+
 ## Being a good citizen
 
 - **robots.txt is fetched and honoured per host.** SEBI's allows everything
@@ -154,12 +205,18 @@ in the file with its original `first_seen`.
       "source_page": "https://www.sebi.gov.in/...",   // the listing it came from
       "source_name": "SEBI Circulars",
       "matched_keywords": ["accredited investor", "angel fund"],
+      "summary": "Extends the deadline for Angel Funds registered after ...",
+      "summary_model": "gemini/gemini-2.5-flash-lite",
+      "summary_at": "2026-09-21T04:10:02+00:00",
       "first_seen": "2026-09-20T11:07:51+00:00",   // when the tracker first saw it
       "last_seen":  "2026-09-20T11:07:51+00:00"    // last run that observed it listed
     }
   ]
 }
 ```
+
+`summary` and friends are absent until a summary has been generated; the
+frontend hides the button for those items.
 
 `last_seen` moves on every run, so the file is rewritten every time even when
 nothing has happened. To keep that out of the commit history, the scraper
@@ -181,6 +238,10 @@ inventing a date for it.
   other active filters.
 - Multi-term search across titles, document types and matched keywords, with the
   match highlighted.
+- A **Summary** button on each item opens a dialog with the generated summary,
+  the machine-written caveat and a link to the source. Native `<dialog>`, so Esc
+  and focus trapping come for free; backdrop clicks close it too.
+- Search covers summaries as well as titles, types and matched keywords.
 - Sort by newest, oldest, title, or recently added to the tracker.
 - Items added in the last seven days are flagged `new`.
 - Light and dark themes follow the system setting; the layout works down to
