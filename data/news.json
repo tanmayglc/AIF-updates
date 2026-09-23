@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T11:25:34+00:00",
+  "generated_at": "2026-09-23T19:55:31+00:00",
   "counts": {
     "total": 168,
     "by_regulator": {
@@ -53,7 +53,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999b73cbe&fileName=Amendment_to_the_Circular_titled_Master_Circular_for_Distributors_in_the_IFSC_20260918_0438.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has amended its Master Circular for Distributors to formally designate the UAE, Singapore, Australia, and the European Union as permitted jurisdictions for distributing capital market products, subject to standard anti-money laundering exclusions. Additionally, the circular clarifies that the term \"jurisdiction\" refers strictly to where the product is domiciled rather than the location of its managing entity. These provisions apply to all Fund Management Entities and registered distributors within the IFSC and take effect immediately upon issuance on September 18, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:17+00:00"
     },
     {
       "id": "297a79b118fd24de",
@@ -69,7 +72,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-20T11:25:34+00:00",
+      "summary": "This SEBI summary settlement order resolves non-compliance proceedings against Mirae Asset Venture Opportunity Trust AIF, its manager Mirae Asset Venture Investments (India) Private Limited, and six key managerial personnel for breaching the 25% single-investee concentration limit under the AIF Regulations between January and September 2023. The applicants jointly and severally paid a settlement amount of ₹12,75,000 on June 19, 2026, in response to a summary settlement notice issued on June 9, 2026. Consequently, SEBI will not initiate enforcement actions against them, and the order takes effect immediately upon its issuance on September 16, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:23+00:00"
     },
     {
       "id": "205bf7e809723f2c",
@@ -87,7 +93,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999a68ce4&fileName=Amendments_to_the_International_Financial_Services_Centres_Authority__Fund_Management__Regulations__2025_20260916_0409.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has notified the Fund Management (Second Amendment) Regulations, 2026, which took effect on September 10, 2026, to ease compliance burdens and enhance investor protection for fund management entities operating in GIFT IFSC. The amendments apply to fund management entities, venture capital schemes, restricted schemes, and retail schemes by introducing relaxations such as extending the scheme annual report submission timeline to six months from the financial year-end, permitting higher FME capital contributions up to 25% for overseas-focused funds with Indian ultimate beneficial owners, and streamlining independent valuation and auditor appointment rules.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:25+00:00"
     },
     {
       "id": "0aeb695a1da8b980",
@@ -104,7 +113,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459999d2857&fileName=Circular_on_Extension_of_validity_of_expired_PPMs_20260911_0710.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority (IFSCA) has permitted Fund Management Entities (FMEs) to apply for an extension of expired placement memorandums for Venture Capital and Restricted Schemes, which previously required filing prior to expiry under the FM Regulations, 2025. Effective immediately from September 11, 2026, FMEs can secure six-month validity blocks—or multiple blocks for longer lapses—by paying a standard extension fee alongside a 50% late fee, provided no material changes are made to the scheme and the late fees are absorbed entirely by the FME without passing them to investors. Furthermore, these late filings remain subject to potential regulatory action for any unauthorized activities conducted during the expired period.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:28+00:00"
     },
     {
       "id": "64f32807dbce6064",
@@ -121,7 +133,10 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has extended the compliance deadline from September 8, 2026, to March 31, 2027, for legacy Angel Funds registered on or before September 10, 2025, to fully transition to an exclusive Accredited Investor mandate. Under the revised timeline, these existing funds are restricted from offering investment opportunities to more than 200 non-Accredited Investors and must stop accepting capital contributions from non-Accredited Investors for investee company investments after March 31, 2027, while existing investor holdings remain protected as per fund documents. This relief measure applies directly to all SEBI-registered Angel Funds established on or before September 10, 2025, with the circular coming into immediate effect upon issuance.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:35+00:00"
     },
     {
       "id": "ab13eafb1ee5603f",
@@ -139,7 +154,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459995479f1&fileName=Consultation_Paper_on_Secondary_Listing_of_Exchange_Traded_Funds_in_IFSC_20260827_0708.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has released a consultation paper proposing amendments to Chapter VII of the Fund Management Regulations to permit fund managers regulated in India or foreign jurisdictions to secondary list their exchange-traded funds on recognised stock exchanges in the IFSC without needing to establish a local fund management entity. This framework applies to retail-regulated ETF managers and index-replicating ETFs that have been traded for at least 12 months, provided they appoint a local representative and meet investor protection standards. Public comments on these proposed changes must be submitted by September 17, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:37+00:00"
     },
     {
       "id": "54815b7e997d14e8",
@@ -158,7 +176,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority requires all Fund Management Entities registered under the Fund Management Regulations, 2025 to maintain a publicly accessible website or dedicated webpage containing specified operational, statutory, and investor-related disclosures. The mandate applies differently based on registration categories, requiring Authorised and Non-Retail Registered FMEs to maintain either an independent site or a group webpage, while Retail Registered FMEs must maintain an independent official website with additional scheme-specific disclosures. All existing FMEs must comply and report their URL to the regulator by December 1, 2026, whereas entities registered on or after this circular's issuance must establish their online presence before commencing operations and report the URL within thirty days of registration.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:41+00:00"
     },
     {
       "id": "28c41ccafe8572c1",
@@ -174,7 +195,10 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has released a consultation paper proposing a comprehensive overhaul of the Accredited Investor framework to expand eligibility by introducing securities market asset thresholds of INR 5 crore for individuals and INR 20 crore for body corporates, alongside streamlining onboarding via manager-led group accreditation, standardizing a three-year validity, and extending deemed accreditation to all Persons Resident Outside India. These proposed changes impact Alternative Investment Funds, Specialised Investment Funds, Portfolio Management Services, and Angel Funds, with public comments invited until September 3, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:47+00:00"
     },
     {
       "id": "360a7bbf85e8bd2b",
@@ -190,7 +214,10 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This consultation paper issued by SEBI on August 13, 2026, seeks stakeholder feedback on reviewing the existing Accredited Investor framework to enhance operational efficiency, verification mechanisms, and digital infrastructure across the securities market ecosystem. It applies to prospective accredited investors, Alternative Investment Funds, Portfolio Management Services, fund managers, and compliance officers navigating SEBI and IFSCA regulations. The document does not prescribe a final compliance deadline or immediate regulatory mandate, as it is currently open for public comments on transitioning from minimum investment thresholds to accreditation status as the primary metric of investor risk sophistication.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:55+00:00"
     },
     {
       "id": "d11177238b5357a6",
@@ -208,7 +235,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has expanded the list of mandatory certification courses for employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025, by approving the \"Regulatory Framework for Fund Management in IFSC\" course offered by the Institute of Chartered Accountants of India alongside the previously notified ICSI course. Compliance is met upon successful completion of either specified certification course. This directive applies to all Fund Management Entities operating within IFSCs and comes into force immediately upon issuance on August 10, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:52:57+00:00"
     },
     {
       "id": "87790d426cc7ca92",
@@ -225,7 +255,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The IFSCA has clarified that its May 12, 2026 circular regarding implementation services for investment advisers does not apply to Fund Management Entities (FMEs) that provide advisory services. This exemption covers FMEs offering advisory services as part of their Portfolio Management Services pursuant to regulation 80 of the IFSCA (Fund Management) Regulations, 2025. The circular took effect immediately upon its issuance on August 10, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:00+00:00"
     },
     {
       "id": "5c2073e9c20e50ec",
@@ -243,7 +276,10 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has introduced the GARUDA mechanism via its circular dated July 30, 2026, allowing Alternative Investment Funds to roll out regular schemes after ten working days of filing their placement memoranda with an independent merchant banker, or upon registration for first-time schemes. Concurrently, Accredited Investor only funds, Large Value Funds, and Angel Funds are exempted from merchant banker routing and can launch immediately upon filing, subject to specific executive declarations and mandatory naming conventions. These regulatory changes take immediate effect for all placement memoranda filed following the notification of the SEBI AIF Second Amendment Regulations on July 14, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:06+00:00"
     },
     {
       "id": "5a9cde3efe3175f3",
@@ -261,7 +297,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d84ce5e&fileName=Draft_IDEA_Fund_Scheme_20260723_0250.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has proposed the draft IFSC Depositor Education and Awareness Fund Scheme, 2026, which mandates Banking Units operating within the IFSC to transfer all customer deposits and credit balances remaining unclaimed or inoperative for ten years or more to a centralized IDEA Fund. The framework requires these institutions to calculate and remit cumulative balances, along with accrued interest, on the last working day of the month following the scheme's commencement or the date the amounts become due, while also establishing mechanisms for handling depositor claims, reimbursements, and fund governance. Stakeholders and the public must submit their comments and suggestions on this draft proposal by August 12, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:09+00:00"
     },
     {
       "id": "0af090ee38284728",
@@ -277,7 +316,10 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This consultation paper proposes standardizing and rationalizing the investor consent framework under SEBI Alternative Investment Fund regulations by setting a uniform 75% unitholder approval threshold by value and offering specific voting methodologies like deemed consent, present and voting, or express voting. The proposals apply to alternative investment funds, their managers, sponsors, and investors. The document seeks public and stakeholder comments up to the unspecified date within the text, with no final compliance deadline yet enacted.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:19+00:00"
     },
     {
       "id": "11c2e5b0e3cfca36",
@@ -293,7 +335,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has introduced a circular, effective June 16, 2026, allowing Alternative Investment Funds (AIFs), erstwhile Venture Capital Funds, and their schemes to retain liquidation proceeds beyond their permissible fund life under specific circumstances, such as pending or anticipated legal/tax liabilities and residual operational expenses capped at a three-year limit. To qualify for these retentions or to maintain registration solely for favorable litigation outcomes, AIFs can apply for an \"Inoperative Fund\" status by emailing SEBI, which prohibits launching new schemes and charging management fees. Additionally, impacted AIFs and Inoperative Funds must submit an annual status report detailing retained monies and liabilities through the SEBI Intermediary portal within 30 calendar days from the end of every financial year in March.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:26+00:00"
     },
     {
       "id": "3a84f7789c77014e",
@@ -310,7 +355,10 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI issued a comprehensive Master Circular for Alternative Investment Funds dated June 3, 2026 (updated through September 7, 2026), which consolidates and supersedes all prior operational circulars and introduces new guidelines regarding winding-up proceeds, Inoperative Fund status, and the GARUDA mechanism for placement memorandum processing. This regulatory framework applies across all registered Alternative Investment Funds, their managers, sponsors, trustees, custodians, depositories, and registrars. Stakeholders must immediately comply with the consolidated standards, incorporating the updated requirements into their mandatory Compliance Test Reports and operational workflows.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:40+00:00"
     },
     {
       "id": "be8497f11e13a4cc",
@@ -327,7 +375,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bc3223be&fileName=Circular_on__implementation_services_by_Investment_Adviser_20260512_0723.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This IFSCA circular clarifies and operationalizes the execution channels through which Investment Advisers in the IFSC can provide implementation services to their advisory clients for executing investment advice. Specifically, advisers must route transactions via Global Access Providers or Introducing Brokers for foreign-listed products, exchange members for IFSC-listed products, and regulated platforms or asset management companies for unlisted products. Issued under the CMI Regulations, 2025, the framework takes effect immediately as of May 12, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:43+00:00"
     },
     {
       "id": "a34b72497f733f73",
@@ -345,7 +396,10 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI is proposing the 'GARUDA' mechanism to streamline Alternative Investment Fund scheme launches by reducing the waiting period for regular schemes to 10 working days, and permitting managers of accredited-investor-only schemes and angel funds to file placement memorandums directly with SEBI backed by internal executive undertakings instead of merchant banker certificates. These proposed changes apply to AIF managers, sponsors, and merchant bankers operating under the SEBI (AIF) Regulations, 2012, with stakeholders required to submit comments on the consultation paper following its release on May 11, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:51+00:00"
     },
     {
       "id": "1269b71ce55e97b2",
@@ -362,7 +416,10 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has introduced a fast-track processing mechanism allowing Alternative Investment Funds to launch non-Large Value Fund schemes and circulate their Placement Memoranda to investors 30 days after filing, provided no contrary advice is received. This measure applies to AIF managers seeking to streamline capital raising and deployment processes. The operational circular implementing this framework comes into immediate effect as of April 30, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:53:56+00:00"
     },
     {
       "id": "28c1be02dc798513",
@@ -379,7 +436,10 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has introduced a fast-track processing mechanism for Private Placement Memorandums (PPMs) of Angel Funds and non-Large Value Fund (non-LVF) AIF schemes, allowing them to launch and circulate PPMs after 30 days of filing or upon receiving registration (for first-time schemes), provided any regulator comments are addressed. Applicable immediately to all AIFs and merchant bankers—including pending PPM applications—the framework requires the first close to be declared within 12 months of eligibility and places full responsibility for disclosure accuracy on the fund manager and merchant banker.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:03+00:00"
     },
     {
       "id": "ce11b895065fabb3",
@@ -397,7 +457,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8d33f60&fileName=Press_Release_FIF_1_20260420_0105.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has granted its inaugural registration to a foreign Family Investment Fund under the Fund Management Regulations of 2025, marking a significant milestone for private wealth structuring in the GIFT International Financial Services Centre. This regulatory milestone applies to international family offices seeking to establish compliant fund structures for managing global and India-focused portfolios from the GIFT IFSC. The press release does not specify any operational deadlines, compliance timelines, or transition dates.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:04+00:00"
     },
     {
       "id": "4b388fccc640a9ff",
@@ -414,7 +477,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8bb71ec&fileName=Governance_and_oversight_of_Schemes_in_IFSC___Segregation_of_the_role_of_Fiduciaries__20260410_0759.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority prohibits Fund Management Entities from appointing a scheme's fiduciary—or its associates—to simultaneously provide fund administration, valuation, audit, or lending and financing services to that same scheme. Applicable to all Fund Management Entities operating in IFSCs, the mandate takes immediate effect on April 10, 2026, with an established compliance deadline of September 30, 2026, for existing schemes already on record or filed with the regulator.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:09+00:00"
     },
     {
       "id": "99e225f681108fc5",
@@ -432,7 +498,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895a672&fileName=Circular_on_Specification_of_Certification_Course_for_KMPs___Employees_20260401_0543.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has mandated that Key Managerial Personnel and employees handling core fund management functions within Fund Management Entities must complete the specified certification course titled \"Regulatory Framework for Fund Management in IFSC: AIFs and Retail Schemes\" offered by The Institute of Company Secretaries of India. This compliance requirement applies to all regulated Fund Management Entities operating in the IFSC, with a strict completion deadline of September 30, 2026. Additionally, the circular strongly encourages support staff, trustees, intermediaries, and fund administrators in the GIFT-IFSC ecosystem to voluntarily undertake the course, while placing direct responsibility on the entity and its controllers to ensure timely adherence.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:11+00:00"
     },
     {
       "id": "d421c393aa7161c6",
@@ -449,7 +518,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895927a&fileName=Amendment_to_Circular_on_Appointment_and_Change_of_KMP_by_an_FME_20260401_0541.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has omitted Paragraph 4 of its earlier circular dated February 20, 2025, thereby removing specific provisions related to the appointment and change of Key Managerial Personnel. This amendment applies directly to all Fund Management Entities operating within International Financial Services Centres. The directive comes into force with immediate effect from April 1, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:14+00:00"
     },
     {
       "id": "bddf44ff90d7178c",
@@ -465,7 +537,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has streamlined regulatory reporting for all Alternative Investment Funds by replacing the quarterly reporting requirement with a comprehensive Annual Activity Report due within 30 days of the financial year-end and a limited Quarterly Activity Report due within 15 days of the quarter-end. These filings must be submitted online through the SEBI Intermediary Portal, superseding previous guidelines with immediate effect. Under the compliance timeline, the first Annual Activity Report for the year ending March 2026 is due by May 31, 2026, while the first revised Quarterly Activity Report will apply to the quarter ending June 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:26+00:00"
     },
     {
       "id": "f94675e6b8f75b57",
@@ -482,7 +557,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a810d93a&fileName=02_03_2026_IFSCA_Fee_Circular_FY_2026_27_20260302_0641.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The IFSCA circular establishes a comprehensive fee structure effective March 2, 2026, categorizing charges into application, registration, recurring (flat and conditional), activity-based, processing fees, and penalties for delays or non-submission of reports. It applies to all current and prospective regulated entities, applicants, and persons seeking informal guidance within International Financial Services Centres. The framework mandates specific payment deadlines, such as settling flat recurring fees annually by April 30 and conditional fees through a two-installment advance and balance system, while detailing rules for pro-rata calculations and non-refundable fees.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:30+00:00"
     },
     {
       "id": "894370b7eb5e01f1",
@@ -499,7 +577,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe86beb803&fileName=PRESS_RELEASE__IFSCA__Pension_Fund__Regulations__2026_20260212_0840.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The IFSCA approved the draft Pension Fund Regulations, 2026 on February 9, 2026, establishing a regulatory framework for Pension Fund Managers to offer voluntary global retirement products and healthcare benefit options to individuals aged 18 and above. The framework applies to registered Pension Fund Managers operating within the IFSC and mandates compliance with minimum net worth requirements, board oversight, and risk management standards. The official notification containing effective dates and detailed timelines will be released in due course.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:33+00:00"
     },
     {
       "id": "22c9d0052e8b9b44",
@@ -515,7 +596,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This consultation paper proposes amending the SEBI AIF Regulations, 2012 to lower the minimum investment threshold for individual investors in Social Impact Funds from two lakh rupees to one thousand rupees. Additionally, it outlines draft circular modifications under the ICDR Regulations framework to extend the non-fund-raising registration period for Not for Profit Organizations on Social Stock Exchanges from two to three years and to reduce the minimum subscription requirement for Zero Coupon Zero Principal Instruments from 75% to 50% for proportionately allocated projects. Stakeholders must submit their comments and suggestions on these proposals by March 2, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:39+00:00"
     },
     {
       "id": "ab7d8404641aefd4",
@@ -532,7 +616,10 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has mandated Alternative Investment Funds (AIFs), acting through their Registrars and Transfer Agents, to upload the latest available Net Asset Value (NAV) for each unit ISIN into the depository system starting immediately on February 6, 2026. Under this framework, the NAV must be uploaded by May 1, 2026, or within 30 days of the valuation report date or internal documentation date, whichever is later, with the AIF manager bearing direct responsibility for timely and accurate submissions. Trustees and sponsors must also ensure that compliance with these reporting standards is formally incorporated into the manager's Compliance Test Report.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:45+00:00"
     },
     {
       "id": "863b274c491f74c9",
@@ -549,7 +636,10 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This consultation paper proposes regulatory flexibilities for Alternative Investment Funds regarding the procedures for winding up a scheme and surrendering their registration with SEBI. It applies to all SEBI-registered Alternative Investment Funds and their managers navigating scheme closure or registration cancellation. The document invites public comments on the proposed framework, though specific implementation timelines and deadlines are not detailed in the provided text.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:48+00:00"
     },
     {
       "id": "ef373622bffc0a9f",
@@ -566,7 +656,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe866cdd07&fileName=Final_circular_on_Extension_of_the_PPM_27012026_20260127_0615.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has introduced a three-month one-time window allowing Fund Management Entities to extend expired or soon-to-expire Placement Memorandums for Venture Capital Schemes and Restricted Schemes. Applicable to funds registered under the IFSCA (Fund Management) Regulations, 2025, the framework provides an additional six-month validity period upon re-filing the document without material strategy changes and paying half the standard fresh filing fee. For open-ended Restricted Schemes that commenced investments after raising USD 1 million but failed to reach the USD 3 million minimum corpus within the initial period, the extension is backdated to the original PPM expiration date.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:50+00:00"
     },
     {
       "id": "0b8b0b82ae35e7b9",
@@ -585,7 +678,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe8643b3cc&fileName=Procedure_and_clarification_on_filing_of_scheme_application_under_Third_Party_Fund_Management_Arrangement_20260116_0557.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has established a standardized application procedure and documentary requirements for Registered Fund Management Entities launching schemes under Third-Party Fund Management Arrangements pursuant to the IFSCA (Fund Management) Regulations, 2025. In addition to following existing scheme filing formats from April 2024, applicants must submit extensive disclosures regarding the third-party fund manager, including home jurisdiction registration, ultimate beneficial ownership charts, historical investment track records, compliance declarations, and operational arrangements via the IFSCA Single Window IT System. This circular takes effect immediately upon issuance on January 16, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:53+00:00"
     },
     {
       "id": "dfb66035a8780289",
@@ -599,7 +695,10 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has revised its technical glitch framework for stock brokers to reduce compliance burdens by narrowing applicability to brokers with over 10,000 registered clients—excluding roughly 60% of smaller brokers—while exempting external or low-impact glitches, extending reporting windows to two hours, centralising notifications onto a single platform, and rationalising DR drill and penalty structures. The updated framework applies to stock brokers registered with SEBI, with the press release issued on January 9, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:54:59+00:00"
     },
     {
       "id": "1ff938212e4927b1",
@@ -615,7 +714,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "SEBI has mandated that Compliance Officers of Alternative Investment Fund (AIF) Managers must hold the NISM Series-III-C: Securities Intermediaries Compliance (Fund) Certification Examination. This requirement applies to all AIF Managers and their compliance personnel, with a strict compliance deadline of January 1, 2027, by which time all acting compliance officers must be certified. Additionally, the mandated Compliance Test Reports prepared by managers must explicitly incorporate verification of this certification requirement.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:05+00:00"
     },
     {
       "id": "e353aedc806336bf",
@@ -633,7 +735,10 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This SEBI circular outlines the migration modalities, naming conventions, and compliance requirements for existing Alternative Investment Fund schemes converting into Accredited Investor-only (AI-only) schemes or Large Value Funds (LVFs) following the November 19, 2025 AIF regulatory amendments. It applies to all AIFs, managers, trustees, and sponsors seeking to migrate existing schemes or launch new ones, requiring positive investor consent, mandatory name changes, and reporting to SEBI and depositories within 15 days of conversion. The framework takes effect immediately on December 8, 2025, and exempts LVFs from standard placement memorandum templates and annual audits without needing investor waivers.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:12+00:00"
     },
     {
       "id": "074edca14b0cf218",
@@ -650,7 +755,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a91612909&fileName=Consultation_Paper_on_Implementation_Services_by_Investment_Advisers_in_IFSC_13112025_20251113_0549.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has released a consultation paper proposing a formal operational framework for Investment Advisers registered under the CMI Regulations, 2025, to provide optional implementation services to their advisory clients through designated broker-dealers, Global Access Providers, or regulated foreign platforms and asset managers. This regulatory proposal applies directly to all Investment Advisers operating within the IFSC. Stakeholders and the public are invited to submit their feedback on the draft circular via email in the specified format by December 3, 2025.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:15+00:00"
     },
     {
       "id": "90112ad10e1244cb",
@@ -666,7 +774,10 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "This consultation paper outlines proposed clarifications and operational modalities regarding the maintenance of pro-rata and pari-passu investor rights in Alternative Investment Funds, specifically detailing drawdown methodologies, treatment of undrawn commitments, and exemptions for open-ended Category III AIFs and carried interest arrangements. It applies to all Alternative Investment Funds, their managers, sponsors, and trustees, with public comments invited through the online submission portal by November 28, 2025.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:22+00:00"
     },
     {
       "id": "45de1c299a8e33c0",
@@ -683,7 +794,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9142085a&fileName=PRESS_RELEASE__Consultation_Paper_on_the_proposed_IFSCA__Pension_Fund__Regulations__2025_20251104_0346.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority has released a consultation paper introducing the draft IFSCA (Pension Fund) Regulations, 2025, to establish a framework for launching forex pension schemes from the GIFT-IFSC. These proposed rules apply to market participants, stakeholders, and pension product providers targeting non-resident Indians, persons of Indian origin, and foreign expatriates. Comments and suggestions on the consultation paper must be submitted to the regulator by November 25, 2025.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:24+00:00"
     },
     {
       "id": "c94646db83d08bde",
@@ -700,7 +814,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a914203d5&fileName=CONSULTATION_PAPER_ON_THE_PROPOSED_IFSCA__PENSION_FUND__REGULATIONS__2025_20251104_0342.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "The International Financial Services Centres Authority (IFSCA) has published a consultation paper proposing the Pension Fund Regulations, 2025, which require entities wishing to act as Pension Fund Managers (PFMs) to obtain a certificate of registration, maintain a minimum net worth of USD 1 million, and meet a 10-year experience requirement in managing pension, retail, or insurance funds. These draft regulations apply to PFMs, voluntary pension schemes targeting Non-Resident Indians and foreign citizens, subscribers, and associated ecosystem entities such as custodians, trustees, and annuity service providers. Stakeholders and the general public are invited to submit their comments and suggestions on these proposed regulations via email in MS Word or MS Excel format by November 25, 2025.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:29+00:00"
     },
     {
       "id": "9d3f6e7d2a7c98a1",
@@ -719,7 +836,10 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911dd81a&fileName=Press_Release_on_BF_Consultation_Paper_23102025_1__20251024_1133.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00",
+      "summary": "IFSCA has released a consultation paper proposing a regulatory framework to permit differential distribution mechanisms in Restricted Schemes and Venture Capital Schemes, aimed at facilitating blended finance structures and mobilizing sustainable capital. The proposed flexibility applies to Fund Management Entities (FMEs) operating within GIFT IFSC that manage such schemes. Stakeholders and market participants are invited to submit their comments and feedback on the proposed framework to the regulator on or before November 11, 2025.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-23T19:55:31+00:00"
     },
     {
       "id": "0607acbf715a4e85",
@@ -738,7 +858,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911a428e&fileName=Final_Consultation_Paper_on_Differential_Distribution_under_FM_Regulation_22102025_Final_20251022_0121.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3907f80d58865172",
@@ -756,7 +876,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9112b05b&fileName=Consultation_Paper_on_Amendments_to_IFSCA__Fund_Management__Regulations__2025_20251017_1119.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "71242bc11a537b9d",
@@ -772,7 +892,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "736ad6d67185d25c",
@@ -789,7 +909,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "0cae09429e18ceea",
@@ -806,7 +926,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "73f303027ab41f19",
@@ -824,7 +944,7 @@
         "co-investment"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "03642b3c9ea8963d",
@@ -842,7 +962,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201bc1138&fileName=Fee_structure_applicable_for_Third_Party_Fund_Management_Services_20250908_0630.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "48a101be12f8558b",
@@ -861,7 +981,7 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1671e0cfa594ecfc",
@@ -878,7 +998,7 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "35907eb48e0cc2f9",
@@ -896,7 +1016,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed022016f9fa2&fileName=Fund_Management_ecosystem_at_GIFT_IFSC_records_robust_growth_amid_IFSCA%E2%80%99s_progressive_regulatory_reforms_20250807_0623.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "fb4726335a7e1888",
@@ -913,7 +1033,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201682306&fileName=Master_Circular_for_Investment_Advisers_in_the_IFSC_20250805_0226.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "e58eb6d9ee2567a8",
@@ -930,7 +1050,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201680805&fileName=Master_Circular_for_Distributors_in_the_IFSC_20250805_0224.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "64520970242c43ea",
@@ -948,7 +1068,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed0220138e431&fileName=Regulatory_action_s__against_certain_Fund_Management_Entities_for_non_compliance_with_IFSCA__Fund_Management__Regulations__2025_20250718_0112.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3babc6ebeb355244",
@@ -965,7 +1085,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb48d371&fileName=Amendatory_Circular_Operations_of_the_FCA_of_RIs_opened_under_LRS_20250623_0457.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "00289ed75c75384a",
@@ -982,7 +1102,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "dfca57cf7bf7f638",
@@ -1001,7 +1121,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20c802&fileName=extension_of_timeline_for_appointment_of_custodian_under_regulation_132_of_the_ifsca_fund_management_regulations_202525052025100420_20250610_1210.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "621ecefa88e529aa",
@@ -1019,7 +1139,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20ae89&fileName=framework_to_facilitate_co_investment_by_venture_capital_scheme_and_restricted_scheme_circular21052025101801_20250610_1200.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6a8283fb62ee4b5d",
@@ -1036,7 +1156,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20b6e4&fileName=framework_to_facilitate_co_investment_by_existing_schemes_at_gift_ifsc_press_release21052025104356_20250610_1202.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c350019d429cdfe2",
@@ -1052,7 +1172,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "74e2e84180cfe74c",
@@ -1069,7 +1189,7 @@
         "co-investment"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "815c865800e6ff9a",
@@ -1086,7 +1206,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3191bae&fileName=clarification-on-the-fee-circular_23apr2025-1-23042025053448.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "11c795ad10cb4d0e",
@@ -1104,7 +1224,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318ca97&fileName=transition-to-ifsca-fund-management-regulations-202508042025093121.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "efc910194c416eb7",
@@ -1121,7 +1241,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318bf64&fileName=ifsca-fee-circular-08apr202508042025073502.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "18c41e067d0303d6",
@@ -1139,7 +1259,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31894a7&fileName=revision-in-reporting-formats-for-fund-management-entities-in-ifsc03042025071927.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c3c029f51a45d3d9",
@@ -1156,7 +1276,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "463c5868a9769312",
@@ -1173,7 +1293,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3184592&fileName=contribution-to-settlement-guarantee-fund-sgf-07032025074301.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "253b152e93542cef",
@@ -1189,7 +1309,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6dec1f5b87d161c0",
@@ -1206,7 +1326,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c9864f5b0a58f8f9",
@@ -1224,7 +1344,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318179b&fileName=appointment-and-change-of-key-managerial-personnel-by-a-fund-management-entity20022025061756.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "ab431f5740e3ece4",
@@ -1242,7 +1362,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3180cd4&fileName=press-release-notification-of-ifsca-fund-management-regulations-202519022025091920.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "ab83d2590c2cf01d",
@@ -1258,7 +1378,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "00ecb0cd80aa8f00",
@@ -1274,7 +1394,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c750970608c4a4ec",
@@ -1291,7 +1411,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317c9e7&fileName=circular-for-les-in-bullion-exchange04022025094237.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c42280117c4c95a3",
@@ -1309,7 +1429,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5fd936&fileName=consultation-paper_spv-framework09012025022756.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "294fe3f471ed8c16",
@@ -1326,7 +1446,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317980a&fileName=press-release-ig-scheme-pdf01012025070954.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "31b6d705166d4bbd",
@@ -1344,7 +1464,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177cff&fileName=final-press-release_1-021122024061409.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "df65f19a4f9f2328",
@@ -1358,7 +1478,7 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "63a4f6e3374cde93",
@@ -1374,7 +1494,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1f1190edea638684",
@@ -1391,7 +1511,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177260&fileName=revised-circular-lrs_pdf13122024033414.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "cff0fa2a5a962245",
@@ -1408,7 +1528,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "106366a0d4849b11",
@@ -1425,7 +1545,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175a49&fileName=press-release-ig-scheme02122024063819.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "61e8fc21802d76a7",
@@ -1442,7 +1562,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175338&fileName=ifsca-informal-guidance-scheme-202405122024123631.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "5c2097db51157450",
@@ -1459,7 +1579,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "db711fd2faf75eda",
@@ -1476,7 +1596,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f316ba91&fileName=clarifications-in-relation-to-investment-restrictions-on-retail-schemes-set-up-in-ifscs29102024040618.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "9d0e3ba1df10b1cb",
@@ -1492,7 +1612,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "32a5219f71f5db04",
@@ -1510,7 +1630,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3164a5f&fileName=press-release_final27092024022301.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "252512237c664186",
@@ -1526,7 +1646,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "709eed44b571d41d",
@@ -1543,7 +1663,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f4e1c&fileName=consultation-paper-on-the-ifsca-informal-guidance-scheme-202420082024050955.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c5789a3c5c165a64",
@@ -1560,7 +1680,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "4600dfd32b79b93a",
@@ -1577,7 +1697,7 @@
         "LVF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "2051141994a34918",
@@ -1595,7 +1715,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f41d7&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-2022_publish17082024112122.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "144ac224d5a65368",
@@ -1613,7 +1733,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f3689&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-202205082024011219.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6be1f32b002ef7e6",
@@ -1627,7 +1747,7 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "7bec0d996f258591",
@@ -1643,7 +1763,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "53cb8bc2a98d29d5",
@@ -1660,7 +1780,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31468ff&fileName=press-release-on-call-for-proposal-202429052024110015.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "14e5a3f3f88f91d6",
@@ -1676,7 +1796,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6877b98ba988983f",
@@ -1692,7 +1812,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1d47ac39d92922ea",
@@ -1709,7 +1829,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "17dbe99cdd38a8ef",
@@ -1726,7 +1846,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "ef975071ca6f4eff",
@@ -1743,7 +1863,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "a24a44b500dbe093",
@@ -1760,7 +1880,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "39d961de4f33f7f7",
@@ -1776,7 +1896,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "f36c29b26a77b6b5",
@@ -1793,7 +1913,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f312a343&fileName=foreign-exchange-management-nondebt-instruments-amendment-rules-2024-24012024061058.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "cf5f6e82afbe69ee",
@@ -1810,7 +1930,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "85f313f06a054124",
@@ -1826,7 +1946,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3c78084a63fd0fdd",
@@ -1845,7 +1965,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "215a4e9f6195ba83",
@@ -1862,7 +1982,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "8a9ecefba90a4267",
@@ -1878,7 +1998,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "d78d9ab3dbfe56ba",
@@ -1895,7 +2015,7 @@
         "special situation fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "2a792d8ae51eb399",
@@ -1912,7 +2032,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5e499c&fileName=consultation-paper-on-regulatory-framework-for-accredited-investors-in-ifsc23112023073837.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3f4106dba249ee21",
@@ -1930,7 +2050,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3117836&fileName=seeking-suggestions-towards-review-of-ifsca-fund-management-regulations-202210102023075943.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "f5a0232e5c13f287",
@@ -1948,7 +2068,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f311684e&fileName=press-release-ifsca-constitutes-fund-management-advisory-committee-fmac-27092023084630.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "69b7d2f15235d590",
@@ -1964,7 +2084,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "e730aca79a549244",
@@ -1982,7 +2102,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152e89&fileName=12-not-71-2023_list-of-securities-under-47-viiab-13062024083354.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3e386473a18940ee",
@@ -2001,7 +2121,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "13c1206a954ea89c",
@@ -2018,7 +2138,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152238&fileName=11-not-49-2023_exemption-from-furnishing-return-roi13062024083213.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "21e0d6a43f911b12",
@@ -2035,7 +2155,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f315206b&fileName=10-ci-12_2023-taxability-of-income-earned-by-a-nr-investor13062024083103.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3ccd6f660074d77f",
@@ -2052,7 +2172,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "088a25fdbfb97e40",
@@ -2069,7 +2189,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3d261fda5a32b253",
@@ -2086,7 +2206,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "92fc42f12f02650e",
@@ -2103,7 +2223,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "789afe490c882fcd",
@@ -2120,7 +2240,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "dcb839769b19fecb",
@@ -2137,7 +2257,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6f134ccca9c8087c",
@@ -2155,7 +2275,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5d4b3b&fileName=consultation-paper-on-handling-of-client-funds-for-portfolio-management-services-in-ifsc15022023061012.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "b27ea85d6ebf0828",
@@ -2171,7 +2291,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "45f89042f410f43b",
@@ -2188,7 +2308,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "4993ac18899e5af0",
@@ -2204,7 +2324,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1e3730c40e007498",
@@ -2220,7 +2340,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "47ce2808db640509",
@@ -2236,7 +2356,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "dbf1a5d6ce9db361",
@@ -2253,7 +2373,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "7386e198c49fcfac",
@@ -2269,7 +2389,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "e1152bd71e9acf03",
@@ -2286,7 +2406,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "7d444f3364e083ed",
@@ -2303,7 +2423,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30e15f4&fileName=ifsca-fintech-incentive-scheme-2022_gazette-notification12092022060505.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "a905b0f9392ff5e5",
@@ -2322,7 +2442,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "b964d6dc41569f1b",
@@ -2341,7 +2461,7 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "f94d0e2f4cd3fed0",
@@ -2357,7 +2477,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "6df7d24cd9dfeee5",
@@ -2375,7 +2495,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5c6f3d&fileName=consultation-paper_07-02-202207022022063508.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "12e12bfbadb9a87b",
@@ -2391,7 +2511,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "ae8a621ac23140d8",
@@ -2408,7 +2528,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "faac12cc41a50c61",
@@ -2424,7 +2544,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "dc6b4ad0e1c190c9",
@@ -2443,7 +2563,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "3112fdb11f86e52d",
@@ -2460,7 +2580,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "33f7b3e5db6a5e95",
@@ -2477,7 +2597,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3049e90&fileName=44-aif_nfe-notification_moci10092020105421.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "4537d530798e6217",
@@ -2494,7 +2614,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c3de9af9c85ba283",
@@ -2511,7 +2631,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f314c55a&fileName=2-not-55_2019-exemption_roi-for-investors-of-category-i-and-ii-aif-in-ifsc13062024082115.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "c9e6aa3205d04528",
@@ -2530,7 +2650,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "83560edda5d6e887",
@@ -2546,7 +2666,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "11871759656b304b",
@@ -2562,7 +2682,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "68c9c8cc19146d27",
@@ -2579,7 +2699,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "59998fb3b548a502",
@@ -2595,7 +2715,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "236977649aa72e3c",
@@ -2612,7 +2732,7 @@
         "VCF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "0545876faa3eb46d",
@@ -2628,7 +2748,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "d16133710adad6cd",
@@ -2645,7 +2765,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "979cddfdb538c89d",
@@ -2662,7 +2782,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "22c92be423aea3a9",
@@ -2678,7 +2798,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "a7df6e88536b38ee",
@@ -2694,7 +2814,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "d324f3ea4a9ba6f7",
@@ -2710,7 +2830,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "dd83811f099ec9d9",
@@ -2726,7 +2846,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "60a4a29f5e8f299b",
@@ -2742,7 +2862,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "974d61179cb22661",
@@ -2758,7 +2878,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "d5565a99407f2957",
@@ -2774,7 +2894,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "b507c0489f40e1d8",
@@ -2790,7 +2910,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1fed7e9c3788f0d5",
@@ -2806,7 +2926,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "7b59315ac63213de",
@@ -2822,7 +2942,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "77fd28a1af907406",
@@ -2838,7 +2958,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "85e073c15c3867d2",
@@ -2854,7 +2974,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "1b8c12977e1dee9b",
@@ -2870,7 +2990,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     },
     {
       "id": "e80495fd753ab00a",
@@ -2886,7 +3006,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-20T11:25:34+00:00"
+      "last_seen": "2026-09-23T19:52:13+00:00"
     }
   ]
 }
