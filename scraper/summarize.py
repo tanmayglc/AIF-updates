@@ -163,6 +163,7 @@ class Summariser:
         self.key = os.environ.get(key_var, "").strip() if key_var else ""
         self.calls = 0
         self.failures = 0
+        self.last_error = None
 
     @property
     def available(self):
@@ -194,6 +195,7 @@ class Summariser:
             raw = _PROVIDERS[self.provider](prompt, self.model, self.key)
         except SummaryError as exc:
             self.failures += 1
+            self.last_error = str(exc)
             log.warning("summary failed for %s: %s", item.get("id"), exc)
             return ""
 

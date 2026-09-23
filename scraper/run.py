@@ -53,6 +53,18 @@ def parse_args(argv=None):
     return parser.parse_args(argv)
 
 
+def annotate(level, message):
+    """Emit a GitHub Actions annotation, so failures show on the run page.
+
+    Outside CI this is just a log line, so local runs stay readable.
+    """
+    text = " ".join(str(message).split())
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print("::%s::%s" % (level, text), flush=True)
+    else:
+        (log.error if level == "error" else log.warning)("%s", text)
+
+
 def summarise_pending(items, fetcher, limit, redo=False):
     """Summarise up to ``limit`` documents that have no summary yet.
 
@@ -63,6 +75,12 @@ def summarise_pending(items, fetcher, limit, redo=False):
     summariser = Summariser()
     if not summariser.available:
         log.warning("summaries skipped - %s", summariser.describe())
+        # An annotation, so the reason is on the run's summary page rather than
+        # buried in the step log.
+        annotate("error", "Summaries are enabled but %s. Add the key as a "
+                          "repository secret (Settings > Secrets and variables "
+                          "> Actions), not an environment secret."
+                 % summariser.describe())
         return 0
 
     pending = [i for i in items if redo or not i.get("summary")]
@@ -95,6 +113,15 @@ def summarise_pending(items, fetcher, limit, redo=False):
 
     log.info("summaries: %s added (%s model calls, %s failures)",
              added, summariser.calls, summariser.failures)
+
+    if summariser.failures:
+        level = "error" if added == 0 else "warning"
+        annotate(level, "%s of %s summary calls failed via %s. Last error: %s"
+                 % (summariser.failures, summariser.calls,
+                    summariser.describe(), summariser.last_error))
+    elif added == 0 and pending:
+        annotate("warning", "No summary was produced: none of the %s documents "
+                            "tried yielded extractable text."% len(pending))
     return added
 
 
