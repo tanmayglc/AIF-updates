@@ -143,7 +143,7 @@ button doesn't appear.
 | Variable | Purpose |
 | --- | --- |
 | `SUMMARY_PROVIDER` | `gemini` (default), `anthropic`, `openai`, or `none` |
-| `SUMMARY_MODEL` | Override the provider's default model |
+| `SUMMARY_MODEL` | Override the default model — set this when Google retires one |
 | `GEMINI_API_KEY` | Google AI Studio key — has a genuinely free tier |
 | `ANTHROPIC_API_KEY` | Claude |
 | `OPENAI_API_KEY` / `OPENAI_BASE_URL` | Anything OpenAI-compatible |

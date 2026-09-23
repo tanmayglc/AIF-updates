@@ -31,7 +31,10 @@ REQUEST_TIMEOUT = 90
 MAX_ATTEMPTS = 3
 
 DEFAULT_MODELS = {
-    "gemini": "gemini-2.5-flash-lite",
+    # Google retires model ids fairly briskly, and a retired one fails with a
+    # 404 naming its replacement. Override with SUMMARY_MODEL rather than
+    # editing this when that happens.
+    "gemini": "gemini-3.5-flash-lite",
     "anthropic": "claude-haiku-4-5-20251001",
     "openai": "gpt-4o-mini",
 }
@@ -90,21 +93,50 @@ def _post(url, payload, headers):
     raise SummaryError(last or "unknown error")
 
 
-def _gemini(prompt, model, key):
-    url = ("https://generativelanguage.googleapis.com/v1beta/models/"
-           "%s:generateContent" % model)
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 400},
-    }
-    data = _post(url, payload, {"x-goog-api-key": key,
-                                "Content-Type": "application/json"})
+GEMINI_ROOT = "https://generativelanguage.googleapis.com/v1beta"
+
+
+def _gemini_text(data):
+    """Pull the generated text out of either Gemini response shape."""
+    # Interactions API: {"outputs": [{"type": "text", "text": "..."}]}
+    if isinstance(data.get("output_text"), str) and data["output_text"].strip():
+        return data["output_text"]
+    outputs = data.get("outputs")
+    if isinstance(outputs, list):
+        text = "".join(b.get("text", "") for b in outputs
+                       if isinstance(b, dict) and b.get("text"))
+        if text.strip():
+            return text
+
+    # Legacy generateContent: {"candidates": [{"content": {"parts": [...]}}]}
     try:
         parts = data["candidates"][0]["content"]["parts"]
-        return "".join(p.get("text", "") for p in parts)
+        text = "".join(p.get("text", "") for p in parts)
+        if text.strip():
+            return text
     except (KeyError, IndexError, TypeError):
-        raise SummaryError("unexpected Gemini response: %s"
-                           % json.dumps(data)[:300])
+        pass
+
+    raise SummaryError("no text in Gemini response: %s" % json.dumps(data)[:300])
+
+
+def _gemini(prompt, model, key):
+    headers = {"x-goog-api-key": key, "Content-Type": "application/json"}
+
+    # The Interactions API replaced generateContent during 2026. Fall back to
+    # the old endpoint if this deployment predates it, so the scraper keeps
+    # working across the migration in either direction.
+    try:
+        data = _post(GEMINI_ROOT + "/interactions",
+                     {"model": model, "input": prompt}, headers)
+    except SummaryError as exc:
+        if "HTTP 404" not in str(exc):
+            raise
+        log.info("interactions endpoint unavailable, trying generateContent")
+        data = _post("%s/models/%s:generateContent" % (GEMINI_ROOT, model),
+                     {"contents": [{"parts": [{"text": prompt}]}]}, headers)
+
+    return _gemini_text(data)
 
 
 def _anthropic(prompt, model, key):
