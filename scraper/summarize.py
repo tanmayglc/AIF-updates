@@ -96,28 +96,74 @@ def _post(url, payload, headers):
 GEMINI_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 
 
+# Steps whose text is the model reasoning rather than its answer.
+_THOUGHT_TYPES = {"thought", "thinking", "reasoning"}
+
+
+def _text_blocks(blocks):
+    return "".join(b.get("text", "") for b in blocks or []
+                   if isinstance(b, dict) and b.get("type", "text") == "text"
+                   and isinstance(b.get("text"), str))
+
+
+def _deep_text(node, depth=0):
+    """Last resort: collect text blocks from anywhere in the response.
+
+    The Gemini response shape has changed twice during this project. Rather
+    than fail outright on a third, fall back to walking the tree for
+    ``{"type": "text", "text": ...}`` blocks.
+    """
+    if depth > 8:
+        return ""
+    if isinstance(node, dict):
+        if node.get("type") in _THOUGHT_TYPES:
+            return ""
+        if node.get("type") == "text" and isinstance(node.get("text"), str):
+            return node["text"]
+        return "".join(_deep_text(v, depth + 1) for k, v in node.items()
+                       if k not in ("usage", "metadata"))
+    if isinstance(node, list):
+        return "".join(_deep_text(v, depth + 1) for v in node)
+    return ""
+
+
 def _gemini_text(data):
-    """Pull the generated text out of either Gemini response shape."""
-    # Interactions API: {"outputs": [{"type": "text", "text": "..."}]}
+    """Pull the generated text out of any Gemini response shape seen so far."""
+    # Convenience field, when the API provides one.
     if isinstance(data.get("output_text"), str) and data["output_text"].strip():
         return data["output_text"]
-    outputs = data.get("outputs")
-    if isinstance(outputs, list):
-        text = "".join(b.get("text", "") for b in outputs
-                       if isinstance(b, dict) and b.get("text"))
-        if text.strip():
-            return text
+
+    # Interactions API: {"steps": [{"type": "model_output",
+    #                               "content": [{"type": "text", ...}]}]}
+    chunks = []
+    for step in data.get("steps") or []:
+        if isinstance(step, dict) and step.get("type") not in _THOUGHT_TYPES:
+            chunks.append(_text_blocks(step.get("content")))
+    if "".join(chunks).strip():
+        return "".join(chunks)
+
+    # An earlier interactions shape: {"outputs": [{"type": "text", ...}]}
+    if _text_blocks(data.get("outputs")).strip():
+        return _text_blocks(data.get("outputs"))
 
     # Legacy generateContent: {"candidates": [{"content": {"parts": [...]}}]}
     try:
-        parts = data["candidates"][0]["content"]["parts"]
-        text = "".join(p.get("text", "") for p in parts)
+        text = "".join(p.get("text", "")
+                       for p in data["candidates"][0]["content"]["parts"])
         if text.strip():
             return text
     except (KeyError, IndexError, TypeError):
         pass
 
-    raise SummaryError("no text in Gemini response: %s" % json.dumps(data)[:300])
+    deep = _deep_text(data)
+    if deep.strip():
+        log.warning("Gemini response shape unrecognised; recovered text by "
+                    "walking it. Top-level keys: %s", sorted(data))
+        return deep
+
+    # Name the top-level keys: that alone identifies a new shape quickly.
+    raise SummaryError("no text in Gemini response (top-level keys: %s): %s"
+                       % (sorted(data), json.dumps(data)[:600]))
 
 
 def _gemini(prompt, model, key):
