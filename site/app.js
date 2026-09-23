@@ -71,6 +71,13 @@
     });
   }
 
+  function formatDay(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) { return iso || 'unknown'; }
+    return d.toLocaleDateString(undefined,
+      { day: 'numeric', month: 'short', year: 'numeric' });
+  }
+
   function plural(n, one, many) {
     return n.toLocaleString() + ' ' + (n === 1 ? one : many);
   }
@@ -348,12 +355,50 @@
     el.meta.innerHTML =
       '<strong>' + esc(String(payload.counts.total)) + '</strong> updates tracked' +
       (parts.length ? ' &middot; ' + esc(parts.join(', ')) : '') +
-      ' &middot; last updated <strong>' + esc(formatDateTime(payload.generated_at)) + '</strong>';
+      // generated_at is when the dataset last *changed*; the separate
+      // "checked" stamp below says when it was last *looked at*.
+      ' &middot; updated <strong title="' + esc(formatDateTime(payload.generated_at)) +
+      '">' + esc(formatDay(payload.generated_at)) + '</strong>' +
+      '<span id="checked"></span>';
 
     var failed = (payload.sources && payload.sources.failed) || [];
     var ok = (payload.sources && payload.sources.ok) || [];
     el.sources.textContent = 'Sources checked on the last run: ' + ok.length +
       (failed.length ? '. Unavailable: ' + failed.join(', ') + '.' : '.');
+  }
+
+  /* "Checked 20 minutes ago" answers a question the dataset cannot: the
+     tracker checks every six hours but only changes when a regulator actually
+     publishes something, so a days-old dataset is usually correct rather than
+     broken. status.json is written into the published artifact on every run,
+     so it stays fresh without a commit. Absent locally, hence the soft fail. */
+  function ago(iso) {
+    var then = new Date(iso);
+    if (isNaN(then)) { return ''; }
+    var mins = Math.round((Date.now() - then.getTime()) / 60000);
+    if (mins < 2) { return 'just now'; }
+    if (mins < 60) { return mins + ' minutes ago'; }
+    var hours = Math.round(mins / 60);
+    if (hours < 24) { return hours === 1 ? 'an hour ago' : hours + ' hours ago'; }
+    var days = Math.round(hours / 24);
+    return days === 1 ? 'yesterday' : days + ' days ago';
+  }
+
+  function renderChecked() {
+    fetch('data/status.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (status) {
+        var node = document.getElementById('checked');
+        if (!node || !status || !status.last_checked) { return; }
+        var when = ago(status.last_checked);
+        if (!when) { return; }
+        node.innerHTML = ' &middot; checked <strong>' + esc(when) + '</strong>';
+        node.title = 'Both regulators were checked at ' +
+          formatDateTime(status.last_checked) +
+          '. The tracker checks every six hours and only changes when ' +
+          'something new is published.';
+      })
+      .catch(function () { /* no status file: leave the line as it is */ });
   }
 
   // --- wiring -------------------------------------------------------------
@@ -399,6 +444,7 @@
       state.all = (payload.items || []).filter(function (i) { return i && i.url && i.title; });
       renderMeta(payload);
       render();
+      renderChecked();
     })
     .catch(function (err) {
       fail('Could not load ' + DATA_URL + ' (' + err.message + '). ' +

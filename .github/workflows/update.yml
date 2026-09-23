@@ -153,10 +153,18 @@ jobs:
 
       # The frontend fetches ./data/news.json relative to itself, so the
       # canonical data file is copied into the published directory.
+      # The deploy job runs on every scheduled run, including the many that
+      # find no news and therefore commit nothing. Stamping the check time
+      # into the published artifact - rather than into a committed file - lets
+      # the site show "checked 20 minutes ago" without a commit per run.
       - name: Stage site
         run: |
           mkdir -p site/data
           cp data/news.json site/data/news.json
+          printf '{"last_checked":"%s","run":"%s"}\n' \
+            "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+            "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            > site/data/status.json
 
       - uses: actions/configure-pages@v5
 

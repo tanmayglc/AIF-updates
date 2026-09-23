@@ -222,8 +222,20 @@ frontend hides the button for those items.
 nothing has happened. To keep that out of the commit history, the scraper
 compares a fingerprint of each item with `last_seen` excluded and reports a
 `changed` flag; CI only commits when that flag is true. `generated_at` therefore
-means *when the dataset last changed*, which is what the site shows as "last
-updated" — the workflow's run history is the record of how recently it checked.
+means *when the dataset last changed*.
+
+### "updated" vs "checked"
+
+Those are different things, and conflating them makes a working tracker look
+broken: the regulators often publish nothing in scope for days, so a dataset
+last changed on the 20th is entirely normal on the 23rd.
+
+The site shows both. **Updated** comes from `generated_at` in `news.json`.
+**Checked** comes from `data/status.json`, which the deploy job writes into the
+published artifact on every run — including the many runs that commit nothing.
+That keeps the stamp fresh without a commit per run. It is generated at deploy
+time and never committed, so the frontend treats it as optional and simply drops
+the "checked" clause when it is missing.
 
 Dates are parsed from four different regulator formats (`Sep 07, 2026`,
 `17 Sep, 2026 +0530`, `18/09/2026`, ISO). An unrecognised format stores `null`
