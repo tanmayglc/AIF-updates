@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T12:33:41+00:00",
+  "generated_at": "2026-09-25T18:29:54+00:00",
   "counts": {
-    "total": 169,
+    "total": 170,
     "by_regulator": {
-      "SEBI": 105,
-      "IFSCA": 64
+      "IFSCA": 65,
+      "SEBI": 105
     },
     "by_doc_type": {
+      "Press Release": 34,
       "Order": 2,
       "Circular": 78,
-      "Press Release": 33,
       "Consultation Paper": 44,
       "Master Circular": 1,
       "Report": 1,
@@ -21,7 +21,7 @@
   },
   "date_range": {
     "earliest": "1996-02-13",
-    "latest": "2026-09-23"
+    "latest": "2026-09-25"
   },
   "sources": {
     "ok": [
@@ -39,6 +39,28 @@
   },
   "items": [
     {
+      "id": "1e250e46de44d96f",
+      "title": "Framework for differential distribution in Venture Capital Schemes and Restricted Schemes to facilitate blended finance and other fund structures",
+      "date": "2026-09-25",
+      "date_display": "25 Sep 2026",
+      "regulator": "IFSCA",
+      "doc_type": "Press Release",
+      "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999ddb93a&fileName=Press_Release_for_circular_on_framework_on_differential_distribution_20260925_0825.pdf&TitleName=Legal",
+      "source_page": "https://ifsca.gov.in/PressRelease/Index/MEdJSLhva0M=",
+      "source_name": "IFSCA Press Releases",
+      "matched_keywords": [
+        "fund",
+        "scheme",
+        "venture capital"
+      ],
+      "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999ddb93a&fileName=Press_Release_for_circular_on_framework_on_differential_distribution_20260925_0825.pdf",
+      "first_seen": "2026-09-25T18:29:13+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
+      "summary": "The IFSCA issued a circular on September 25, 2026, permitting Venture Capital Schemes and Restricted Schemes to issue multiple classes of units with differential distribution rights—allowing junior units to absorb lower returns or higher losses—and to accept grants up to a minority of the fund corpus for ESG-aligned schemes targeting UN Sustainable Development Goals. The framework applies to Venture Capital Schemes and Restricted Schemes under the IFSCA (Fund Management) Regulations, 2025, and mandates a minimum investment threshold of USD 1 million for Accredited Investors and USD 2 million for other investors holding subordinate units, alongside heightened disclosure requirements such as distribution waterfall illustrations and independent NAV valuations per class. The document does not specify a separate effective date or compliance timeline beyond the issuance date of September 25, 2026.",
+      "summary_model": "gemini/gemini-3.5-flash-lite",
+      "summary_at": "2026-09-25T18:29:32+00:00"
+    },
+    {
       "id": "c3e35fccdc28f02e",
       "title": "Settlement order in the matter of Nippon Yield Maximiser AIF Scheme I",
       "date": "2026-09-23",
@@ -52,7 +74,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-25T12:33:23+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has settled enforcement proceedings against Nippon Life India AIF Management Limited for failing to wind up the Nippon India Yield Maximiser AIF Scheme I and liquidate its investments within the mandated one-year window following the expiry of its extended tenure on March 8, 2020. Under the settlement order approved on August 12, 2026, the fund manager successfully resolved the violation of Regulation 29(1)(a) read with Regulation 29(7) of the AIF Regulations by remitting a financial penalty of ₹10,87,500 on August 18, 2026, on a suo-motu basis without admitting or denying the findings.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-25T12:33:31+00:00"
@@ -72,7 +94,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999b73cbe&fileName=Amendment_to_the_Circular_titled_Master_Circular_for_Distributors_in_the_IFSC_20260918_0438.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has amended its Master Circular for Distributors to formally designate the UAE, Singapore, Australia, and the European Union as permitted jurisdictions for distributing capital market products, subject to standard anti-money laundering exclusions. Additionally, the circular clarifies that the term \"jurisdiction\" refers strictly to where the product is domiciled rather than the location of its managing entity. These provisions apply to all Fund Management Entities and registered distributors within the IFSC and take effect immediately upon issuance on September 18, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:17+00:00"
@@ -112,7 +134,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d045999a68ce4&fileName=Amendments_to_the_International_Financial_Services_Centres_Authority__Fund_Management__Regulations__2025_20260916_0409.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has notified the Fund Management (Second Amendment) Regulations, 2026, which took effect on September 10, 2026, to ease compliance burdens and enhance investor protection for fund management entities operating in GIFT IFSC. The amendments apply to fund management entities, venture capital schemes, restricted schemes, and retail schemes by introducing relaxations such as extending the scheme annual report submission timeline to six months from the financial year-end, permitting higher FME capital contributions up to 25% for overseas-focused funds with Indian ultimate beneficial owners, and streamlining independent valuation and auditor appointment rules.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:25+00:00"
@@ -132,7 +154,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459999d2857&fileName=Circular_on_Extension_of_validity_of_expired_PPMs_20260911_0710.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has permitted Fund Management Entities (FMEs) to apply for an extension of expired placement memorandums for Venture Capital and Restricted Schemes, which previously required filing prior to expiry under the FM Regulations, 2025. Effective immediately from September 11, 2026, FMEs can secure six-month validity blocks—or multiple blocks for longer lapses—by paying a standard extension fee alongside a 50% late fee, provided no material changes are made to the scheme and the late fees are absorbed entirely by the FME without passing them to investors. Furthermore, these late filings remain subject to potential regulatory action for any unauthorized activities conducted during the expired period.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:28+00:00"
@@ -152,7 +174,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the compliance deadline from September 8, 2026, to March 31, 2027, for legacy Angel Funds registered on or before September 10, 2025, to fully transition to an exclusive Accredited Investor mandate. Under the revised timeline, these existing funds are restricted from offering investment opportunities to more than 200 non-Accredited Investors and must stop accepting capital contributions from non-Accredited Investors for investee company investments after March 31, 2027, while existing investor holdings remain protected as per fund documents. This relief measure applies directly to all SEBI-registered Angel Funds established on or before September 10, 2025, with the circular coming into immediate effect upon issuance.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:35+00:00"
@@ -173,7 +195,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459995479f1&fileName=Consultation_Paper_on_Secondary_Listing_of_Exchange_Traded_Funds_in_IFSC_20260827_0708.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has released a consultation paper proposing amendments to Chapter VII of the Fund Management Regulations to permit fund managers regulated in India or foreign jurisdictions to secondary list their exchange-traded funds on recognised stock exchanges in the IFSC without needing to establish a local fund management entity. This framework applies to retail-regulated ETF managers and index-replicating ETFs that have been traded for at least 12 months, provided they appoint a local representative and meet investor protection standards. Public comments on these proposed changes must be submitted by September 17, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:37+00:00"
@@ -195,7 +217,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority requires all Fund Management Entities registered under the Fund Management Regulations, 2025 to maintain a publicly accessible website or dedicated webpage containing specified operational, statutory, and investor-related disclosures. The mandate applies differently based on registration categories, requiring Authorised and Non-Retail Registered FMEs to maintain either an independent site or a group webpage, while Retail Registered FMEs must maintain an independent official website with additional scheme-specific disclosures. All existing FMEs must comply and report their URL to the regulator by December 1, 2026, whereas entities registered on or after this circular's issuance must establish their online presence before commencing operations and report the URL within thirty days of registration.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:41+00:00"
@@ -214,7 +236,7 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has released a consultation paper proposing a comprehensive overhaul of the Accredited Investor framework to expand eligibility by introducing securities market asset thresholds of INR 5 crore for individuals and INR 20 crore for body corporates, alongside streamlining onboarding via manager-led group accreditation, standardizing a three-year validity, and extending deemed accreditation to all Persons Resident Outside India. These proposed changes impact Alternative Investment Funds, Specialised Investment Funds, Portfolio Management Services, and Angel Funds, with public comments invited until September 3, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:47+00:00"
@@ -233,7 +255,7 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper issued by SEBI on August 13, 2026, seeks stakeholder feedback on reviewing the existing Accredited Investor framework to enhance operational efficiency, verification mechanisms, and digital infrastructure across the securities market ecosystem. It applies to prospective accredited investors, Alternative Investment Funds, Portfolio Management Services, fund managers, and compliance officers navigating SEBI and IFSCA regulations. The document does not prescribe a final compliance deadline or immediate regulatory mandate, as it is currently open for public comments on transitioning from minimum investment thresholds to accreditation status as the primary metric of investor risk sophistication.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:55+00:00"
@@ -254,7 +276,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has expanded the list of mandatory certification courses for employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025, by approving the \"Regulatory Framework for Fund Management in IFSC\" course offered by the Institute of Chartered Accountants of India alongside the previously notified ICSI course. Compliance is met upon successful completion of either specified certification course. This directive applies to all Fund Management Entities operating within IFSCs and comes into force immediately upon issuance on August 10, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:52:57+00:00"
@@ -274,7 +296,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA has clarified that its May 12, 2026 circular regarding implementation services for investment advisers does not apply to Fund Management Entities (FMEs) that provide advisory services. This exemption covers FMEs offering advisory services as part of their Portfolio Management Services pursuant to regulation 80 of the IFSCA (Fund Management) Regulations, 2025. The circular took effect immediately upon its issuance on August 10, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:00+00:00"
@@ -295,7 +317,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced the GARUDA mechanism via its circular dated July 30, 2026, allowing Alternative Investment Funds to roll out regular schemes after ten working days of filing their placement memoranda with an independent merchant banker, or upon registration for first-time schemes. Concurrently, Accredited Investor only funds, Large Value Funds, and Angel Funds are exempted from merchant banker routing and can launch immediately upon filing, subject to specific executive declarations and mandatory naming conventions. These regulatory changes take immediate effect for all placement memoranda filed following the notification of the SEBI AIF Second Amendment Regulations on July 14, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:06+00:00"
@@ -316,7 +338,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=29709e474fe6b066fc0cb19f7d84ce5e&fileName=Draft_IDEA_Fund_Scheme_20260723_0250.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has proposed the draft IFSC Depositor Education and Awareness Fund Scheme, 2026, which mandates Banking Units operating within the IFSC to transfer all customer deposits and credit balances remaining unclaimed or inoperative for ten years or more to a centralized IDEA Fund. The framework requires these institutions to calculate and remit cumulative balances, along with accrued interest, on the last working day of the month following the scheme's commencement or the date the amounts become due, while also establishing mechanisms for handling depositor claims, reimbursements, and fund governance. Stakeholders and the public must submit their comments and suggestions on this draft proposal by August 12, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:09+00:00"
@@ -335,7 +357,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes standardizing and rationalizing the investor consent framework under SEBI Alternative Investment Fund regulations by setting a uniform 75% unitholder approval threshold by value and offering specific voting methodologies like deemed consent, present and voting, or express voting. The proposals apply to alternative investment funds, their managers, sponsors, and investors. The document seeks public and stakeholder comments up to the unspecified date within the text, with no final compliance deadline yet enacted.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:19+00:00"
@@ -354,7 +376,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced a circular, effective June 16, 2026, allowing Alternative Investment Funds (AIFs), erstwhile Venture Capital Funds, and their schemes to retain liquidation proceeds beyond their permissible fund life under specific circumstances, such as pending or anticipated legal/tax liabilities and residual operational expenses capped at a three-year limit. To qualify for these retentions or to maintain registration solely for favorable litigation outcomes, AIFs can apply for an \"Inoperative Fund\" status by emailing SEBI, which prohibits launching new schemes and charging management fees. Additionally, impacted AIFs and Inoperative Funds must submit an annual status report detailing retained monies and liabilities through the SEBI Intermediary portal within 30 calendar days from the end of every financial year in March.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:26+00:00"
@@ -374,7 +396,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI issued a comprehensive Master Circular for Alternative Investment Funds dated June 3, 2026 (updated through September 7, 2026), which consolidates and supersedes all prior operational circulars and introduces new guidelines regarding winding-up proceeds, Inoperative Fund status, and the GARUDA mechanism for placement memorandum processing. This regulatory framework applies across all registered Alternative Investment Funds, their managers, sponsors, trustees, custodians, depositories, and registrars. Stakeholders must immediately comply with the consolidated standards, incorporating the updated requirements into their mandatory Compliance Test Reports and operational workflows.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:40+00:00"
@@ -394,7 +416,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=91427247c5628a865846d173bc3223be&fileName=Circular_on__implementation_services_by_Investment_Adviser_20260512_0723.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This IFSCA circular clarifies and operationalizes the execution channels through which Investment Advisers in the IFSC can provide implementation services to their advisory clients for executing investment advice. Specifically, advisers must route transactions via Global Access Providers or Introducing Brokers for foreign-listed products, exchange members for IFSC-listed products, and regulated platforms or asset management companies for unlisted products. Issued under the CMI Regulations, 2025, the framework takes effect immediately as of May 12, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:43+00:00"
@@ -415,7 +437,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI is proposing the 'GARUDA' mechanism to streamline Alternative Investment Fund scheme launches by reducing the waiting period for regular schemes to 10 working days, and permitting managers of accredited-investor-only schemes and angel funds to file placement memorandums directly with SEBI backed by internal executive undertakings instead of merchant banker certificates. These proposed changes apply to AIF managers, sponsors, and merchant bankers operating under the SEBI (AIF) Regulations, 2012, with stakeholders required to submit comments on the consultation paper following its release on May 11, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:51+00:00"
@@ -435,7 +457,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced a fast-track processing mechanism allowing Alternative Investment Funds to launch non-Large Value Fund schemes and circulate their Placement Memoranda to investors 30 days after filing, provided no contrary advice is received. This measure applies to AIF managers seeking to streamline capital raising and deployment processes. The operational circular implementing this framework comes into immediate effect as of April 30, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:53:56+00:00"
@@ -455,7 +477,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced a fast-track processing mechanism for Private Placement Memorandums (PPMs) of Angel Funds and non-Large Value Fund (non-LVF) AIF schemes, allowing them to launch and circulate PPMs after 30 days of filing or upon receiving registration (for first-time schemes), provided any regulator comments are addressed. Applicable immediately to all AIFs and merchant bankers—including pending PPM applications—the framework requires the first close to be declared within 12 months of eligibility and places full responsibility for disclosure accuracy on the fund manager and merchant banker.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:03+00:00"
@@ -476,7 +498,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8d33f60&fileName=Press_Release_FIF_1_20260420_0105.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has granted its inaugural registration to a foreign Family Investment Fund under the Fund Management Regulations of 2025, marking a significant milestone for private wealth structuring in the GIFT International Financial Services Centre. This regulatory milestone applies to international family offices seeking to establish compliant fund structures for managing global and India-focused portfolios from the GIFT IFSC. The press release does not specify any operational deadlines, compliance timelines, or transition dates.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:04+00:00"
@@ -496,7 +518,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a8bb71ec&fileName=Governance_and_oversight_of_Schemes_in_IFSC___Segregation_of_the_role_of_Fiduciaries__20260410_0759.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority prohibits Fund Management Entities from appointing a scheme's fiduciary—or its associates—to simultaneously provide fund administration, valuation, audit, or lending and financing services to that same scheme. Applicable to all Fund Management Entities operating in IFSCs, the mandate takes immediate effect on April 10, 2026, with an established compliance deadline of September 30, 2026, for existing schemes already on record or filed with the regulator.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:09+00:00"
@@ -517,7 +539,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895a672&fileName=Circular_on_Specification_of_Certification_Course_for_KMPs___Employees_20260401_0543.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has mandated that Key Managerial Personnel and employees handling core fund management functions within Fund Management Entities must complete the specified certification course titled \"Regulatory Framework for Fund Management in IFSC: AIFs and Retail Schemes\" offered by The Institute of Company Secretaries of India. This compliance requirement applies to all regulated Fund Management Entities operating in the IFSC, with a strict completion deadline of September 30, 2026. Additionally, the circular strongly encourages support staff, trustees, intermediaries, and fund administrators in the GIFT-IFSC ecosystem to voluntarily undertake the course, while placing direct responsibility on the entity and its controllers to ensure timely adherence.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:11+00:00"
@@ -537,7 +559,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a895927a&fileName=Amendment_to_Circular_on_Appointment_and_Change_of_KMP_by_an_FME_20260401_0541.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has omitted Paragraph 4 of its earlier circular dated February 20, 2025, thereby removing specific provisions related to the appointment and change of Key Managerial Personnel. This amendment applies directly to all Fund Management Entities operating within International Financial Services Centres. The directive comes into force with immediate effect from April 1, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:14+00:00"
@@ -556,7 +578,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has streamlined regulatory reporting for all Alternative Investment Funds by replacing the quarterly reporting requirement with a comprehensive Annual Activity Report due within 30 days of the financial year-end and a limited Quarterly Activity Report due within 15 days of the quarter-end. These filings must be submitted online through the SEBI Intermediary Portal, superseding previous guidelines with immediate effect. Under the compliance timeline, the first Annual Activity Report for the year ending March 2026 is due by May 31, 2026, while the first revised Quarterly Activity Report will apply to the quarter ending June 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:26+00:00"
@@ -576,7 +598,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d575554ec59b09e7fde503d3a810d93a&fileName=02_03_2026_IFSCA_Fee_Circular_FY_2026_27_20260302_0641.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA circular establishes a comprehensive fee structure effective March 2, 2026, categorizing charges into application, registration, recurring (flat and conditional), activity-based, processing fees, and penalties for delays or non-submission of reports. It applies to all current and prospective regulated entities, applicants, and persons seeking informal guidance within International Financial Services Centres. The framework mandates specific payment deadlines, such as settling flat recurring fees annually by April 30 and conditional fees through a two-installment advance and balance system, while detailing rules for pro-rata calculations and non-refundable fees.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:30+00:00"
@@ -596,7 +618,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe86beb803&fileName=PRESS_RELEASE__IFSCA__Pension_Fund__Regulations__2026_20260212_0840.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA approved the draft Pension Fund Regulations, 2026 on February 9, 2026, establishing a regulatory framework for Pension Fund Managers to offer voluntary global retirement products and healthcare benefit options to individuals aged 18 and above. The framework applies to registered Pension Fund Managers operating within the IFSC and mandates compliance with minimum net worth requirements, board oversight, and risk management standards. The official notification containing effective dates and detailed timelines will be released in due course.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:33+00:00"
@@ -615,7 +637,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes amending the SEBI AIF Regulations, 2012 to lower the minimum investment threshold for individual investors in Social Impact Funds from two lakh rupees to one thousand rupees. Additionally, it outlines draft circular modifications under the ICDR Regulations framework to extend the non-fund-raising registration period for Not for Profit Organizations on Social Stock Exchanges from two to three years and to reduce the minimum subscription requirement for Zero Coupon Zero Principal Instruments from 75% to 50% for proportionately allocated projects. Stakeholders must submit their comments and suggestions on these proposals by March 2, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:39+00:00"
@@ -635,7 +657,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated Alternative Investment Funds (AIFs), acting through their Registrars and Transfer Agents, to upload the latest available Net Asset Value (NAV) for each unit ISIN into the depository system starting immediately on February 6, 2026. Under this framework, the NAV must be uploaded by May 1, 2026, or within 30 days of the valuation report date or internal documentation date, whichever is later, with the AIF manager bearing direct responsibility for timely and accurate submissions. Trustees and sponsors must also ensure that compliance with these reporting standards is formally incorporated into the manager's Compliance Test Report.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:45+00:00"
@@ -655,7 +677,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes regulatory flexibilities for Alternative Investment Funds regarding the procedures for winding up a scheme and surrendering their registration with SEBI. It applies to all SEBI-registered Alternative Investment Funds and their managers navigating scheme closure or registration cancellation. The document invites public comments on the proposed framework, though specific implementation timelines and deadlines are not detailed in the provided text.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:48+00:00"
@@ -675,7 +697,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe866cdd07&fileName=Final_circular_on_Extension_of_the_PPM_27012026_20260127_0615.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has introduced a three-month one-time window allowing Fund Management Entities to extend expired or soon-to-expire Placement Memorandums for Venture Capital Schemes and Restricted Schemes. Applicable to funds registered under the IFSCA (Fund Management) Regulations, 2025, the framework provides an additional six-month validity period upon re-filing the document without material strategy changes and paying half the standard fresh filing fee. For open-ended Restricted Schemes that commenced investments after raising USD 1 million but failed to reach the USD 3 million minimum corpus within the initial period, the extension is backdated to the original PPM expiration date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:50+00:00"
@@ -697,7 +719,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=36ff47aaeb9222f627d166fe8643b3cc&fileName=Procedure_and_clarification_on_filing_of_scheme_application_under_Third_Party_Fund_Management_Arrangement_20260116_0557.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has established a standardized application procedure and documentary requirements for Registered Fund Management Entities launching schemes under Third-Party Fund Management Arrangements pursuant to the IFSCA (Fund Management) Regulations, 2025. In addition to following existing scheme filing formats from April 2024, applicants must submit extensive disclosures regarding the third-party fund manager, including home jurisdiction registration, ultimate beneficial ownership charts, historical investment track records, compliance declarations, and operational arrangements via the IFSCA Single Window IT System. This circular takes effect immediately upon issuance on January 16, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:53+00:00"
@@ -714,7 +736,7 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has revised its technical glitch framework for stock brokers to reduce compliance burdens by narrowing applicability to brokers with over 10,000 registered clients—excluding roughly 60% of smaller brokers—while exempting external or low-impact glitches, extending reporting windows to two hours, centralising notifications onto a single platform, and rationalising DR drill and penalty structures. The updated framework applies to stock brokers registered with SEBI, with the press release issued on January 9, 2026.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:54:59+00:00"
@@ -733,7 +755,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated that Compliance Officers of Alternative Investment Fund (AIF) Managers must hold the NISM Series-III-C: Securities Intermediaries Compliance (Fund) Certification Examination. This requirement applies to all AIF Managers and their compliance personnel, with a strict compliance deadline of January 1, 2027, by which time all acting compliance officers must be certified. Additionally, the mandated Compliance Test Reports prepared by managers must explicitly incorporate verification of this certification requirement.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:05+00:00"
@@ -754,7 +776,7 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular outlines the migration modalities, naming conventions, and compliance requirements for existing Alternative Investment Fund schemes converting into Accredited Investor-only (AI-only) schemes or Large Value Funds (LVFs) following the November 19, 2025 AIF regulatory amendments. It applies to all AIFs, managers, trustees, and sponsors seeking to migrate existing schemes or launch new ones, requiring positive investor consent, mandatory name changes, and reporting to SEBI and depositories within 15 days of conversion. The framework takes effect immediately on December 8, 2025, and exempts LVFs from standard placement memorandum templates and annual audits without needing investor waivers.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:12+00:00"
@@ -774,7 +796,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a91612909&fileName=Consultation_Paper_on_Implementation_Services_by_Investment_Advisers_in_IFSC_13112025_20251113_0549.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has released a consultation paper proposing a formal operational framework for Investment Advisers registered under the CMI Regulations, 2025, to provide optional implementation services to their advisory clients through designated broker-dealers, Global Access Providers, or regulated foreign platforms and asset managers. This regulatory proposal applies directly to all Investment Advisers operating within the IFSC. Stakeholders and the public are invited to submit their feedback on the draft circular via email in the specified format by December 3, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:15+00:00"
@@ -793,7 +815,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper outlines proposed clarifications and operational modalities regarding the maintenance of pro-rata and pari-passu investor rights in Alternative Investment Funds, specifically detailing drawdown methodologies, treatment of undrawn commitments, and exemptions for open-ended Category III AIFs and carried interest arrangements. It applies to all Alternative Investment Funds, their managers, sponsors, and trustees, with public comments invited through the online submission portal by November 28, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:22+00:00"
@@ -813,7 +835,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9142085a&fileName=PRESS_RELEASE__Consultation_Paper_on_the_proposed_IFSCA__Pension_Fund__Regulations__2025_20251104_0346.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has released a consultation paper introducing the draft IFSCA (Pension Fund) Regulations, 2025, to establish a framework for launching forex pension schemes from the GIFT-IFSC. These proposed rules apply to market participants, stakeholders, and pension product providers targeting non-resident Indians, persons of Indian origin, and foreign expatriates. Comments and suggestions on the consultation paper must be submitted to the regulator by November 25, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:24+00:00"
@@ -833,7 +855,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a914203d5&fileName=CONSULTATION_PAPER_ON_THE_PROPOSED_IFSCA__PENSION_FUND__REGULATIONS__2025_20251104_0342.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has published a consultation paper proposing the Pension Fund Regulations, 2025, which require entities wishing to act as Pension Fund Managers (PFMs) to obtain a certificate of registration, maintain a minimum net worth of USD 1 million, and meet a 10-year experience requirement in managing pension, retail, or insurance funds. These draft regulations apply to PFMs, voluntary pension schemes targeting Non-Resident Indians and foreign citizens, subscribers, and associated ecosystem entities such as custodians, trustees, and annuity service providers. Stakeholders and the general public are invited to submit their comments and suggestions on these proposed regulations via email in MS Word or MS Excel format by November 25, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:29+00:00"
@@ -855,7 +877,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911dd81a&fileName=Press_Release_on_BF_Consultation_Paper_23102025_1__20251024_1133.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "IFSCA has released a consultation paper proposing a regulatory framework to permit differential distribution mechanisms in Restricted Schemes and Venture Capital Schemes, aimed at facilitating blended finance structures and mobilizing sustainable capital. The proposed flexibility applies to Fund Management Entities (FMEs) operating within GIFT IFSC that manage such schemes. Stakeholders and market participants are invited to submit their comments and feedback on the proposed framework to the regulator on or before November 11, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-23T19:55:31+00:00"
@@ -877,7 +899,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a911a428e&fileName=Final_Consultation_Paper_on_Differential_Distribution_under_FM_Regulation_22102025_Final_20251022_0121.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This IFSCA consultation paper proposes amending the Fund Management Regulations, 2025 to permit differential distribution and multiple unit classes for Venture Capital Schemes and Restricted Schemes in GIFT-IFSC, specifically to enable blended finance structures. The framework targets Fund Management Entities (FMEs) operating in the IFSC, along with domestic and foreign investors, and seeks public comments without specifying a response deadline in the provided text. To mitigate associated risks such as loan ever-greening, valuation complexities, and mis-selling, the framework contemplates strict prohibitions on investee companies discharging liabilities toward fund investors, alongside mandates for independent valuations and clear Placement Memorandum disclosures.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:11+00:00"
@@ -898,7 +920,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=47a297ad49aaae8fa365313a9112b05b&fileName=Consultation_Paper_on_Amendments_to_IFSCA__Fund_Management__Regulations__2025_20251017_1119.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes amendments to the IFSCA (Fund Management) Regulations, 2025 to improve ease of doing business, add investor safeguards, and clarify regulatory provisions based on industry feedback. It applies to Fund Management Entities (FMEs) operating within the Gujarat International Finance Tec-City (GIFT-IFSC) and market participants managing venture capital, restricted, or retail schemes. Public comments and suggestions on the proposed amendments must be submitted via email to the designated IFSCA officials by November 6, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:13+00:00"
@@ -917,7 +939,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the deadline to January 31, 2026, for existing Angel Funds to incorporate a defined investment allocation methodology into their Private Placement Memorandums. Consequently, any investment allocations executed by these funds after the new deadline must strictly adhere to the methodology disclosed in their PPMs. This relaxation applies to all existing Angel Funds registered under the SEBI Alternative Investment Funds Regulations.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:19+00:00"
@@ -937,7 +959,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has proposed a draft circular requiring Alternative Investment Funds (AIFs) and their Registrar and Transfer Agents to upload updated Net Asset Values (NAVs) for all unit ISINs into the depository system within 15 days of completing an investment portfolio valuation. This mandate applies to all AIFs, depositories, and RTAs, with public comments invited until October 9, 2025. For existing schemes, the latest NAV must be uploaded within 45 days of the circular's issuance, and compliance will be overseen by fund trustees and sponsors through the manager's Compliance Test Report.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:26+00:00"
@@ -957,7 +979,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has overhauled the regulatory framework for Angel Funds under the AIF Regulations to streamline operations, enhance risk management, and mandate that all new Angel Funds onboard exclusively Accredited Investors. Existing Angel Funds must transition to an all-Accredited Investor base, declare their first close, and update their Private Placement Memorandums (PPMs) regarding investment allocation methodologies by September 8, 2026. Additionally, the circular introduces revised mandates for follow-up investments capped at INR 25 crores, establishes lock-in periods of six months to one year, removes scheme-launch requirements at the fund level, and applies compliance audit and benchmarking obligations starting from the financial year 2025-26.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:33+00:00"
@@ -978,7 +1000,7 @@
         "co-investment"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has amended its AIF Regulations to permit Category I and Category II AIFs to offer co-investment opportunities to accredited investors through a newly introduced separate co-investment scheme (CIV scheme) alongside the existing Portfolio Manager route. The circular applies to all Alternative Investment Funds, their managers, sponsors, and trustees, requiring them to adhere to strict operational modalities including shelf placement memorandum filings, asset ring-fencing, a 3x investment cap with specific sovereign and institutional exemptions, zero leverage, and proportionate expense sharing. These new framework requirements come into force with immediate effect from September 9, 2025, and must be incorporated into the managers' Compliance Test Reports.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:41+00:00"
@@ -999,7 +1021,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201bc1138&fileName=Fee_structure_applicable_for_Third_Party_Fund_Management_Services_20250908_0630.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has introduced a specific fee framework for Fund Management Entities offering third-party fund management services under the IFSCA (Fund Management) Regulations, 2025, requiring registered non-retail and retail entities to pay a USD 2,500 application fee alongside a USD 7,500 authorization fee. Additionally, these entities must pay a conditional annual recurring fee of USD 2,000 for each supported third-party fund manager every April starting the financial year following contract execution, which is separate from the flat USD 2,000 recurring fee established in the April 8, 2025 circular.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:43+00:00"
@@ -1021,7 +1043,7 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI’s consultation paper proposes significant regulatory flexibilities for Large Value Funds for Accredited Investors, including lowering the minimum capital commitment threshold from INR 70 crores to INR 25 crores and removing the 1,000-investor cap per scheme. Additionally, it suggests exempting these funds from standard Private Placement Memorandum templates, annual PPM audits, Investment Committee statutory responsibilities, and key management NISM certification requirements, while allowing existing eligible AIF schemes to transition into LVFs. These proposals apply to Alternative Investment Funds, fund managers, and accredited institutional or domestic investors, though no specific implementation deadline or effective date is provided in the excerpt.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:49+00:00"
@@ -1041,7 +1063,7 @@
         "accredited investor"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has issued a consultation paper proposing the introduction of a separate category of Alternative Investment Fund schemes restricted exclusively to accredited investors, featuring a lighter-touch regulatory framework including exemptions from pari-passu rights, an extended tenure limit of up to five years, and potential relief from key personnel certification mandates. This framework applies to AIF managers, compliance officers, and investors participating in SEBI-regulated funds as part of a long-term vision to transition from the current minimum commitment threshold of INR 1 crore to accreditation status. Stakeholders are invited to submit their comments and suggestions on these proposals, though the document does not specify a fixed deadline or effective date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:56+00:00"
@@ -1062,7 +1084,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed022016f9fa2&fileName=Fund_Management_ecosystem_at_GIFT_IFSC_records_robust_growth_amid_IFSCA%E2%80%99s_progressive_regulatory_reforms_20250807_0623.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority highlights the robust growth of the GIFT-IFSC fund management ecosystem following the rollout of the comprehensive IFSCA (Fund Management) Regulations, 2025 on February 19, 2025, alongside progressive policy measures like third-party fund management services and SPV co-investments. These regulatory frameworks apply to Fund Management Entities (FMEs), global and domestic fund managers, and international investors operating within the GIFT-IFSC. While the press release does not impose new forward-looking compliance deadlines, it underscores ongoing supervisory mechanisms, including quarterly off-site reporting and on-site inspections for registered entities, which collectively account for 177 FMEs and 272 schemes managing cumulative commitments of USD 22.11 billion as of June 30, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:34:59+00:00"
@@ -1082,7 +1104,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201682306&fileName=Master_Circular_for_Investment_Advisers_in_the_IFSC_20250805_0226.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA Master Circular for Investment Advisers, effective from August 5, 2025, sets out comprehensive regulatory requirements under the Capital Market Intermediaries Regulations, 2025, mandating that all applications, regulatory approvals, and fee payments be processed exclusively through the Single Window IT System. It applies to all current and prospective Investment Advisers operating within the IFSC, requiring them to maintain perpetual registration alongside valid SEZ Letters of Approval, while restricting investment advice provided to resident Indians exclusively to investments within the IFSC. Additionally, applicants must remit application fees immediately upon submission and pay applicable registration fees within 15 days of receiving an in-principle approval intimation.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:02+00:00"
@@ -1102,7 +1124,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed02201680805&fileName=Master_Circular_for_Distributors_in_the_IFSC_20250805_0224.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA has issued a master circular establishing the comprehensive regulatory framework for capital market distributors operating in the International Financial Services Centre under the CMI Regulations, 2025, which took effect on August 5, 2025. This framework mandates registration through the Single Window IT System, outlines a simplified application process for existing IFSC-licensed entities, and specifies governance standards, fee payment protocols in USD or INR, and perpetual validity unless revoked. The guidelines apply to all entities seeking or holding distributor status and Fund Management Entities in the IFSC, requiring applicants granted in-principle approval to pay registration fees within 15 days of intimation.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:05+00:00"
@@ -1123,7 +1145,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=21626bde60601ef44a0ed0220138e431&fileName=Regulatory_action_s__against_certain_Fund_Management_Entities_for_non_compliance_with_IFSCA__Fund_Management__Regulations__2025_20250718_0112.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has initiated enforcement proceedings against nine Fund Management Entities in GIFT IFSC for failing to maintain operational offices and ensure the physical presence of Key Management Personnel. These actions stem from surprise regulatory inspections that uncovered closed premises and absent leadership during business hours, violating specific physical presence and infrastructure mandates under the IFSCA (Fund Management) Regulations, 2025. All regulated fund managers are now formally cautioned to strictly maintain functional local offices and ensure their designated leadership is based out of the IFSC in accordance with these rules.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:07+00:00"
@@ -1143,7 +1165,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb48d371&fileName=Amendatory_Circular_Operations_of_the_FCA_of_RIs_opened_under_LRS_20250623_0457.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has amended its operational guidelines for Foreign Currency Accounts (FCAs) held by Indian resident individuals under the Liberalised Remittance Scheme (LRS) with immediate effect from June 23, 2025. Under the revised norms, IFSC Banking Units (IBUs) must now obtain specific declarations from resident individuals confirming that funds spent on financial products or services in the IFSC—as well as any outward remittances from these FCAs—align with the original purpose declared during LRS remittance or are otherwise permitted under the scheme.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:10+00:00"
@@ -1163,7 +1185,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the additional liquidation period for Venture Capital Funds (VCFs) migrating to the AIF Regulations by one year, moving the deadline from July 19, 2025, to July 19, 2026. This relaxation applies to all VCFs registered under the former 1996 Regulations that have un-wound schemes past their original liquidation expiry. However, compliance officers should note that the final deadline for eligible VCFs to formally submit their migration applications to SEBI remains strictly unchanged at July 19, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:15+00:00"
@@ -1185,7 +1207,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20c802&fileName=extension_of_timeline_for_appointment_of_custodian_under_regulation_132_of_the_ifsca_fund_management_regulations_202525052025100420_20250610_1210.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA has granted an additional six-month window—expiring on November 24, 2025—for Fund Management Entities (FMEs) in IFSCs to appoint independent custodians based in the IFSC under Regulation 132 of the FM Regulations, 2025. This extension applies to specific schemes taken on record after February 19, 2025, or those approved prior to that date but lacking a custodian agreement as of February 19, 2025. During this interim period, FMEs may utilise custodians regulated in India or foreign jurisdictions while ensuring full compliance by the end of the extended deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:17+00:00"
@@ -1206,7 +1228,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20ae89&fileName=framework_to_facilitate_co_investment_by_venture_capital_scheme_and_restricted_scheme_circular21052025101801_20250610_1200.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This IFSCA circular establishes a regulatory framework enabling Venture Capital Schemes and Restricted Schemes managed by Fund Management Entities in IFSCs to co-invest via Special Purpose Vehicles with optional leverage. It applies to all Fund Management Entities operating operational Venture Capital or Restricted Schemes in the IFSCs. The framework comes into force immediately with effect from May 21, 2025, requiring the filing of a detailed term sheet and declaration within 45 days of making an investment.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:20+00:00"
@@ -1226,7 +1248,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=f4ac1b5b4a9f69ca6f378d84bb20b6e4&fileName=framework_to_facilitate_co_investment_by_existing_schemes_at_gift_ifsc_press_release21052025104356_20250610_1202.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has operationalised a framework under the Fund Management Regulations, 2025, enabling existing venture capital and restricted schemes to set up special schemes—or Co-Investment Vehicles (CIVs)—via Special Purpose Vehicles to facilitate leveraged or unleveraged co-investments. This mechanism applies to registered Fund Management Entities operating within the GIFT IFSC. Under the new compliance timeline, these special schemes are permitted to execute investments immediately before notifying the Authority, provided the relevant term sheet is filed within 45 days from the investment date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:23+00:00"
@@ -1245,7 +1267,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the deadline from May 9, 2025, to July 31, 2025, for the key investment team of AIF managers to obtain the mandatory NISM Series-XIX-C certification. This extension applies to existing AIF schemes operational as of May 13, 2024, and those whose launch applications were pending with SEBI as of May 10, 2024. The relaxation, effective immediately, was granted following industry representations to facilitate compliance under the AIF Regulations.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:29+00:00"
@@ -1265,7 +1287,7 @@
         "co-investment"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has issued a consultation paper proposing to permit Alternative Investment Funds (AIFs) to offer co-investment opportunities in unlisted securities through a separate Co-Investment Vehicle (CIV) scheme rather than through the current Portfolio Manager (PMS) route. This proposal applies to managers and investors of Category I and Category II AIFs, and contemplates exempting these CIV schemes from certain diversification, sponsor commitment, and minimum tenure norms while restricting participation to Accredited Investors. The document is a consultation paper seeking stakeholder comments, and does not specify a final effective date or compliance deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:43+00:00"
@@ -1285,7 +1307,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3191bae&fileName=clarification-on-the-fee-circular_23apr2025-1-23042025053448.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has issued a circular modifying its fee framework for regulated entities in IFSCs, introducing specific charges for fund scheme document modifications (USD 500) and changes to key managerial personnel or directors (USD 250), alongside various operational clarifications for payment service providers, finance companies, and stock exchanges. This directive applies to all regulated entities, applicants, and persons seeking informal guidance within the IFSC, mandating that the revised fee structure governs all dues for the 2025-26 financial year regardless of payment date. Affected entities must remit any applicable fees or resulting differential amounts by May 10, 2025, or the standard due date specified in the original fee circular, whichever falls later.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:45+00:00"
@@ -1306,7 +1328,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318ca97&fileName=transition-to-ifsca-fund-management-regulations-202508042025093121.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This circular applies to all Fund Management Entities operating in International Financial Services Centres and outlines transition norms following the repeal of the FM Regulations, 2022 by the FM Regulations, 2025, which notably extend Private Placement Memorandum validity to 12 months and lower the minimum corpus threshold for Venture Capital and Restricted Schemes to USD 3 million. It grants a one-time compliance window allowing FMEs with PPMs that expired prior to February 19, 2025, to re-file their documents within 3 months of the circular date—subject to payment of 50 percent of the fresh filing fee and restrictions on material alterations—to secure an additional 6-month validity period, while also exempting processing fees for filings necessitated strictly by regulatory revisions. The circular takes effect immediately upon its issuance on April 8, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:48+00:00"
@@ -1326,7 +1348,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318bf64&fileName=ifsca-fee-circular-08apr202508042025073502.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has issued a comprehensive fee structure governing application, licensing, recurring, activity-based, processing, and late fees for all regulated entities and applicants operating within the IFSC. The framework applies to all entities seeking or holding a registration, license, authorization, or recognition from the regulator, as well as persons utilizing the Informal Guidance Scheme. The circular takes effect immediately upon issuance on April 8, 2025, with specific recurring and conditional fees mandated annually by April 30 and late dues subject to a 0.75% monthly interest.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:51+00:00"
@@ -1347,7 +1369,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31894a7&fileName=revision-in-reporting-formats-for-fund-management-entities-in-ifsc03042025071927.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has revised the periodic reporting formats for all Fund Management Entities operating in IFSCs to incorporate supervisory updates, guidance notes, retail scheme details, and alignment with the newly notified IFSCA (Fund Management) Regulations, 2025. This circular applies to all Fund Management Entities in IFSCs, which are required to file their quarterly reports using the updated formats now accessible on the regulator's website. The circular takes immediate effect from its issuance date of April 3, 2025, though no specific compliance deadline for the upcoming filing is mentioned in the text.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:54+00:00"
@@ -1367,7 +1389,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI informal guidance clarifies the regulatory framework and operational parameters for Angel Funds registered under Chapter III-A of the SEBI (Alternative Investment Funds) Regulations, 2012, specifically addressing queries raised by FirstPort Capital Angel Fund in its application dated April 12, 2024. The response provides interpretive guidance directly applicable to angel fund managers and compliance officers navigating investor thresholds, investment limits, and scheme structuring under the AIF norms. As an informal guidance issued on March 13, 2025, it does not prescribe new compliance timelines or amendments, but rather offers SEBI's official view on existing statutory provisions for the applicant.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:56+00:00"
@@ -1387,7 +1409,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3184592&fileName=contribution-to-settlement-guarantee-fund-sgf-07032025074301.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has clarified that a clearing corporation's contributions to its Settlement Guarantee Fund qualify as part of its regulatory net worth, and that interest earned on cash contributions must accrue back to the fund for proportional attribution among contributors. Issued on March 7, 2025, this circular applies directly to all clearing corporations, stock exchanges, and clearing members operating within the International Financial Services Centres, though the text does not specify a separate effective date or compliance deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:35:58+00:00"
@@ -1406,7 +1428,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the deadline to March 31, 2025, for Alternative Investment Funds to submit a one-time compliance report regarding differential rights issued to investors. This reporting requirement applies to AIF schemes with Private Placement Memorandums filed on or after March 1, 2020, that feature differential rights not covered by the Standard Setting Forum's implementation standards. The circular takes effect immediately to provide relief based on industry representations.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:04+00:00"
@@ -1426,7 +1448,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The document proposes amending the definition of Qualified Institutional Buyers under the SEBI (ICDR) Regulations, 2018, to include Accredited Investors exclusively for investments made through Angel Funds (Category I AIFs). This change aims to exempt Accredited Investors from the 200-investor private placement cap under the Companies Act, 2013, allowing Angel Funds to scale up their investor base and pool capital from a larger group of financially sophisticated individuals. The consultation paper invites public and stakeholder comments on these proposed regulatory modifications, though it does not specify a final implementation deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:12+00:00"
@@ -1447,7 +1469,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f318179b&fileName=appointment-and-change-of-key-managerial-personnel-by-a-fund-management-entity20022025061756.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This circular establishes the procedural framework for Fund Management Entities operating within International Financial Services Centres to appoint or change Key Managerial Personnel under the IFSCA (Fund Management) Regulations, 2025. It mandates that FMEs submit a prescribed intimation format accompanied by applicable fees, following which the Authority will provide its comments within seven working days. Additionally, FMEs must report vacancies immediately and ensure that any vacant KMP position is filled by a candidate joining within a strict maximum window of six months from the date of the previous incumbent's relief.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:14+00:00"
@@ -1468,7 +1490,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3180cd4&fileName=press-release-notification-of-ifsca-fund-management-regulations-202519022025091920.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA (Fund Management) Regulations, 2025, which were notified on February 19, 2025, overhaul the 2022 framework to ease compliance and boost fund operations in GIFT IFSC by lowering non-retail and retail scheme minimum corpora to USD 3 million, reducing PMS investment thresholds to USD 75,000, and removing prior approval requirements for Key Managerial Personnel appointments and foreign branch openings. These regulations apply to Fund Management Entities, alternative investment funds, family investment funds, and portfolio managers operating within the IFSC. FMEs are provided a 12-month compliance window to meet specific custodian appointment requirements.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:17+00:00"
@@ -1487,7 +1509,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has extended the deadlines for Alternative Investment Funds to dematerialise their holdings, mandating that all new investments made from July 1, 2025, must be in dematerialised form. For legacy investments made prior to that date, dematerialisation is required by October 31, 2025, only if the investee company is legally mandated to facilitate it or if the AIF (along with other regulated intermediaries) exercises control over the company. The requirements exempt schemes whose original tenure ends by October 31, 2025, or those already in their extended tenure as of February 14, 2025, with trustees and sponsors required to track compliance through the manager's Compliance Test Report.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:22+00:00"
@@ -1506,7 +1528,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has proposed amending Regulation 17(a) of the AIF Regulations, 2012, to allow Category II Alternative Investment Funds to satisfy their core mandate of investing over 50% of investible funds in unlisted assets by including listed debt securities with a credit rating of 'A' or below. This initiative applies to Category II AIFs—particularly debt-focused funds—to mitigate the shrinking unlisted debt investment universe caused by recent SEBI LODR listing mandates. Public comments on this proposal must be submitted by February 28, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:30+00:00"
@@ -1526,7 +1548,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317c9e7&fileName=circular-for-les-in-bullion-exchange04022025094237.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has permitted recognized Bullion Exchanges in the IFSC to implement Liquidity Enhancement Schemes (LES) aimed at improving activity in illiquid commodity derivatives. Effective immediately from February 4, 2025, this circular applies to Bullion Exchanges, Clearing Corporations, and bullion intermediaries operating within the IFSC, requiring exchanges to establish objective, transparent incentive frameworks capped at 25 percent of net profits, free reserves, net worth, or issued shares depending on operational milestones. Bullion Exchanges must comply by updating their internal bylaws and systems, establishing monitoring mechanisms to prevent wash trades, and submitting half-yearly review reports to the regulator.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:32+00:00"
@@ -1547,7 +1569,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5fd936&fileName=consultation-paper_spv-framework09012025022756.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has proposed a new regulatory framework to operationalize Special Purpose Vehicles under the IFSCA (Fund Management) Regulations, 2022, enabling fund management entities to facilitate co-investments, secure leverage, or ringfence assets in single portfolio companies through a controlling scheme holding at least 50 percent equity. This consultation paper applies to registered fund management entities operating in IFSCs, their controlling schemes, and associated co-investors, with public comments invited until January 31, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:35+00:00"
@@ -1567,7 +1589,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f317980a&fileName=press-release-ig-scheme-pdf01012025070954.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has operationalized the Informal Guidance Scheme, 2024, starting January 1, 2025, to provide regulatory clarification to market participants. Regulated entities and stakeholders seeking guidance under this framework are required to use the specific application format available on the regulator's website.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:38+00:00"
@@ -1588,7 +1610,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177cff&fileName=final-press-release_1-021122024061409.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The IFSCA has revised its Fund Management Regulations, effective following the December 19, 2024 board approval, to ease compliance and lower entry barriers for Fund Management Entities (FMEs), non-retail schemes, retail schemes, and portfolio management services operating in the IFSC. The updated framework applies to all registered FMEs, fund managers, and market participants offering venture capital, restricted, retail, and fund-of-funds schemes, as well as portfolio management services. Key timelines include a 12-month transition period for appointing local custodians in the IFSC and a 12-month window for open-ended schemes to achieve the reduced minimum corpus of USD 3 million after initial deployment begins at USD 1 million.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:36:41+00:00"
@@ -1605,7 +1627,7 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "Chemmanur Credits and Investments Limited is offering a public issue of secured, redeemable, non-convertible debentures amounting to a base size of ₹5,000 lakh with an over-subscription retention option of up to ₹4,000 lakh, aggregating to a total issue size of ₹9,000 lakh. This debt issuance is directed at eligible investors looking to subscribe to the company's NCDs through the designated application process. The subscription period opens on December 31, 2024, and closes on January 13, 2025, subject to potential early closure or extension options.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:38:25+00:00"
@@ -1624,7 +1646,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular operationalizes the November 2024 amendments to the AIF Regulations concerning investor pro-rata and pari-passu rights, establishing permissible carve-outs such as excused investors, defaults, carried interest, and junior/subordinate units for specific institutional sponsors. It applies to all Alternative Investment Funds, their managers, sponsors, and key management personnel, requiring the Standard Setting Forum to publish implementation standards for differential rights by January 15, 2025, managers to report non-conforming differential rights to SEBI by February 28, 2025, and existing priority-distribution schemes without exemptions to halt fresh commitments and new investments immediately upon taking effect on December 13, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:38:32+00:00"
@@ -1644,7 +1666,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3177260&fileName=revised-circular-lrs_pdf13122024033414.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This IFSCA circular applies to all IFSC Banking Units (IBUs) and sets out operational and compliance directions for maintaining Foreign Currency Accounts (FCAs) opened by Indian resident individuals under the Liberalised Remittance Scheme (LRS). It mandates that IBUs enforce the 180-day repatriation timeline for unspent funds, secure specific investor declarations regarding source and usage, restrict fixed deposits to under 180 days, and implement digital onboarding mechanisms through parent banks. Coming into effect immediately on December 13, 2024, the framework supersedes the previous circular issued on October 10, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:38:34+00:00"
@@ -1664,7 +1686,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has officially classified the Corporate Debt Market Development Fund (CDMDF) as a Category I Alternative Investment Fund under the AIF Regulations, following industry representations for regulatory clarity. This classification applies to Asset Management Companies, Trustee Companies, the Board of Trustees of Mutual Funds, the Trustee Company of CDMDF, and the Association of Mutual Funds in India. The circular takes immediate effect from its issuance date of December 13, 2024, without specifying any separate compliance deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T00:38:39+00:00"
@@ -1684,7 +1706,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175a49&fileName=press-release-ig-scheme02122024063819.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centre Authority has introduced the Informal Guidance Scheme, 2024, enabling eligible applicants to seek regulatory clarity through No-Action and Interpretative letters for a fee of USD 1000. This mechanism applies to existing IFSCA-regulated entities, prospective businesses planning transactions in financial products or services, and those intending to establish a Unit in an IFSC. The scheme becomes effective on January 1, 2025, with the relevant department mandated to issue guidance within 30 days and offering up to 90 days of confidential treatment upon request.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:33:12+00:00"
@@ -1704,7 +1726,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3175338&fileName=ifsca-informal-guidance-scheme-202405122024123631.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (Informal Guidance) Scheme, 2024 establishes a formal mechanism allowing regulated entities, prospective IFSC units, and financial service providers to seek No-Action Letters and Interpretive Letters regarding regulatory compliance and proposed business activities. Applicants must submit requests electronically along with a fee of USD 1,000, while responding to departmental clarifications within 15 days to facilitate a disposal timeline of 30 days. The scheme takes effect on January 1, 2025, with issued guidance remaining non-binding on the regulator and subject to discretionary public disclosure with optional confidentiality lasting up to 90 days.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:33:20+00:00"
@@ -1724,7 +1746,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI's consultation paper proposes retaining Angel Funds as a regulated sub-category of Alternative Investment Funds despite the abolition of the Angel Tax, while overhauling the fundraising framework to restrict participation exclusively to Accredited Investors verified by third-party agencies. The proposals apply to registered Angel Funds, managers, and prospective angel investors, though the document does not specify a final implementation date or compliance deadline as it currently seeks public feedback.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:33:29+00:00"
@@ -1763,7 +1785,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI mandates specific due diligence by Alternative Investment Funds (AIFs), managers, and key management personnel to prevent the circumvention of regulatory frameworks concerning Qualified Institutional Buyers (QIBs), Qualified Buyers (QBs), RBI stressed asset norms, and foreign investments from countries sharing land borders with India. This circular applies to all AIFs, their managers, key management personnel, and custodians. Compliance for reporting existing non-compliant investments or submitting undertaking letters to custodians is set for April 7, 2025, with custodians required to submit compiled data to SEBI by May 7, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:33:59+00:00"
@@ -1784,7 +1806,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3164a5f&fileName=press-release_final27092024022301.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "To promote sustainable finance and establish GIFT IFSC as a global climate finance hub, the IFSCA has waived the fund filing fees for the first 10 Environmental, Social, and Governance (ESG) funds filed at the jurisdiction. This incentive applies to all Registered Fund Management Entities (FMEs) operating within GIFT IFSC. The press release dated September 27, 2024, does not specify a distinct application deadline or effective date, noting only that the waiver is available on a first-come basis for the initial 10 qualifying ESG fund filings, with one fund having already utilized the benefit.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:01+00:00"
@@ -1803,7 +1825,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has modified its AIF valuation framework to clarify that securities not governed by Mutual Fund norms must be valued using industry-endorsed guidelines like IPEV, while relaxing the definition of material changes, introducing specific professional qualifications for corporate independent valuers, and extending the annual valuation reporting deadline to October 31. These changes apply to all SEBI-registered Alternative Investment Funds, their managers, trustees, and sponsors, with immediate effect, except for prospective harmonization rules for thinly and non-traded securities slated for March 31, 2025.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:14+00:00"
@@ -1823,7 +1845,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f4e1c&fileName=consultation-paper-on-the-ifsca-informal-guidance-scheme-202420082024050955.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (Informal Guidance) Scheme, 2024 introduces a formal mechanism allowing current entities, prospective IFSC unit applicants, and authorized persons to seek regulatory clarity through 'No-Action' or 'Interpretive' letters by paying a fee of USD 1,000. Under this framework, the relevant department must ordinarily dispose of complete applications within 30 days, while offering confidentiality for up to 90 days post-response. Stakeholders and the general public can submit comments and suggestions on this proposed consultation paper until September 10, 2024, with the scheme coming into operation immediately upon final notification.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:16+00:00"
@@ -1843,7 +1865,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular establishes the framework and modalities for Venture Capital Funds registered under the 1996 VCF Regulations to migrate to the SEBI AIF Regulations, 2012, allowing them to handle unliquidated investments. It applies to all erstwhile VCFs and their managers, trustees, and sponsors, with a migration window and surrender deadline for inactive funds set for July 19, 2025, and March 31, 2025, respectively. The rules take effect immediately on August 19, 2024, requiring ongoing compliance to be incorporated into the manager's Compliance Test Report.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:31+00:00"
@@ -1863,7 +1885,7 @@
         "LVF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has updated operational norms for Category I and Category II Alternative Investment Funds, permitting them to borrow funds to bridge shortfalls in investor drawdowns for imminent investments under strict caps, while mandating a 30-day cooling-off period between any borrowings. Additionally, the circular requires Large Value Funds for Accredited Investors (LVFs) whose extension terms exceed the prescribed five-year limit or lack PPM disclosures to realign their tenure terms by November 18, 2024, and incorporate these changes into their Compliance Test Reports. These regulatory updates take effect immediately on August 19, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:39+00:00"
@@ -1884,7 +1906,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f41d7&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-2022_publish17082024112122.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has proposed an amendment to the Fund Management Regulations, 2022, to introduce a new chapter enabling registered Fund Management Entities (FMEs) to offer third-party fund management services, commonly known as platform play. Under the proposed framework, FMEs managing such strategies must ensure operational independence, appoint distinct Principal and Compliance Officers for each strategy, provide prominent disclosures in offer documents, and mandate that any scheme reaching USD 10 million in assets under management migrates into a separate, independent FME. Stakeholders and the general public are invited to submit their comments and suggestions on these proposals via email to the designated IFSCA officials by August 26, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:41+00:00"
@@ -1905,7 +1927,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5f3689&fileName=consultation-paper-on-review-of-ifsca-fund-management-regulations-202205082024011219.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has published a consultation paper proposing amendments to the IFSCA (Fund Management) Regulations, 2022 to enhance ease of doing business, introduce regulatory safeguards, and clarify existing provisions for fund management entities and scheme structures in GIFT-IFSC. These proposals directly impact registered Fund Management Entities (FMEs), distributors, and market participants operating within the IFSC. Stakeholders and the public are required to submit their comments and suggestions to the designated IFSCA officials by August 26, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:45+00:00"
@@ -1922,7 +1944,7 @@
       "source_name": "SEBI AIF category listing",
       "matched_keywords": [],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI issued Prohibitory Order No. 1012/2024 on July 16, 2024, against Mr. Arvind Babulal Goyal under recovery certificates No. 6612 and 7023 of 2023. The order enforces recovery proceedings against the named individual, though the source text does not specify exact financial amounts or compliance deadlines.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:34:51+00:00"
@@ -1941,7 +1963,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular mandates Alternative Investment Funds (AIFs) to file specific information memorandums, merchant banker due diligence certificates, and compliance details when schemes opt for a dissolution period or avail an additional liquidation period. It further clarifies that non-mandatory in-specie distributions of unliquidated assets require approval from at least 75% of investors by investment value. Taking effect immediately on July 9, 2024, the filing requirements apply before the expiry of a scheme's liquidation or additional liquidation period, while schemes whose liquidation period expired or expires within three months of the April 25, 2024 amendment (i.e., by July 24, 2024) can seek an additional liquidation period.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:01+00:00"
@@ -1961,7 +1983,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f31468ff&fileName=press-release-on-call-for-proposal-202429052024110015.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has launched its Call for Proposals - 2024 under its existing research grant framework to study the empirical impact of IFSCs on international financial services business from 2015 to 2024. This initiative invites interested entities to submit research proposals that will assist the regulator in policy formulation and impact assessment for GIFT IFSC. Eligible applicants must submit their proposals via email to the Division of Economic Policy and Analysis by the deadline of June 28, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:03+00:00"
@@ -1980,7 +2002,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes regulatory relaxations for Alternative Investment Funds regarding portfolio valuation frameworks, including exempting unlisted securities from Mutual Fund valuation norms, clarifying that shifts in valuation methodologies to meet regulatory compliance or within permitted guidelines do not constitute material changes requiring investor exit options, and broadening independent valuer eligibility criteria. The proposals directly apply to SEBI-registered Alternative Investment Funds, their managers, and independent valuers. The document does not specify a final implementation date, as it invites public comments and feedback.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:10+00:00"
@@ -1999,7 +2021,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated that at least one key personnel within an AIF manager's investment team must pass the NISM Series-XIX-C Alternative Investment Fund Managers Certification Examination. This requirement applies to all AIF managers, with immediate enforcement for new AIF registration and scheme launch applications filed after May 10, 2024. Existing AIF schemes and pending scheme applications as of May 10, 2024, are granted a transition period to comply by May 9, 2025, with trustees and sponsors required to verify compliance through the manager's Compliance Test Report.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:16+00:00"
@@ -2019,7 +2041,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has relaxed compliance requirements by permitting Alternative Investment Funds (AIFs) to file certain Private Placement Memorandum (PPM) modifications directly with the regulator rather than routing them through a merchant banker. Additionally, Large Value Funds for Accredited Investors are completely exempted from using a merchant banker for PPM updates, provided they submit a compliance undertaking signed by the manager's CEO and Compliance Officer. These relaxations come into force with immediate effect from April 29, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:29+00:00"
@@ -2039,7 +2061,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has permitted Category I and II Alternative Investment Funds to encumber their equity holdings in infrastructure investee companies to facilitate debt raising, subject to strict Private Placement Memorandum disclosures and investment agreement safeguards. The framework applies to all Category I and II AIFs and requires existing non-compliant encumbrances to either obtain 100% investor consent by October 24, 2024 (with removal by January 24, 2025 if consent is denied) or be removed entirely by October 24, 2024. Additionally, managers must adhere to upcoming Standard Setting Forum implementation standards and ensure compliance is formally documented in their Compliance Test Reports.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:34+00:00"
@@ -2059,7 +2081,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has operationalized the Alternative Investment Funds (Second Amendment) Regulations, 2024 by outlining a detailed framework for managing unliquidated scheme assets through a 75% investor consent-backed \"Dissolution Period,\" mandatory in-specie distributions, and a one-time fresh liquidation extension until April 24, 2025, for schemes whose liquidation periods expired or expire by July 24, 2024. Applicable to all Alternative Investment Funds, their managers, trustees, and key management personnel, the circular takes immediate effect on April 26, 2024, simultaneously discontinuing the future launch of new liquidation schemes.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:42+00:00"
@@ -2079,7 +2101,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI's consultation paper proposes relaxing the compliance requirement where Alternative Investment Funds must route Private Placement Memorandum amendments through a merchant banker, allowing specific routine updates and entire sections to be filed directly with the regulator instead. Additionally, Large Value Funds for Accredited Investors are entirely exempted from utilizing a merchant banker for PPM modifications, provided they submit a filing accompanied by an undertaking signed by the manager's CEO and compliance officer. Public comments on this draft framework are invited until April 26, 2024, with the final circular intended to take effect immediately upon issuance.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:49+00:00"
@@ -2098,7 +2120,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI is proposing amendments to its Alternative Investment Fund regulations to permit Category I and II AIFs to encumber their equity holdings in infrastructure investee companies specifically to secure debt raised by those companies. This proposed regulatory flexibility applies to AIFs investing in infrastructure sub-sectors listed in the Harmonized Master List issued by the Ministry of Finance. The consultation paper invites public and stakeholder comments up to the date specified in the notice, though the excerpt ends before providing a specific deadline or effective date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:56+00:00"
@@ -2118,7 +2140,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f312a343&fileName=foreign-exchange-management-nondebt-instruments-amendment-rules-2024-24012024061058.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "Effective January 24, 2024, the Ministry of Finance amended the Foreign Exchange Management (Non-debt Instruments) Rules, 2019, to establish a framework enabling public Indian companies to directly list and issue ordinary shares on international exchanges located in permitted jurisdictions like GIFT-IFSC. The rules apply to unlisted and listed public Indian companies, their existing shareholders, and eligible foreign holders, subject to specific regulatory eligibility criteria, pricing mechanisms, and anti-money laundering compliance.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:35:59+00:00"
@@ -2138,7 +2160,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI proposes amending the AIF Regulations, 2012, to mandate that AIFs, their managers, and key management personnel conduct specific pre-investment due diligence to ensure investments do not facilitate the circumvention of any financial sector regulations, with non-compliant investor participation requiring either investment withdrawal or investor exclusion. This obligation applies to all Alternative Investment Funds, their managers, and key management personnel. Public comments on this proposal must be submitted by February 11, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:33:21+00:00"
@@ -2157,7 +2179,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular mandates that all Alternative Investment Funds must hold their investments in dematerialized form for any fresh investments made from October 1, 2024, onwards, while imposing the same requirement by January 31, 2025, on prior investments where the investee company is legally mandated to dematerialize or where the AIF and other regulated intermediaries exercise control. Furthermore, Category I and II AIF schemes with a corpus of up to INR 500 crore that already held investments as of January 12, 2024, as well as AIFs utilizing associate custodians, must appoint a registered custodian and comply with related regulations by January 31, 2025. Managers and custodians are also required to adopt upcoming implementation standards for reporting custody data, incorporate compliance into their quarterly filings and Compliance Test Reports, and ensure new schemes appoint a custodian prior to making their first investment.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:40:58+00:00"
@@ -2179,7 +2201,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI is proposing amendments to allow Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) to manage unliquidated investments via a \"Dissolution Period\" upon obtaining a 75% investor consent threshold and arranging a 25% portfolio bid, replacing the previous requirement to launch a separate liquidation scheme. This framework applies to registered AIF managers, their schemes, legacy AIFs whose liquidation periods expired prior to June 15, 2023 (granting them a fresh one-year liquidation period), and erstwhile VCFs transitioning to the AIF regime. The consultation paper invites public comments, but the text truncates before specifying the final compliance submission deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:10+00:00"
@@ -2199,7 +2221,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has updated its AIF Master Circular to align beneficial ownership criteria with recent amendments to the Prevention of Money Laundering Rules, prohibiting AIFs from accepting capital contributions from investors or beneficial owners linked to UNSC sanctions lists or high-risk FATF jurisdictions. This restriction applies to all registered Alternative Investment Funds and immediately halts capital drawdowns from any existing or newly on-boarded investors who fail to satisfy these revised screening standards, effective from January 11, 2024.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:25+00:00"
@@ -2218,7 +2240,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has established a procedural framework allowing Alternative Investment Funds to credit units to an \"Aggregate Escrow Demat Account\" for investors who have failed to submit their demat particulars, pending subsequent transfer to the investors' actual accounts once details are furnished. This mandate applies to all AIFs, fund managers, depositories, and custodians, with compliance deadlines set for January 31, 2024, for schemes with a corpus of INR 500 crores or more, and May 10, 2024, for schemes with a corpus under INR 500 crores.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:33+00:00"
@@ -2238,7 +2260,7 @@
         "special situation fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes amendments to the SEBI (Alternative Investment Funds) Regulations, 2012 to align the regulatory framework for Special Situation Funds (SSFs) with the Reserve Bank of India's Master Directions on Transfer of Loan Exposures, enabling SSFs to acquire stressed loans. The proposed changes apply to all SSFs, their managers, sponsors, and investors, introducing stricter eligibility checks, expanded conflict-of-interest restrictions, post-lock-in transfer limitations, and mandatory reporting obligations. The document does not specify a final implementation deadline as it is currently open for public feedback.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:40+00:00"
@@ -2258,7 +2280,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5e499c&fileName=consultation-paper-on-regulatory-framework-for-accredited-investors-in-ifsc23112023073837.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This IFSCA consultation paper proposes a formal regulatory framework for identifying, onboarding, and reviewing Accredited Investors in the International Financial Services Centre, setting specific financial thresholds such as an annual income of USD 200,000 or net assets of USD 1 million for individuals. It applies to regulated entities—including fund management entities and intermediaries—that accept or distribute products to such investors, requiring them to establish internal verification policies, maintain records for at least ten years, and secure written acknowledgments regarding reduced investor protections and voluntary consent. The document was published on November 23, 2023, for public comments and does not specify a final compliance deadline or effective date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:51+00:00"
@@ -2279,7 +2301,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3117836&fileName=seeking-suggestions-towards-review-of-ifsca-fund-management-regulations-202210102023075943.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has invited public comments and recommendations from regulated entities and stakeholders to comprehensively review the IFSCA (Fund Management) Regulations, 2022, in line with Union Budget directives to ease compliance. Submissions must be emailed in MS Word or MS Excel format using a prescribed template to designated Authority officials by October 31, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:53+00:00"
@@ -2300,7 +2322,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f311684e&fileName=press-release-ifsca-constitutes-fund-management-advisory-committee-fmac-27092023084630.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (IFSCA) has established a standing Fund Management Advisory Committee, chaired by former RBI Deputy Governor N S Vishwanathan, to guide the growth, product innovation, and regulation of the fund management sector in IFSCs. Comprising industry leaders, legal and tax experts, and former regulators, the committee is tasked with formulating long-term development plans, benchmarking the IFSCA (Fund Management) Regulations, 2022 against global standards, and identifying potential market malpractices. The press release issued on September 27, 2023, does not specify any operational deadlines or direct compliance requirements for market participants.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:41:55+00:00"
@@ -2319,7 +2341,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced a revised quarterly reporting format for Alternative Investment Funds to standardise compliance and facilitate regulatory oversight, developed in consultation with industry associations like IVCA and Equalifi. The updated reports must be filed online through the SEBI Intermediary Portal within 15 calendar days from the end of each quarter. As part of the rollout timeline, a trial run for the June 2023 quarter is mandated by October 15, 2023, the report for the September 30, 2023 quarter is due by November 15, 2023, and regular compliance under the new format commences for the quarter ending December 31, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:03+00:00"
@@ -2340,7 +2362,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152e89&fileName=12-not-71-2023_list-of-securities-under-47-viiab-13062024083354.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The Central Board of Direct Taxes has amended Notification No. 16/2020 to include units of investment trusts, schemes, and exchange-traded funds (ETFs) launched under the International Financial Services Centres Authority (Fund Management) Regulations, 2022, within the scope of specified capital assets under section 47(viiab) of the Income-tax Act, 1961. This amendment applies to relevant entities and transactions involving these specific units in IFSC-domiciled funds. The notification comes into force immediately upon its publication in the Official Gazette on September 12, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:06+00:00"
@@ -2362,7 +2384,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has reduced the validity period for making approved overseas investments from six months to four months to ensure more efficient utilization of allocated limits within the industry. This update applies to all registered Alternative Investment Funds and erstwhile Venture Capital Funds seeking offshore investment approvals. The revised four-month timeline takes effect for all overseas investment approvals granted by SEBI on or after August 4, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:12+00:00"
@@ -2382,7 +2404,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3152238&fileName=11-not-49-2023_exemption-from-furnishing-return-roi13062024083213.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The Central Board of Direct Taxes amended Notification No. 55/2019 to expand the definition of an \"investment fund\" under Section 139(1C) of the Income-tax Act, 1961, ensuring that Category I and Category II funds regulated by the International Financial Services Centres Authority (IFSCA) under the IFSCA (Fund Management) Regulations, 2022 are now included alongside SEBI-regulated AIFs. This inclusion applies to investment funds established or incorporated in India as a trust, company, limited liability partnership, or body corporate. The notification came into force immediately upon its publication in the Official Gazette on July 14, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:15+00:00"
@@ -2402,7 +2424,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f315206b&fileName=10-ci-12_2023-taxability-of-income-earned-by-a-nr-investor13062024083103.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This Central Board of Direct Taxes circular updates earlier tax guidelines to incorporate the International Financial Services Centres Authority (Fund Management) Regulations, 2022, following amendments made by the Finance Act of 2023. Consequently, the tax pass-through regime under section 115UB of the Income-tax Act, 1961, now formally extends to Category I and Category II Alternative Investment Funds regulated by either SEBI or the IFSCA. The clarification takes effect immediately upon its issuance on July 12, 2023, and applies to non-resident investors routing offshore investments through these qualifying funds.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:20+00:00"
@@ -2422,7 +2444,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular establishes a standardized valuation framework for Alternative Investment Funds, requiring them to follow Mutual Fund norms or industry association guidelines, appoint independent valuers meeting specific eligibility criteria, and adhere to strict disclosure mandates for valuation deviations and methodology changes. It applies to all SEBI-registered Alternative Investment Funds, their managers, sponsors, and trustees. The provisions take effect on November 1, 2023, with specific requirements for reporting audited investee data to performance benchmarking agencies within stipulated timelines.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:25+00:00"
@@ -2442,7 +2464,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has established operational modalities under the June 15, 2023 AIF Regulations amendments enabling Alternative Investment Funds to launch Liquidation Schemes or execute in-specie distributions for unliquidated assets during a scheme's one-year liquidation period, requiring 75% investor consent by value, a mandatory 25% minimum bid arrangement for exit options, and specific valuation frameworks for manager track records. This circular applies to all Alternative Investment Funds, their managers, trustees, and key management personnel, and comes into force with immediate effect from June 21, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:33+00:00"
@@ -2462,7 +2484,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes amending the SEBI (Alternative Investment Funds) Regulations, 2012, to explicitly mandate that AIFs maintain pro-rata and pari-passu rights for investors across all investments and distributions, thereby effectively restricting priority distribution and tranching models. These proposed requirements would apply directly to all Alternative Investment Funds, their managers, sponsors, and investors, particularly targeting structures that risk regulatory arbitrage or ever-greening of loans. While an interim circular issued on November 23, 2022, immediately halted affected AIF schemes from accepting fresh commitments or making new investments pending a final regulatory decision, this consultation paper seeks public and stakeholder inputs without specifying a final implementation deadline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T06:42:43+00:00"
@@ -2482,7 +2504,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has proposed tightening Qualified Institutional Buyer (QIB) eligibility criteria to prevent regulatory arbitrage by closely held vehicles. Under the proposal, Alternative Investment Funds (AIFs) and Venture Capital Funds (VCFs) where a single investor or a group of related parties contribute 50% or more, alongside Foreign Venture Capital Investors (FVCIs) structured as corporate bodies or family offices, will lose their QIB status. Public comments on these proposed amendments are invited until June 1, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:33:29+00:00"
@@ -2502,7 +2524,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes tightening AIF governance by restricting Category I and II funds from borrowing for investments—allowing it only in emergencies for drawdown shortfalls up to ten percent with a thirty-day cooling-off period—and mandating that all AIFs hold their portfolio securities exclusively in dematerialized form. It applies to all Alternative Investment Funds, Category I and II AIF managers, and sponsors, while introducing a six-month compliance timeline for dematerializing existing investments where funds hold a controlling interest.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:34:02+00:00"
@@ -2522,7 +2544,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated that all Alternative Investment Fund (AIF) schemes must introduce a Direct Plan without any distribution or placement fees, and requires investors using SEBI-registered intermediaries that charge separate advisory or portfolio management fees to be compulsorily on-boarded through these Direct Plans. Furthermore, the circular enforces a trail model for distribution commissions, prohibiting upfront fees entirely for Category III AIFs—where commissions must be paid solely on an equal trail basis out of the manager's management fee—while permitting Category I and II AIFs to pay a maximum of one-third upfront and the rest as an equal trail over the fund's tenure. These compliance requirements apply to all AIFs and their schemes with respect to investors on-boarded from May 1, 2023 onwards.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:34:29+00:00"
@@ -2543,7 +2565,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5d4b3b&fileName=consultation-paper-on-handling-of-client-funds-for-portfolio-management-services-in-ifsc15022023061012.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority has proposed amending Regulation 77(2) of the IFSCA (Fund Management) Regulations, 2022, to grant Fund Management Entities providing Portfolio Management Services greater flexibility in handling client funds. Under the proposed framework, clients may maintain their funds in a specific account with an IFSC Banking Unit, a bank in India, or a foreign jurisdiction, provided the Fund Management Entity is authorized to operate the account and can furnish transactional details to the regulator upon request. Stakeholders and the public were invited to submit their comments and suggestions on these proposed amendments by March 8, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:34:34+00:00"
@@ -2562,7 +2584,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has proposed amending the Alternative Investment Fund Regulations, 2012 to remove the mandatory five-year experience requirement for the key investment team of an AIF manager and replace it, alongside introducing a new regulatory qualification mandate for AIF compliance officers, with specific certification requirements from notified institutions. These proposed changes apply directly to managers of all registered Alternative Investment Funds, who were required to submit their public comments on these proposals by February 18, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:35:12+00:00"
@@ -2582,7 +2604,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has proposed mandating Alternative Investment Funds (AIFs) to offer zero-distribution-fee direct plans, requiring investors using fee-charging intermediaries like Investment Advisers or Portfolio Managers to use this route with adjusted unit allocations for equal NAVs. Additionally, the consultation paper proposes replacing upfront commissions with a full trail model for Category III AIFs, while permitting Category I and II AIFs to pay up to one-third of the total distribution fee upfront in the first year with the remainder on a trail basis. Stakeholders and market participants were invited to submit public comments on these proposals by February 18, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:35:27+00:00"
@@ -2601,7 +2623,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI proposes to mandate the dematerialisation of all Alternative Investment Fund units in a phased manner, starting with schemes having a corpus exceeding INR 500 crores by April 1, 2024. While electronic holding will become compulsory, fund managers will retain control over unit transfers through private placement memorandums and investor agreements. This requirement applies to AIF managers, funds, and their investors, with public comments invited until February 18, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:36:07+00:00"
@@ -2620,7 +2642,7 @@
         "AIF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI proposes to mandate that Alternative Investment Funds (AIFs) must secure approval from at least 75% of investors by investment value before purchasing or selling portfolio investments involving associates or related AIF schemes managed by the same Sponsor, Manager, or their affiliates. This requirement directly impacts all registered AIF managers, sponsors, and compliance officers structuring secondary transactions or cross-trades within fund groups. Public comments on this consultation paper are invited by February 18, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:36:54+00:00"
@@ -2639,7 +2661,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has issued a consultation paper proposing a framework that allows Alternative Investment Funds and Large Value Funds to transfer unliquidated scheme assets into a new scheme upon tenure expiry, subject to a 75% investor consent threshold by value. To ensure transparent valuation and liquidity, managers must secure third-party bids for at least 25% of the unliquidated portfolio to provide pro-rata exits, or alternatively rely on Insolvency and Bankruptcy Code liquidation values. Public comments on these proposed rules must be submitted in the specified format by February 18, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:37:00+00:00"
@@ -2659,7 +2681,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated that all Alternative Investment Funds (AIFs) must execute a minimum of 10% of their total monthly secondary market trades in corporate bonds by value through the Request for Quote (RFQ) platform. Additionally, any corporate bond transactions where AIFs are present on both sides must be carried out via the RFQ platform in 'one-to-one' mode, with specific counting rules applicable to 'one-to-many' trades executed between AIFs. These compliance requirements become effective on April 1, 2023.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:37:06+00:00"
@@ -2678,7 +2700,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This consultation paper proposes mandatory adoption of International Private Equity and Venture Capital Valuation Guidelines (IPEV Guidelines) and specific Mutual Fund valuation norms for all Alternative Investment Funds (AIFs) to standardise portfolio valuation. It applies to AIF managers, sponsors, and trustees across Category I, II, and III AIFs, introducing strict eligibility criteria for independent valuers—including IBBI registration, relevant professional memberships, and at least three years of unlisted security valuation experience. Additionally, the proposals establish specific compliance timelines for reporting audited scheme valuation data to performance benchmarking agencies.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:37:46+00:00"
@@ -2698,7 +2720,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has mandated that AIF managers must ensure foreign investors originate from jurisdictions whose regulators are IOSCO MMoU Appendix A signatories or have a bilateral MoU with SEBI, with an exception for specific government-related investors approved by the Government of India. Furthermore, managers must verify that neither the investors nor their controllers or significant contributors (holding 25% or more) are listed on UNSC sanctions lists or reside in high-risk FATF jurisdictions, and must immediately halt capital drawdowns from any non-compliant investors already on-boarded. This circular applies to all Alternative Investment Funds and came into force with immediate effect on December 9, 2022.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:37:53+00:00"
@@ -2718,7 +2740,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f30e15f4&fileName=ifsca-fintech-incentive-scheme-2022_gazette-notification12092022060505.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The International Financial Services Centres Authority (FinTech Incentive) Scheme, 2022, effective from February 2, 2022, for an initial operational period of three years, provides financial grants ranging from 10 lakh to 75 lakh rupees to eligible domestic and foreign FinTech entities operating within the IFSC. The scheme covers various forms of financial assistance such as start-up, proof of concept, sandbox, green FinTech, accelerator, and listing support grants, subject to rigorous evaluation, milestone-based disbursements, and compliance conditions including a commitment not to deploy successful solutions in other jurisdictions for three years. Beneficiaries must incorporate an entity in the IFSC upon successfully completing their sandbox or accelerator programs and comply with regulatory requirements or face a simple interest penalty of 8 percent per annum for non-compliance.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:00+00:00"
@@ -2740,7 +2762,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular applies to all Alternative Investment Funds and erstwhile Venture Capital Funds, establishing streamlined guidelines and application formats for making overseas investments. It removes the previous requirement for target companies to have an Indian connection, while restricting investments to jurisdictions with IOSCO-compliant regulators and excluding FATF-blacklisted or deficient countries. Effective immediately from August 17, 2022, funds must report future divestments within 3 working days and submit historical divestment records within 30 days.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:08+00:00"
@@ -2762,7 +2784,7 @@
         "large value fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This circular outlines the operational framework for Large Value Funds for Accredited Investors (LVFs), permitting them to launch schemes under intimation without prior SEBI review via a merchant banker, provided specific due diligence undertakings are submitted. It mandates that close-ended LVFs must clearly define tenure extension terms in their fund documents and secure governing body approval at least one month prior to expiry. Additionally, all AIF managers are required to designate a dedicated compliance officer—distinct from the CEO—to oversee regulatory adherence, with existing LVF filings needing compliance via undertakings by July 31, 2022.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:18+00:00"
@@ -2781,7 +2803,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular establishes a streamlined procedure for Alternative Investment Funds seeking regulatory approval for a change in control of their Sponsor or Manager through a Companies Act scheme of arrangement requiring National Company Law Tribunal sanction. Under the new process, funds must apply to SEBI for an in-principle approval prior to approaching the tribunal, maintain a three-month validity window to file before the tribunal, and submit final approval documentation within 15 days of the tribunal's order. These requirements apply to all AIF Sponsor and Manager change-in-control applications involving schemes of arrangement filed with the National Company Law Tribunal on or after April 1, 2022.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:24+00:00"
@@ -2802,7 +2824,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=6b779629d8b45e05fb13e830ae5c6f3d&fileName=consultation-paper_07-02-202207022022063508.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The consultation paper proposes the IFSCA (Fund Management) Regulations, 2022 to establish a unified registration and comprehensive regulatory framework for fund management entities operating in International Financial Services Centres, covering retail schemes, alternative investment funds, portfolio management, exchange-traded funds, ESG strategies, family offices, and special situation funds. It applies to fund managers, investment trusts, and prospective market participants wishing to establish fund operations within an IFSC. Public comments on the draft regulations are invited by February 28, 2022, with the final rules slated to come into force on the thirtieth day following their official publication.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:27+00:00"
@@ -2821,7 +2843,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular clarifies implementation details following the November 9, 2021, amendments to the AIF Regulations, specifically governing concentration norms for Category III AIFs and co-investment frameworks. It applies to all Alternative Investment Funds, their managers, sponsors, and investors, establishing that listed equity concentration limits for Category III AIFs must be computed using the NAV of the fund from the preceding business day. Furthermore, passive breaches of these concentration limits must be rectified within 30 days, and the mandatory custodian requirement applies if the combined corpus of the AIF and co-investments managed via a Co-investment Portfolio Manager exceeds 500 crore rupees.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:38:59+00:00"
@@ -2841,7 +2863,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular mandates that all Alternative Investment Funds must file their placement memorandums—as well as annual consolidated changes to them—through an independent SEBI-registered Merchant Banker who is not an associate of the fund, its sponsor, manager, or trustee. The Merchant Banker is required to independently verify all disclosures and submit a detailed due diligence certificate along with specific compliance annexures. These new filing and due diligence requirements become effective on November 11, 2021, which is the ninety-first day following the August 13, 2021 amendments to the AIF Regulations.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:39:07+00:00"
@@ -2860,7 +2882,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular, issued on June 25, 2021, applies to all Alternative Investment Funds (AIFs) and permits them to simultaneously invest in direct securities and units of other AIFs without being labelled as a \"Fund of AIFs,\" subject to updating Private Placement Memorandums and obtaining consent from at least two-thirds of unitholders by value. It further clarifies that Category III AIFs investing in other AIFs can take on leverage up to two times their Net Asset Value (excluding the value of those underlying AIF units), mandates that key management personnel abide by the Code of Conduct under the AIF Regulations, and sets out the required format for investor waivers regarding Investment Committees alongside rules on changing ex-officio external members. The circular does not specify a distinct implementation deadline, meaning the compliance requirements apply with immediate effect following the May 5, 2021 underlying regulation amendments.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:39:14+00:00"
@@ -2882,7 +2904,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has doubled the aggregate overseas investment limit for Alternative Investment Funds and legacy Venture Capital Funds from USD 750 million to USD 1,500 million, in consultation with the Reserve Bank of India. This update applies to all registered AIFs and VCFs seeking to make offshore investments, while all other existing regulatory conditions and compliance terms remain unchanged. The circular came into effect immediately upon its issuance on May 21, 2021, without prescribing any separate transition timeline.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:39:44+00:00"
@@ -2902,7 +2924,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular applies to all Alternative Investment Funds (AIFs) and introduces key clarifications and deadline extensions regarding the February 5, 2020 disclosure standards. It mandates that the annual Private Placement Memorandum (PPM) compliance audit must be completed and submitted to the governing bodies, trustees, and SEBI within six months of the financial year-end, though AIFs with zero raised funds need only submit a Chartered Accountant certificate confirming this status. Additionally, the threshold for an AIF association to notify benchmarking agencies is adjusted to represent at least 33% of AIFs, the deadline for FY 2019-20 compliance is pushed to December 31, 2020, and the timeline for releasing the first industry and AIF performance benchmarks is extended to October 1, 2020.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:39:54+00:00"
@@ -2922,7 +2944,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f3049e90&fileName=44-aif_nfe-notification_moci10092020105421.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The Special Economic Zones (4th Amendment) Rules, 2019, exempt Alternative Investment Funds (AIFs) and Mutual Funds set up as units in an International Financial Services Centre (IFSC) from specific Net Foreign Exchange (NFE) restrictions regarding investor inflows, investments, and returns, while also providing a formula to combine the unit's NFE with its fund manager's. Additionally, the rules exempt IFSC Insurance Offices for certain premium incomes and related investments, subject to IRDAI guidelines. These amendments came into force immediately upon their publication in the Official Gazette on December 31, 2019.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:39:58+00:00"
@@ -2942,7 +2964,7 @@
         "placement memorandum"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI's consultation paper proposes mandating performance benchmarking for Alternative Investment Funds registered for at least three years—requiring them to submit audited scheme-level cash flow and valuation data to recognized benchmarking agencies on a half-yearly basis—while also introducing standardized Private Placement Memorandum templates and an annual compliance audit of PPM terms focusing on side letters. These requirements apply to all SEBI-registered Alternative Investment Funds, their managers, and applicants referencing past performance data, with public comments invited until December 25, 2019.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:40:23+00:00"
@@ -2962,7 +2984,7 @@
       ],
       "download_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=d09c93fc98191af1801a5914f314c55a&fileName=2-not-55_2019-exemption_roi-for-investors-of-category-i-and-ii-aif-in-ifsc13062024082115.pdf",
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00"
+      "last_seen": "2026-09-25T18:29:13+00:00"
     },
     {
       "id": "c9e6aa3205d04528",
@@ -2981,7 +3003,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular increases the aggregate overseas investment limit for Alternative Investment Funds and erstwhile Venture Capital Funds from USD 500 million to USD 750 million, in consultation with the Reserve Bank of India. It mandates that funds report any limit utilization within 5 working days on the SEBI intermediary portal, and requires reporting within 2 working days of the expiry of the 6-month validity period for any unutilized or partially unutilized limits, or upon a voluntary decision to surrender the limit. The provisions of this circular became applicable on July 2, 2018.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:40:37+00:00"
@@ -3000,7 +3022,7 @@
         "angel fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00"
+      "last_seen": "2026-09-25T18:29:13+00:00"
     },
     {
       "id": "11871759656b304b",
@@ -3016,7 +3038,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has launched a centralized online portal at https://siportal.sebi.gov.in on May 30, 2017, to streamline regulatory compliance, registration, and reporting processes. This digital mandate applies to all prospective and existing SEBI-registered Portfolio Managers under the 1993 Regulations as well as Venture Capital Funds governed by the 1996 Regulations. While no specific compliance deadline is mentioned in the release, existing entities have been individually notified via email to activate their online accounts and utilize the portal's integrated user manual and helpline for assistance.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:40:45+00:00"
@@ -3036,7 +3058,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI's consultation paper proposes permitting Category III Alternative Investment Funds to participate as clients in the Indian commodity derivatives market to enhance liquidity and price discovery, subject to a single-commodity investment cap of ten percent of investable funds, existing leverage limits of two times NAV, and mandatory investor disclosures and consent. The framework applies to Category III AIF managers and compliance officers, with public comments invited until May 20, 2017.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:40:51+00:00"
@@ -3055,7 +3077,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI FAQ document clarifies regulatory provisions under the 2012 AIF Regulations, setting out mandatory parameters for market participants such as fund managers, sponsors, and investors establishing alternative investment funds in India. It requires general AIF schemes to maintain a minimum corpus of 20 crore rupees (10 crore rupees for angel funds), enforce a minimum ticket size of 1 crore rupees per investor (25 lakh rupees for employees, directors, and angel investors), and maintain continuing sponsor or manager interest capped at specified lesser percentages of the corpus or absolute monetary thresholds depending on the fund category. Compliance timelines dictate that quarterly reports must be emailed within 7 calendar days of each quarter-end for Category I and II AIFs and unleveraged Category III AIFs, while leveraged Category III AIFs must submit monthly reports within 7 calendar days of month-end, and scheme fees of 1 lakh rupees must be paid at least 30 days prior to launching any subsequent scheme.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:40:58+00:00"
@@ -3075,7 +3097,7 @@
         "VCF"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI consultation paper proposes expanding overseas investment limits for both legacy Venture Capital Funds (VCFs) and SEBI-registered Alternative Investment Funds (AIFs) to 25% of a scheme's investible funds, subject to a combined industry-wide cap of USD 500 million and a mandatory \"Indian connection\" requirement for target offshore companies. It applies to all registered AIFs, VCFs, fund managers, trustees, and sponsors, introducing new operational mandates such as calculating scheme tenure from the final closing date, limiting associate disciplinary disclosures in placement memoranda to the top 20 associates by turnover, and enforcing strict fiduciary duties and scheme-wise account segregation. Public comments on these proposed guidelines are invited by May 7, 2015, with approved overseas investments required to be utilized within a strict 6-month validity window from the date of SEBI's prior approval on a first-come, first-served basis.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:41:46+00:00"
@@ -3094,7 +3116,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has amended the Alternative Investment Funds Regulations, 2012, to establish a formal registration and compliance framework for \"Angel Funds\" as a sub-category under Category I Venture Capital Funds, alongside permitting Social Venture Funds to collect grants from providers without returning profits. The new angel fund framework applies to angel investors—requiring individuals to possess specific early-stage experience or senior management backgrounds and a minimum net tangible asset of Rs. 2 crore, or corporate bodies with a Rs. 10 crore net worth—and mandates that angel funds maintain a corpus of at least Rs. 10 crore, accept a minimum investment of Rs. 25 lakhs per investor (payable over up to 3 years), and invest between Rs. 50 lakhs and Rs. 5 crore in eligible young enterprises for a mandatory 3-year lock-in. The press release does not specify a separate effective date or transitional timeline beyond notifying the amendments.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:41:48+00:00"
@@ -3114,7 +3136,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has introduced operational, prudential, and reporting standards for Alternative Investment Funds through a circular dated July 29, 2013. The framework mandates quarterly reporting for Category I and II AIFs as well as unleveraged Category III AIFs, while leveraged Category III AIFs must report monthly and restrict their gross exposure to a maximum of two times their net asset value. Additionally, Category III AIFs employing leverage are subject to specific risk management, compliance, and redemption norms.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:41:50+00:00"
@@ -3134,7 +3156,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI consent order settles enforcement proceedings against the Venture Capital Fund, M/s Small is Beautiful, regarding investments made in associated companies between 2005 and 2007 in violation of Regulations 12(c) and 12(d)(ii) of the SEBI (Venture Capital Funds) Regulations, 1996. To resolve the matter, the fund paid settlement charges of Rs. 37,50,000 via demand drafts dated September 13, 2012. The order came into immediate effect on November 1, 2012, while preserving SEBI's right to take future enforcement action if any representations are found untrue or consent terms are breached.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:42:39+00:00"
@@ -3153,7 +3175,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI notified the Alternative Investment Funds Regulations 2012 on May 21, 2012, requiring all pooled investment vehicles such as private equity, real estate, and hedge funds to register under a three-tiered category system with mandatory minimum corpus thresholds of Rs. 20 crores and minimum investor commitments of Rs. 1 crore. The framework repeals the 1996 Venture Capital Fund regulations—allowing existing VCFs to run until maturity without corpus increases or re-register with a 66.67% investor approval—while restricting unregistered legacy funds from floating new schemes or rolling over existing ones without compliance. Additionally, the regulations mandate sponsor \"skin in the game\" between 2.5% to 5% (capped at Rs. 5 crores or Rs. 10 crores depending on the fund category) and impose strict concentration limits alongside a minimum three-year tenure for close-ended vehicles.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:42:42+00:00"
@@ -3172,7 +3194,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has released a concept paper and draft regulations to introduce a dedicated regulatory framework for alternative investment funds, inviting public feedback on the proposed rules. The consultation applies to market participants and stakeholders interested in the governance of alternative investment funds in India. The source text does not specify any deadline, effective date, or compliance timeline for submitting comments.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:42:44+00:00"
@@ -3191,7 +3213,7 @@
         "alternative investment fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI consultation paper proposes a comprehensive regulatory framework for Alternative Investment Funds (AIFs) such as private equity and real estate funds to replace the outdated 1996 Venture Capital Fund regulations and address systemic financial risks. It applies to private pools of capital, fund managers, and venture capital funds operating in India. The document invites public comments on the concept paper, though it does not specify a final compliance deadline or effective date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:42:50+00:00"
@@ -3210,7 +3232,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This SEBI circular prescribes a revised reporting format for quarterly venture capital activity and mandates all registered Venture Capital Funds to submit their compliance reports through the online SEBI portal within seven days from the end of each calendar quarter. The updated reporting framework takes effect starting from the quarter ended March 31, 2010, replacing physical submissions entirely with digital uploads.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:42:56+00:00"
@@ -3229,7 +3251,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has established an application and approval framework allowing registered venture capital funds to invest up to 10 percent of their investible funds in equity and equity-linked instruments of unlisted offshore venture capital undertakings possessing an Indian operational connection. These overseas investments operate under a cumulative industry limit of USD 500 million allocated on a first-come, first-served basis, requiring participating funds to execute their approved investments within a strict six-month validity window. The guidelines apply directly to all venture capital funds registered with SEBI under the 1996 Regulations seeking cross-border exposure without requiring separate regulatory clearances from the Reserve Bank of India.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T12:43:02+00:00"
@@ -3248,7 +3270,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI prohibits key personnel of mutual funds from simultaneously serving on the board or investment committees of venture capital fund asset managers, advisors, or investment managers to prevent conflicts of interest. This restriction applies to all venture capital funds registered with SEBI and includes key personnel such as chief executive officers, chief investment officers, fund managers, and departmental heads. Affected venture capital funds were required to ensure compliance and confirm adherence within two months of the circular's issuance on October 18, 2006.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:31:23+00:00"
@@ -3267,7 +3289,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has amended the DIP Guidelines, 2000 to restrict the exemption from lock-in requirements on pre-IPO shares of unlisted companies held by registered Venture Capital Funds and Foreign Venture Capital Investors. Under the updated rules, this no lock-in benefit is now restricted exclusively to shares held for a minimum of one year prior to filing the draft prospectus, and to shares resulting from the conversion of convertible instruments provided the combined holding period of the instrument and shares equals at least one year before the draft prospectus filing date.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:31:38+00:00"
@@ -3286,7 +3308,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI introduced regulatory guidelines for Real Estate Mutual Funds, requiring them to operate as close-ended structures with compulsory stock exchange listing, daily NAV disclosures, and property title safekeeping by a registered custodian. Additionally, the Board amended pre-IPO lock-in exemptions for Venture Capital Funds and Foreign Venture Capital Investors, mandating a minimum holding period of one year prior to filing the draft prospectus to qualify for the benefit. These measures apply to mutual funds managing real estate investments and venture capital investors participating in portfolio companies' public offerings, with formal regulatory amendments to be issued separately.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:31:55+00:00"
@@ -3305,7 +3327,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has cancelled the registration certificates of three venture capital funds—Indus Venture Capital Fund-1, Orissa Venture Capital Fund, and TVS Venture Fund Trust—following their voluntary notifications regarding fund closure and winding up. Consequently, these entities no longer hold status as SEBI-registered venture capital funds. The cancellations took effect immediately upon the announcement on September 10, 2004.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:32:09+00:00"
@@ -3324,7 +3346,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI has cancelled the venture capital fund registrations for Uttar Pradesh Venture Capital Fund and iNestor Venture Capital Fund Trust, both based in Mumbai, following their voluntary surrender of the certificates. As a result of this cancellation, effective immediately as of November 29, 2001, these two entities are prohibited from conducting any future venture capital operations under the SEBI (Venture Capital Funds) Regulations, 1996.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:32:20+00:00"
@@ -3343,7 +3365,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "This circular and accompanying SEBI (Mutual Funds) Second Amendment Regulations, 2001 apply to all registered mutual funds, Asset Management Companies (AMCs), and Unit Trust of India (UTI). Effective immediately from July 23, 2001, the framework permits mutual fund schemes to invest in venture capital fund securities within existing equity limits, mandates the payment of stock exchange volatility margins on equity sales unless early pay-ins are effected, tightens AMC governance and reporting timelines by requiring directors to file quarterly securities transactions, shortens scheme dispatch windows to 30 days, and accelerates half-yearly financial disclosures to one month alongside a revised reporting format.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:32:52+00:00"
@@ -3362,7 +3384,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI amended the Venture Capital Funds Regulations, 1996, effective November 17, 1999, to allow statutory bodies corporate to apply for registration certificates to launch venture capital funds. This change broadens the eligibility criteria specifically for bodies corporate established under specific statutes. The announcement carries no additional timelines or deadlines for compliance beyond the date of the amendment.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:33:10+00:00"
@@ -3381,7 +3403,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "SEBI established a specialized committee headed by Mr. K.B. Chandrasekhar to examine regulatory and developmental bottlenecks in India's venture capital sector and recommend measures to accelerate its growth. The committee applies to key stakeholders across the venture capital ecosystem, including fund managers, financial institutions, legal and tax experts, entrepreneurs, and government representatives. The four newly formed working groups were directed to submit their initial recommendations within six weeks, culminating in a final committee report slated for completion within three months.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:33:23+00:00"
@@ -3400,7 +3422,7 @@
         "venture capital fund"
       ],
       "first_seen": "2026-09-20T11:22:33+00:00",
-      "last_seen": "2026-09-25T12:33:23+00:00",
+      "last_seen": "2026-09-25T18:29:13+00:00",
       "summary": "The text is too garbled or truncated to summarise.",
       "summary_model": "gemini/gemini-3.5-flash-lite",
       "summary_at": "2026-09-24T18:33:29+00:00"
